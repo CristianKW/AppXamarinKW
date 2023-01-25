@@ -11,7 +11,7 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Contacto!"
+            <Label Text="Contacto Prueba!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
