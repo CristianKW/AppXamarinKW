@@ -11,9 +11,10 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Contacto!"
+            <Label Text="Contacto - edited!!!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
+    
