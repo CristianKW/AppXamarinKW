@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKW.Views.Inicio"
+             xmlns:vm="clr-namespace:AppKW.ViewModels"
+             Title="{Binding Title}">
+
+    <ContentPage.BindingContext>
+        <vm:InicioViewModel />
+    </ContentPage.BindingContext>
+
+    
+    <!-- <ContentPage.Content>
+        <StackLayout Padding="0">
+            <Grid>
+                <StackLayout Padding="0" Margin="0">
+                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+                        <Frame HeightRequest="250" HorizontalOptions="FillAndExpand" Padding="0">
+                            <Image Source="img2.jpg" Aspect="Fill" Margin="0"/>
+                        </Frame>
+                    </ContentView>
+                    
+                </StackLayout>
+                <StackLayout>
+                    <ScrollView Grid.Row="0">
+                        <StackLayout>
+                            <Label Text="KENWORTH DEL ESTE S.A. DE C.V."
+                                   TextColor="#000000" 
+                                   VerticalOptions="CenterAndExpand" 
+                                   HorizontalOptions="CenterAndExpand" />
+
+                            <Label Text="SOMOS UNA EMPRESA QUE BUSCA CONSOLIDAR SU POSICIÓN EN LA REGIÓN
+                                    SURESTE DE MÉXICO COMO LÍDER EXPERTO EN CAMIONES Y TRACTO CAMIONES,
+                                    ENFOCADOS AL LOGRO DE OBJETIVOS Y AL DESARROLLO DE NUESTRA COMUNIDAD,
+                                    SIENDO LA MEJOR OPCIÓN PARA NUESTROS CLIENTES.
+                                    CONTAMOS CON CINCO SUCURSALES Y MATRIZ:
+                                    • SUCURSAL VERACRUZ, VILLAHERMOSA Y VENTA PARADA (MATRIZ),
+                                    CON VENTA DE UNIDADES, REFACCIONES Y SERVICIO.
+                                    • SUCURSAL TRÉBOL CON VENTA DE UNIDADES Y REFACCIONES.
+                                    • SUCURSAL TEHUACÁN Y ORIZABA CON VENTA DE REFACCIONES." 
+                                   TextColor="#000000" 
+                                   HorizontalTextAlignment="Start"
+                                   VerticalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+            </Grid>
+            
+        </StackLayout> 
+    </ContentPage.Content> -->
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <StackLayout Padding="0" Margin="0">
+                <ContentView Padding="0,0,0,15" VerticalOptions="FillAndExpand">
+                    <Frame HeightRequest="200" HorizontalOptions="FillAndExpand" Padding="0">
+                        <Image Source="img2.jpg" Aspect="Fill" Margin="0"/>
+                    </Frame>
+                </ContentView>
+
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="25,16,20,14" Spacing="5">
+                <Label Text="KENWORTH DEL ESTE S.A. DE C.V." 
+                       FontSize="Title" 
+                       HorizontalTextAlignment="Center"
+                       />
+                <Label Text="SOMOS UNA EMPRESA QUE BUSCA CONSOLIDAR SU POSICIÓN EN LA REGIÓN
+                             SURESTE DE MÉXICO COMO LÍDER EXPERTO EN CAMIONES Y TRACTO CAMIONES,
+                             ENFOCADOS AL LOGRO DE OBJETIVOS Y AL DESARROLLO DE NUESTRA COMUNIDAD,
+                             SIENDO LA MEJOR OPCIÓN PARA NUESTROS CLIENTES." 
+                       FontSize="16" Padding="0,0,0,0"
+                       HorizontalTextAlignment="Center"/>
+                <Label FontSize="16" Padding="0,24,0,0">
+
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="CONTAMOS CON CINCO SUCURSALES Y MATRIZ: &#10; &#10;" FontAttributes="Bold"/>
+                                <Span Text="• SUCURSAL VERACRUZ, VILLAHERMOSA Y VENTA PARADA (MATRIZ), DE UNIDADES, REFACCIONES Y SERVICIO. &#10; &#10;" FontAttributes="Bold"/>
+                                <Span Text="• SUCURSAL TRÉBOL CON VENTA DE UNIDADES Y REFACCIONES. &#10; &#10;" FontAttributes="Bold"/>
+                                <Span Text="• SUCURSAL TEHUACÁN Y ORIZABA CON VENTA DE REFACCIONES. &#10;" FontAttributes="Bold"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Button Margin="0,10,0,0" Text="¡Conoce mas sobre nosotros!"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="#000000"
+                        TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
