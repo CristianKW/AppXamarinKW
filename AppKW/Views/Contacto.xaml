@@ -13,7 +13,9 @@
         <StackLayout>
             <Label Text="Contacto"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand">
+            </Label>
+            <Entry Placeholder="Nombre"></Entry>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
