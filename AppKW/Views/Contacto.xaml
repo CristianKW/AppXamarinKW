@@ -18,6 +18,23 @@
                     <Entry Placeholder="Apellidos" TextTransform="Uppercase"></Entry>
                     <Entry Placeholder="Télefono"></Entry>
                     <Entry Placeholder="Email"></Entry>
+                    <Picker Title="Interesado en: ">
+                        <Picker.Items>
+                            <x:String>Unidades nuevas</x:String>
+                            <x:String>Unidades nuevas</x:String>
+                            <x:String>Unidades nuevas</x:String>
+                            <x:String>Unidades nuevas</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry Placeholder="Compañía" TextTransform="Uppercase"></Entry>
+                    <Editor Placeholder="Descripción" HeightRequest="100" />
+
+                    <Picker Title="Tipo de registro de prospecto: ">
+                        <Picker.Items>
+                            <x:String>Persona Física</x:String>
+                            <x:String>Persona Moral</x:String>
+                        </Picker.Items>
+                    </Picker>
                     <Button Text="Enviar"></Button>
                 </StackLayout>
             </ScrollView>
