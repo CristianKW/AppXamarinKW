@@ -11,11 +11,16 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Contacto"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand">
-            </Label>
-            <Entry Placeholder="Nombre"></Entry>
+            <ScrollView>
+                <StackLayout Padding="30" Spacing="20">
+                    <Label Text="ENVÍE SUS DATOS DE CONTACTO, UN EJECUTIVO SE COMUNICARÁ CON USTED PARA RESOLVER SUS DUDAS." TextColor="Black" FontSize="Subtitle"></Label>
+                    <Entry Placeholder="Nombre" TextTransform="Uppercase"></Entry>
+                    <Entry Placeholder="Apellidos" TextTransform="Uppercase"></Entry>
+                    <Entry Placeholder="Télefono"></Entry>
+                    <Entry Placeholder="Email"></Entry>
+                    <Button Text="Enviar"></Button>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
