@@ -8,10 +8,10 @@
     <ContentPage.BindingContext>
         <vm:ContactoViewModel/>
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Contacto - edited!!!"
+            <Label Text="Contacto"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
