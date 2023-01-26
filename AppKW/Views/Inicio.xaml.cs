@@ -15,6 +15,8 @@ namespace AppKW.Views
         public Inicio()
         {
             InitializeComponent();
+
+
         }
     }
 }

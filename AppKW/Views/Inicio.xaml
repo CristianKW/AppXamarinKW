@@ -90,10 +90,48 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="¡Conoce mas sobre nosotros!"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="#000000"
-                        TextColor="White" />
+                <StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition  Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Frame BackgroundColor="#011eb8" 
+                               Grid.Row="0" 
+                               Grid.Column="0"
+                               Margin="0,3,0,0">
+                            <StackLayout VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                                <Image Source="mision.png" 
+                                       HeightRequest="90"/>
+
+                                <Button BackgroundColor="#011eb8"  
+                                        Text="Misión" 
+                                        TextColor="White" 
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="#4d4d4d" 
+                               Grid.Row="0" 
+                               Grid.Column="1"
+                               Margin="0,3,0,0">
+                            <StackLayout>
+                                <Image Source="vision.png" 
+                                       HeightRequest="90"/>
+
+                                <Button BackgroundColor="#4d4d4d"  
+                                        Text="Visión" 
+                                        TextColor="White" />
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
+                </StackLayout>
             </StackLayout>
         </ScrollView>
     </Grid>
