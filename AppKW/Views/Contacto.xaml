@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppKW.Views.Contacto"
              xmlns:vm="clr-namespace:AppKW.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             xmlns:behavior="clr-namespace:AppKW.Behavior;assembly=AppKW">
 
     <ContentPage.BindingContext>
         <vm:ContactoViewModel/>
@@ -21,9 +22,10 @@
                     <Picker Title="Interesado en: ">
                         <Picker.Items>
                             <x:String>Unidades nuevas</x:String>
-                            <x:String>Unidades nuevas</x:String>
-                            <x:String>Unidades nuevas</x:String>
-                            <x:String>Unidades nuevas</x:String>
+                            <x:String>Seminuevas</x:String>
+                            <x:String>Refacciones</x:String>
+                            <x:String>Servicio</x:String>
+                            <x:String>Siniestro</x:String>
                         </Picker.Items>
                     </Picker>
                     <Entry Placeholder="Compañía" TextTransform="Uppercase"></Entry>
@@ -36,9 +38,36 @@
                         </Picker.Items>
                     </Picker>
                     <Button Text="Enviar"></Button>
+                    
+                    <!-- TEST FIREBASE FORM -->
+
+                    <Label Margin="0,10" Text="Xamarin Form And Firebase" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
+
+                    <Entry x:Name="TxtTitle" Placeholder="Title (Required)"></Entry>
+
+                    <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <Button x:Name="BtnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
+                    </StackLayout>
+                    
+                    <!-- END TEST FORM -->
+                    
+                    
                 </StackLayout>
             </ScrollView>
+
+            <!-- TEST FIREBASE LIST -->
+            <StackLayout>
+                <ListView x:Name="LstPosts" ItemSelected="LstPosts_OnItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Title}"></TextCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
         </StackLayout>
+        <!-- END TEST FIREBASE LIST -->
+        
     </ContentPage.Content>
 </ContentPage>
     
