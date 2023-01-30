@@ -8,12 +8,47 @@
     <ContentPage.BindingContext>
         <vm:BuzonViewModel/>
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Buzon!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Padding="0">
+            <Grid>
+                <StackLayout Margin="15, 15, 15, 0">
+                    <Frame BackgroundColor="White" HasShadow="True" HeightRequest="480" HorizontalOptions="FillAndExpand">
+                        <StackLayout>
+                            <StackLayout HorizontalOptions="CenterAndExpand">
+                                <Label Text="FORMULARIO DE QUEJA O RECLAMACIÓN" 
+                                       TextColor="#000000"  
+                                       FontSize="Medium" 
+                                       FontAttributes="Bold"
+                                       HorizontalTextAlignment="Center">
+                                </Label>
+                                <Label Text="Ponemos a su disposición este documento, que debe rellenar si ha tenido algún incidente con nuestra empresa. 
+                                       Gracias de antemano por contribuir a la mejora de nuestros servicios." 
+                                       TextColor="#6d0a26" 
+                                       HorizontalTextAlignment="Center"/>
+                            </StackLayout>
+                            <StackLayout Margin="0, 25, 0, 0">
+                                <Label Text="Fecha de incidente" TextColor="Black" FontSize="16"/>
+                                <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry  TextColor="#000000" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                    </StackLayout>
+                                </Frame>
+                                <Label Text="Fecha de incidente" TextColor="Black" FontSize="16"/>
+                                <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <Entry  TextColor="#000000" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                    </StackLayout>
+                                </Frame>
+                            </StackLayout>
+
+                            <Button Margin="0,0,0,5" Text="INICIAR" BackgroundColor="#1cb8cb" TextColor="White" FontAttributes="Bold" CornerRadius="20" Command="{Binding LoginCommand}"/>
+
+
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -9,47 +9,6 @@
         <vm:InicioViewModel />
     </ContentPage.BindingContext>
 
-    
-    <!-- <ContentPage.Content>
-        <StackLayout Padding="0">
-            <Grid>
-                <StackLayout Padding="0" Margin="0">
-                    <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                        <Frame HeightRequest="250" HorizontalOptions="FillAndExpand" Padding="0">
-                            <Image Source="img2.jpg" Aspect="Fill" Margin="0"/>
-                        </Frame>
-                    </ContentView>
-                    
-                </StackLayout>
-                <StackLayout>
-                    <ScrollView Grid.Row="0">
-                        <StackLayout>
-                            <Label Text="KENWORTH DEL ESTE S.A. DE C.V."
-                                   TextColor="#000000" 
-                                   VerticalOptions="CenterAndExpand" 
-                                   HorizontalOptions="CenterAndExpand" />
-
-                            <Label Text="SOMOS UNA EMPRESA QUE BUSCA CONSOLIDAR SU POSICIÓN EN LA REGIÓN
-                                    SURESTE DE MÉXICO COMO LÍDER EXPERTO EN CAMIONES Y TRACTO CAMIONES,
-                                    ENFOCADOS AL LOGRO DE OBJETIVOS Y AL DESARROLLO DE NUESTRA COMUNIDAD,
-                                    SIENDO LA MEJOR OPCIÓN PARA NUESTROS CLIENTES.
-                                    CONTAMOS CON CINCO SUCURSALES Y MATRIZ:
-                                    • SUCURSAL VERACRUZ, VILLAHERMOSA Y VENTA PARADA (MATRIZ),
-                                    CON VENTA DE UNIDADES, REFACCIONES Y SERVICIO.
-                                    • SUCURSAL TRÉBOL CON VENTA DE UNIDADES Y REFACCIONES.
-                                    • SUCURSAL TEHUACÁN Y ORIZABA CON VENTA DE REFACCIONES." 
-                                   TextColor="#000000" 
-                                   HorizontalTextAlignment="Start"
-                                   VerticalTextAlignment="Center"/>
-                        </StackLayout>
-                    </ScrollView>
-                </StackLayout>
-            </Grid>
-            
-        </StackLayout> 
-    </ContentPage.Content> -->
-
-
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -104,7 +63,9 @@
                         <Frame BackgroundColor="#011eb8" 
                                Grid.Row="0" 
                                Grid.Column="0"
-                               Margin="0,3,0,0">
+                               Margin="0,3,0,0"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
                             <StackLayout VerticalOptions="Center"
                                          HorizontalOptions="Center">
                                 <Image Source="mision.png" 
@@ -114,23 +75,59 @@
                                         Text="Misión" 
                                         TextColor="White" 
                                         VerticalOptions="Center"
-                                        HorizontalOptions="Center"/>
+                                        HorizontalOptions="Center"
+                                        Clicked="Button_MisionClicked"/>
                             </StackLayout>
                         </Frame>
-                        <Frame BackgroundColor="#4d4d4d" 
+                        <Frame BackgroundColor="#011eb8" 
                                Grid.Row="0" 
                                Grid.Column="1"
-                               Margin="0,3,0,0">
-                            <StackLayout>
+                               Margin="0,3,0,0"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <StackLayout HorizontalOptions="Center"
+                                         VerticalOptions="Center">
                                 <Image Source="vision.png" 
-                                       HeightRequest="90"/>
+                                       HeightRequest="90"
+                                       HorizontalOptions="Fill"
+                                       VerticalOptions="Center"/>
 
-                                <Button BackgroundColor="#4d4d4d"  
-                                        Text="Visión" 
-                                        TextColor="White" />
+                                <Button BackgroundColor="#011eb8"  
+                                        Text="Visión  " 
+                                        TextColor="White" 
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center"
+                                        Clicked="Button_VisionClicked">
+
+                                </Button>
                             </StackLayout>
                         </Frame>
                     </Grid>
+                </StackLayout>
+                <StackLayout Padding="10" Margin="5">
+                    <Frame IsClippedToBounds="True"
+                                    HasShadow="True"
+                                    Padding="0"
+                                    BackgroundColor="White">
+
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                            <Image  Source="img3.png" Aspect="Fill" HeightRequest="200" />
+                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                                <Label TextColor="#222" FontSize = "20" Text="HISTORIA" HorizontalTextAlignment="Center"/>
+                                <Label Text="En 1923 Harry W. Kent y Edgar K. Worthington deciden establecer una marca de 
+                                       vehículos y al unir sus apellidos nace el nombre de: KENWORTH. &#10;" 
+                                       FontFamily="Century Gothic"
+                                       FontSize="17"
+                                       HorizontalTextAlignment="Center"
+                                       Padding="5,5,5,5"/>
+                                <Label Text="En 1944 KENWORTH pasa a ser propiedad de: Pacific Car and Foundry (Paccar)."
+                                       FontFamily="Century Gothic"
+                                       FontSize="17"
+                                       HorizontalTextAlignment="Center"
+                                       Padding="5,10,5,10"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </Frame>
                 </StackLayout>
             </StackLayout>
         </ScrollView>
