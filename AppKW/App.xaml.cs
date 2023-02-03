@@ -14,7 +14,7 @@ namespace AppKW
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Registro());
         }
 
         protected override void OnStart()

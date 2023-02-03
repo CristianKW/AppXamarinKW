@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKW.Views.Registro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Registro!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry Placeholder="Nombre"
+                   x:Name="TxtName"></Entry>
+            <Entry Placeholder="Apellido"
+                   x:Name="TxtLastName"></Entry>
+            <Entry Placeholder="Nombre Usuario"
+                   x:Name="TxtUserName"></Entry>
+            <Entry Placeholder="Puesto o departamento"
+                   x:Name="TxtDepartment"></Entry>
+            <Entry Placeholder="Correo Electronico"
+                   x:Name="TxtEmail"></Entry>
+            <Entry Placeholder="Contraseña"
+                   IsPassword="True"
+                   x:Name="TxtPassword"></Entry>
+            <Entry Placeholder="Confirmar Contraseña"
+                   IsPassword="True"
+                   x:Name="TxtConfirmPass"></Entry>
+            <Button Margin="0,0,0,5" 
+                    Text="Registrarse" 
+                    x:Name="ButtonRegister" 
+                    Clicked="ButtonRegister_Clicked"
+                    BackgroundColor="#1cb8cb" 
+                    TextColor="White" 
+                    FontAttributes="Bold" 
+                    CornerRadius="20" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
