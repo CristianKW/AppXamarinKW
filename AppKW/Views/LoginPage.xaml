@@ -35,7 +35,11 @@
                                             <Image Source="https://cdn.icon-icons.com/icons2/910/PNG/512/mail_icon-icons.com_71147.png" />
                                         </Frame>
 
-                                        <Entry Placeholder="Email" x:Name="TxtEmail" TextColor="#e91018 " HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                        <Entry Placeholder="Email" 
+                                               x:Name="TxtEmail" 
+                                               TextColor="#e91018" 
+                                               HorizontalOptions="FillAndExpand" 
+                                               Margin="0, 0, 15, 0"></Entry>
                                     </StackLayout>
                                 </Frame>
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,15,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
@@ -43,7 +47,12 @@
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
                                             <Image Source="https://static.vecteezy.com/system/resources/previews/012/674/669/non_2x/lock-icon-clipart-free-png.png" Aspect="Fill" Margin="0"/>
                                         </Frame>
-                                        <Entry Placeholder="Password" IsPassword="True" x:Name="TxtPassword" TextColor="#e91018 " HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
+                                        <Entry Placeholder="Password" 
+                                               IsPassword="True" 
+                                               x:Name="TxtPassword" 
+                                               TextColor="#e91018 " 
+                                               HorizontalOptions="FillAndExpand" 
+                                               Margin="0, 0, 15, 0"></Entry>
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>
@@ -54,7 +63,14 @@
                                 <Label Text="¿Olvidó su password?" HorizontalTextAlignment="End" TextColor="#000000" HorizontalOptions="EndAndExpand" FontAttributes="Bold" VerticalTextAlignment="Center"/>
 
                             </StackLayout>
-                            <Button Margin="0,0,0,5" Text="INICIAR" x:Name="BtnSignIn" BackgroundColor="#1cb8cb" TextColor="White" FontAttributes="Bold" CornerRadius="20" Command="{Binding LoginCommand}"/> 
+                            <Button Margin="0,0,0,5" 
+                                    Text="INICIAR" 
+                                    x:Name="BtnSignIn" 
+                                    BackgroundColor="#1cb8cb" 
+                                    TextColor="White" 
+                                    FontAttributes="Bold" 
+                                    CornerRadius="20" 
+                                    Clicked="BtnSignIn_Clicked"/> 
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                                 <Label Text="¿Todavia no te conectas?" HorizontalTextAlignment="Center" TextColor="#000000" VerticalTextAlignment="Center"/>
 

@@ -25,5 +25,15 @@ namespace AppKW.ViewModels
             return false;
         }
 
+        public async Task<string> SignIn(string correo, string contrasena)
+        {
+            var token = await authProvider.SignInWithEmailAndPasswordAsync(correo, contrasena);
+            if (!string.IsNullOrEmpty(token.FirebaseToken))
+            {
+                return token.FirebaseToken;
+            }
+            return "";
+        }
+
     }
 }

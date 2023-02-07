@@ -90,7 +90,7 @@ namespace AppKW.Views
             {
                 if (exception.Message.Contains("EMAIL_EXISTS"))
                 {
-                    await DisplayAlert("Warning", "Email exist", "Ok");
+                    await DisplayAlert("Warning", "Correo ya existente", "Ok");
                 }
                 else
                 {
