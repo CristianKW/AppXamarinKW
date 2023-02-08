@@ -74,7 +74,18 @@
                             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                                 <Label Text="¿Todavia no te conectas?" HorizontalTextAlignment="Center" TextColor="#000000" VerticalTextAlignment="Center"/>
 
-                                <Label Text="Regístrate" HorizontalTextAlignment="Center" TextColor="#e91018 " FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                                <Label Text="Regístrate" 
+                                       HorizontalTextAlignment="Center" 
+                                       TextColor="#e91018" 
+                                       FontAttributes="Bold" 
+                                       VerticalTextAlignment="Center"
+                                       x:Name="LblRegister">
+
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer x:Name="RegisterTap"
+                                                              Tapped="RegisterTap_Tapped"></TapGestureRecognizer>
+                                    </Label.GestureRecognizers>
+                                </Label>
                             </StackLayout>
                             <StackLayout>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">

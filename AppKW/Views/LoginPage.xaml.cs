@@ -36,12 +36,14 @@ namespace AppKW.Views
                     await DisplayAlert("Advertencia", "Introduce tu contraseña", "Ok");
                     return;
                 }
-                
+
+                //Validación de logueo exitoso
                 string token = await usuarioRepositorio.SignIn(correo, contrasena);
                 await SecureStorage.SetAsync("token", token);
 
                 if (!string.IsNullOrEmpty(token))
                 {
+                    //Redireccionar al Home
                     await Navigation.PushAsync(new Inicio());
                 }
                 else
@@ -66,6 +68,11 @@ namespace AppKW.Views
                 }
             }
             
+        }
+        //Metodo que direcciona a el registro desde el login
+        public async void RegisterTap_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new Registro());
         }
     }
 }

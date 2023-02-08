@@ -10,26 +10,26 @@ using Xamarin.Forms.Xaml;
 
 namespace AppKW.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Registro : ContentPage
-	{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Registro : ContentPage
+    {
         UsuarioRepositorio _userRepository = new UsuarioRepositorio();
-		public Registro ()
-		{
-			InitializeComponent ();
-		}
+        public Registro()
+        {
+            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 
-		public async void ButtonRegister_Clicked(object sender, EventArgs e)
-		{
+        public async void ButtonRegister_Clicked(object sender, EventArgs e)
+        {
             try
             {
                 string nombre = TxtName.Text;
                 string apellido = TxtLastName.Text;
-                string nombreusuario = TxtUserName.Text;
-                string departamento = TxtDepartment.Text;
                 string correo = TxtEmail.Text;
                 string contrasena = TxtPassword.Text;
                 string confirmarcontrasena = TxtConfirmPass.Text;
+                //Validaciones de formulario de regstro de usuario
                 if (String.IsNullOrEmpty(nombre))
                 {
                     await DisplayAlert("Advertencia", "Tipo nombre", "Ok");
@@ -40,22 +40,12 @@ namespace AppKW.Views
                     await DisplayAlert("Advertencia", "Type apellido", "Ok");
                     return;
                 }
-                if (String.IsNullOrEmpty(nombreusuario))
-                {
-                    await DisplayAlert("Advertencia", "Type nombre usuario", "Ok");
-                    return;
-                }
-                if (String.IsNullOrEmpty(departamento))
-                {
-                    await DisplayAlert("Advertencia", "Type departamento", "Ok");
-                    return;
-                }
                 if (String.IsNullOrEmpty(correo))
                 {
                     await DisplayAlert("Advertencia", "Type correo", "Ok");
                     return;
                 }
-                if (contrasena.Length<8)
+                if (contrasena.Length < 8)
                 {
                     await DisplayAlert("Advertencia", "Contraseña mayor a 8 caraceres", "Ok");
                     return;
@@ -76,16 +66,19 @@ namespace AppKW.Views
                     return;
                 }
 
+                //Validar si el registro se completo o fallo
                 bool isSave = await _userRepository.Resgister(nombre, correo, contrasena);
                 if (isSave)
                 {
                     await DisplayAlert("Resgistro de usuario", "Registro completo", "Ok");
+                    await Navigation.PopModalAsync();
                 }
                 else
                 {
                     await DisplayAlert("Resgistro de usuario", "Registro fallido", "Ok");
                 }
             }
+            //Validacion de si el correo exite en la base de datos
             catch (Exception exception)
             {
                 if (exception.Message.Contains("EMAIL_EXISTS"))
