@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -35,10 +36,13 @@ namespace AppKW.Views
                     await DisplayAlert("Advertencia", "Introduce tu contraseña", "Ok");
                     return;
                 }
+                
                 string token = await usuarioRepositorio.SignIn(correo, contrasena);
+                await SecureStorage.SetAsync("token", token);
+
                 if (!string.IsNullOrEmpty(token))
                 {
-                    await Navigation.PushAsync(new AppShell());
+                    await Navigation.PushAsync(new Inicio());
                 }
                 else
                 {

@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 
 namespace AppKW.Views
 {
@@ -15,8 +16,6 @@ namespace AppKW.Views
         public Inicio()
         {
             InitializeComponent();
-
-
         }
 
         async void Button_VisionClicked(object sender, EventArgs e)
@@ -31,6 +30,17 @@ namespace AppKW.Views
             await DisplayAlert("NUESTRA MISIÓN", "Somos una organización en constante desarrollo, " +
                 "comprometidos en dar solución a los retos del transporte, superando las expectativas " +
                 "de nuestros clientes, fortaleciendo nuestra empresa y comunidad.", "Ok");
+        }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+            string token = await SecureStorage.GetAsync("token");
+            if (String.IsNullOrEmpty(token)) // TODO: Make real evaluation
+            {
+                await Navigation.PushAsync(new LoginPage());
+            }
         }
     }
 }

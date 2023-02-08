@@ -1,6 +1,7 @@
 ﻿using AppKW.Services;
 using AppKW.Views;
 using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +15,7 @@ namespace AppKW
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new AppShell();
         }
 
         protected override void OnStart()
@@ -23,10 +24,13 @@ namespace AppKW
 
         protected override void OnSleep()
         {
+            SecureStorage.RemoveAll();
         }
 
         protected override void OnResume()
         {
         }
+
+
     }
 }
