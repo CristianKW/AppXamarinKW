@@ -60,7 +60,18 @@
                                 <CheckBox IsChecked="false" Color="#e91018 "/>
                                 <Label Text="Recordar" HorizontalTextAlignment="Start" TextColor="#000000" VerticalTextAlignment="Center"/>
 
-                                <Label Text="¿Olvidó su password?" HorizontalTextAlignment="End" TextColor="#000000" HorizontalOptions="EndAndExpand" FontAttributes="Bold" VerticalTextAlignment="Center"/>
+                                <Label Text="¿Olvidó su password?" 
+                                       HorizontalTextAlignment="End" 
+                                       TextColor="#000000" 
+                                       HorizontalOptions="EndAndExpand" 
+                                       FontAttributes="Bold" 
+                                       VerticalTextAlignment="Center">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer x:Name="ForgotTap"
+                                                              Tapped="ForgotTap_Tapped"></TapGestureRecognizer>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                              
 
                             </StackLayout>
                             <Button Margin="0,0,0,5" 

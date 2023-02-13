@@ -74,5 +74,10 @@ namespace AppKW.Views
         {
             await Navigation.PushModalAsync(new Registro());
         }
+
+        public async void ForgotTap_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new RecuperarContrasenaPage());
+        }
     }
 }

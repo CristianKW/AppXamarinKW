@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKW.Views.RecuperarContrasenaPage">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Recuperar Contraseña"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry Placeholder="Ingresa tu correo"
+                   x:Name="TxtEmail"></Entry>
+            <Button Text="Enviar Link"
+                    x:Name="ButtonSendLink"
+                    Clicked="Button_SendLink"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

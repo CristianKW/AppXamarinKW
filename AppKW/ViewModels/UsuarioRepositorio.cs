@@ -1,13 +1,18 @@
-﻿using Firebase.Auth;
+﻿using AppKW.Models;
+using Firebase.Auth;
+using Firebase.Database;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace AppKW.ViewModels
 {
     class UsuarioRepositorio
     {
+        FirebaseClient firebaseClient = new FirebaseClient("https://appkw-67b39-default-rtdb.firebaseio.com/");
         static string webAPIKey = "AIzaSyA9YNZpoGoOmy18G8aUA84VmIcmcmXOFAE";
         FirebaseAuthProvider authProvider; 
 
@@ -35,5 +40,22 @@ namespace AppKW.ViewModels
             return "";
         }
 
+        //Guardar datos del usuario
+        public async Task<bool> Save(RegistroModel registro)
+        {
+           var data = await firebaseClient.Child(nameof(RegistroModel)).PostAsync(JsonConvert.SerializeObject(registro));
+            if (!string.IsNullOrEmpty(data.Key))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        //Recuperar contraseña
+        public async Task<bool>ReserPassword(string email)
+        {
+            await authProvider.SendPasswordResetEmailAsync(email);
+            return true;
+        }
     }
 }

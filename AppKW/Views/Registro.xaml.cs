@@ -1,4 +1,5 @@
-﻿using AppKW.ViewModels;
+﻿using AppKW.Models;
+using AppKW.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -70,8 +71,26 @@ namespace AppKW.Views
                 bool isSave = await _userRepository.Resgister(nombre, correo, contrasena);
                 if (isSave)
                 {
-                    await DisplayAlert("Resgistro de usuario", "Registro completo", "Ok");
-                    await Navigation.PopModalAsync();
+                    RegistroModel registro = new RegistroModel();
+                    registro.nombre = nombre;
+                    registro.apellido = apellido;
+                    registro.correo = correo;
+
+                    //Validar si se agregaron los datos
+                    var isSaved = await _userRepository.Save(registro);
+                    if (isSaved)
+                    {
+                        await DisplayAlert("Informacion", "Registro exito", "Ok");
+                        //dirigir al Login
+                        await DisplayAlert("Resgistro de usuario", "Registro completo", "Ok");
+                        await Navigation.PopModalAsync();
+                    }
+                    else
+                    {
+                        await DisplayAlert("Error", "No funciono", "Ok");
+                    }
+
+                    
                 }
                 else
                 {
