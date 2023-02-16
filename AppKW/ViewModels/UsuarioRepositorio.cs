@@ -23,8 +23,11 @@ namespace AppKW.ViewModels
         public async Task<bool> Resgister(string nombre, string correo, string contrasena)
         {
             var token = await authProvider.CreateUserWithEmailAndPasswordAsync(correo,contrasena,nombre);
-            if(!string.IsNullOrEmpty(token.FirebaseToken))
+            
+            if (!string.IsNullOrEmpty(token.FirebaseToken))
             {
+                //NO FUNCIONA
+                //await authProvider.SendEmailVerificationAsync(correo);
                 return true;
             }
             return false;
@@ -52,9 +55,16 @@ namespace AppKW.ViewModels
         }
 
         //Recuperar contraseña
-        public async Task<bool>ReserPassword(string email)
+        public async Task<bool>ReserPassword(string correo)
         {
-            await authProvider.SendPasswordResetEmailAsync(email);
+            await authProvider.SendPasswordResetEmailAsync(correo);
+            return true;
+        }
+
+        //Validar correo NO FUNCIONA
+        public async Task<bool> EmailVerification(string correo)
+        {
+            await authProvider.SendEmailVerificationAsync(correo);
             return true;
         }
     }

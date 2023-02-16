@@ -24,20 +24,26 @@ namespace AppKW.Views
             string correo = TxtEmail.Text;
             if (string.IsNullOrEmpty(correo))
             {
-                await DisplayAlert("Mensaje", "Por favor introdusca su correo electronico", "Ok");
+                await DisplayAlert("Mensaje", "Por favor introdusca correo electronico valido", "Ok");
                 return;
             }
 
             bool isSend = await _usuarioRepositorio.ReserPassword(correo);
             if (isSend)
             {
-                await DisplayAlert("Restaurar Contraseña", "Enviar elance a correo electronico", "Ok");
+                await DisplayAlert("Restaurar Contraseña", "Se envio elance a correo electronico para recuperar contraseña", "Listo");
+                Clear();
             }
             else
             {
                 await DisplayAlert("Restaurar coontraseña", "El link fallo", "Ok");
             }
 
+        }
+
+        public void Clear()
+        {
+            TxtEmail.Text = string.Empty;
         }
     }
 }

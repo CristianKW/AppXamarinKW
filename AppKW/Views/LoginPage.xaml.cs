@@ -1,4 +1,6 @@
 ﻿using AppKW.ViewModels;
+using Plugin.Toast;
+using Plugin.Toast.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +15,7 @@ namespace AppKW.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        UsuarioRepositorio usuarioRepositorio = new UsuarioRepositorio();
+        UsuarioRepositorio _usuarioRepositorio = new UsuarioRepositorio();
         public LoginPage()
         {
             InitializeComponent();
@@ -37,10 +39,10 @@ namespace AppKW.Views
                     return;
                 }
 
+                
                 //Validación de logueo exitoso
-                string token = await usuarioRepositorio.SignIn(correo, contrasena);
+                string token = await _usuarioRepositorio.SignIn(correo, contrasena);
                 await SecureStorage.SetAsync("token", token);
-
                 if (!string.IsNullOrEmpty(token))
                 {
                     //Redireccionar al Home
@@ -50,6 +52,7 @@ namespace AppKW.Views
                 {
                     await DisplayAlert("Inicio de sesión", "Fallo el inicio de sesión", "Ok");
                 }
+                
             }
             catch(Exception exception) 
             {

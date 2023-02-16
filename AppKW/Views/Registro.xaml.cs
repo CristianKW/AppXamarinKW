@@ -1,11 +1,13 @@
 ﻿using AppKW.Models;
 using AppKW.ViewModels;
+using Firebase.Auth;
+using Plugin.Toast.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,6 +22,8 @@ namespace AppKW.Views
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
         }
+
+
 
         public async void ButtonRegister_Clicked(object sender, EventArgs e)
         {
@@ -67,6 +71,8 @@ namespace AppKW.Views
                     return;
                 }
 
+
+
                 //Validar si el registro se completo o fallo
                 bool isSave = await _userRepository.Resgister(nombre, correo, contrasena);
                 if (isSave)
@@ -81,6 +87,8 @@ namespace AppKW.Views
                     if (isSaved)
                     {
                         await DisplayAlert("Informacion", "Registro exito", "Ok");
+                        //NO FUNCIONA
+                        //await _userRepository.EmailVerification(correo);
                         //dirigir al Login
                         await DisplayAlert("Resgistro de usuario", "Registro completo", "Ok");
                         await Navigation.PopModalAsync();
@@ -90,12 +98,12 @@ namespace AppKW.Views
                         await DisplayAlert("Error", "No funciono", "Ok");
                     }
 
-                    
+
                 }
                 else
                 {
                     await DisplayAlert("Resgistro de usuario", "Registro fallido", "Ok");
-                }
+                } 
             }
             //Validacion de si el correo exite en la base de datos
             catch (Exception exception)
@@ -110,9 +118,7 @@ namespace AppKW.Views
                 }
 
             }
-
-
-        }
+        } 
 
     }
 }
