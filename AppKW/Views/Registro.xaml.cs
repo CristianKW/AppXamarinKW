@@ -86,11 +86,9 @@ namespace AppKW.Views
                     var isSaved = await _userRepository.Save(registro);
                     if (isSaved)
                     {
-                        await DisplayAlert("Informacion", "Registro exito", "Ok");
-                        //NO FUNCIONA
-                        //await _userRepository.EmailVerification(correo);
+                        //await DisplayAlert("Informacion", "Registro exito", "Ok");
                         //dirigir al Login
-                        await DisplayAlert("Resgistro de usuario", "Registro completo", "Ok");
+                        await DisplayAlert("Registro exitoso", "Se envió un enlace de verificación a tu correo.", "Ok");
                         await Navigation.PopModalAsync();
                     }
                     else

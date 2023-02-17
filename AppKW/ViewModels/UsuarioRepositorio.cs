@@ -22,24 +22,27 @@ namespace AppKW.ViewModels
         }
         public async Task<bool> Resgister(string nombre, string correo, string contrasena)
         {
-            var token = await authProvider.CreateUserWithEmailAndPasswordAsync(correo,contrasena,nombre);
+            var token = await authProvider.CreateUserWithEmailAndPasswordAsync(correo, contrasena, nombre, true);
             
             if (!string.IsNullOrEmpty(token.FirebaseToken))
             {
-                //NO FUNCIONA
-                //await authProvider.SendEmailVerificationAsync(correo);
                 return true;
             }
+            
             return false;
         }
 
         public async Task<string> SignIn(string correo, string contrasena)
         {
-            var token = await authProvider.SignInWithEmailAndPasswordAsync(correo, contrasena);
-            if (!string.IsNullOrEmpty(token.FirebaseToken))
+            var userCredential = await authProvider.SignInWithEmailAndPasswordAsync(correo, contrasena);
+            if (userCredential.User.IsEmailVerified)
             {
-                return token.FirebaseToken;
+                if(!string.IsNullOrEmpty(userCredential.FirebaseToken))
+                {
+                    return userCredential.FirebaseToken;
+                }
             }
+            
             return "";
         }
 
@@ -58,13 +61,6 @@ namespace AppKW.ViewModels
         public async Task<bool>ReserPassword(string correo)
         {
             await authProvider.SendPasswordResetEmailAsync(correo);
-            return true;
-        }
-
-        //Validar correo NO FUNCIONA
-        public async Task<bool> EmailVerification(string correo)
-        {
-            await authProvider.SendEmailVerificationAsync(correo);
             return true;
         }
     }
