@@ -28,7 +28,7 @@ namespace AppKW.Views
                 return;
             }
 
-            bool isSend = await _usuarioRepositorio.ReserPassword(correo);
+            bool isSend = await _usuarioRepositorio.ResetPassword(correo);
             if (isSend)
             {
                 await DisplayAlert("Restaurar Contraseña", "Se envio elance a correo electronico para recuperar contraseña", "Listo");

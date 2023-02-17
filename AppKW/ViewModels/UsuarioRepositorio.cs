@@ -58,7 +58,7 @@ namespace AppKW.ViewModels
         }
 
         //Recuperar contraseña
-        public async Task<bool>ReserPassword(string correo)
+        public async Task<bool>ResetPassword(string correo)
         {
             await authProvider.SendPasswordResetEmailAsync(correo);
             return true;
