@@ -6,9 +6,7 @@
              mc:Ignorable="d"
              x:Class="AppKW.Views.LoginPage"
              Shell.NavBarIsVisible="False"
-             Shell.TabBarIsVisible="False">
-
-
+             Shell.FlyoutBehavior="Disabled">
     <ContentPage.Content>
         <StackLayout Padding="0">
             <Grid>

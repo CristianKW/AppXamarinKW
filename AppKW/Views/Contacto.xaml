@@ -15,11 +15,11 @@
             <ScrollView>
                 <StackLayout Padding="30" Spacing="20">
                     <Label Text="ENVÍE SUS DATOS DE CONTACTO, UN EJECUTIVO SE COMUNICARÁ CON USTED PARA RESOLVER SUS DUDAS." TextColor="Black" FontSize="Subtitle"></Label>
-                    <Entry Placeholder="Nombre" TextTransform="Uppercase"></Entry>
-                    <Entry Placeholder="Apellidos" TextTransform="Uppercase"></Entry>
-                    <Entry Placeholder="Télefono"></Entry>
-                    <Entry Placeholder="Email"></Entry>
-                    <Picker Title="Interesado en: ">
+                    <Entry x:Name="name" Placeholder="Nombre" TextTransform="Uppercase"></Entry>
+                    <Entry x:Name="lastname" Placeholder="Apellidos" TextTransform="Uppercase"></Entry>
+                    <Entry x:Name="phone_number" Placeholder="Télefono"></Entry>
+                    <Entry x:Name="email" Placeholder="Email"></Entry>
+                    <Picker x:Name="interested_in" Title="Interesado en: ">
                         <Picker.Items>
                             <x:String>Unidades nuevas</x:String>
                             <x:String>Seminuevas</x:String>
@@ -28,46 +28,19 @@
                             <x:String>Siniestro</x:String>
                         </Picker.Items>
                     </Picker>
-                    <Entry Placeholder="Compañía" TextTransform="Uppercase"></Entry>
-                    <Editor Placeholder="Descripción" HeightRequest="100" />
+                    <Entry x:Name="company" Placeholder="Compañía" TextTransform="Uppercase"></Entry>
+                    <Editor x:Name="description" Placeholder="Descripción" HeightRequest="100" />
 
-                    <Picker Title="Tipo de registro de prospecto: ">
+                    <Picker x:Name="type" Title="Tipo de registro de prospecto: ">
                         <Picker.Items>
                             <x:String>Persona Física</x:String>
                             <x:String>Persona Moral</x:String>
                         </Picker.Items>
                     </Picker>
-                    <Button Text="Enviar"></Button>
-                    
-                    <!-- TEST FIREBASE FORM -->
-
-                    <Label Margin="0,10" Text="Xamarin Form And Firebase" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-
-                    <Entry x:Name="TxtTitle" Placeholder="Title (Required)"></Entry>
-
-                    <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                        <Button x:Name="BtnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
-                    </StackLayout>
-                    
-                    <!-- END TEST FORM -->
-                    
-                    
+                    <Button Text="Enviar" x:Name="SendData" Clicked="SendData_Clicked"></Button>
                 </StackLayout>
             </ScrollView>
-
-            <!-- TEST FIREBASE LIST -->
-            <StackLayout>
-                <ListView x:Name="LstPosts" ItemSelected="LstPosts_OnItemSelected">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <TextCell Text="{Binding Title}"></TextCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackLayout>
         </StackLayout>
-        <!-- END TEST FIREBASE LIST -->
-        
     </ContentPage.Content>
 </ContentPage>
     

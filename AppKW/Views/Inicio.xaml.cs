@@ -31,16 +31,5 @@ namespace AppKW.Views
                 "comprometidos en dar solución a los retos del transporte, superando las expectativas " +
                 "de nuestros clientes, fortaleciendo nuestra empresa y comunidad.", "Ok");
         }
-
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-
-            string token = await SecureStorage.GetAsync("token");
-            if (String.IsNullOrEmpty(token)) // TODO: Make real evaluation
-            {
-                await Navigation.PushAsync(new LoginPage());
-            }
-        }
     }
 }

@@ -9,59 +9,62 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using Newtonsoft.Json;
+using System.Net.Http;
+using System.Net;
+
 namespace AppKW.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Contacto : ContentPage
     {
-        readonly FirebaseHelper firebaseHelper = new FirebaseHelper();
+        //readonly FirebaseHelper firebaseHelper = new FirebaseHelper();
         public Contacto()
         {
             InitializeComponent();
         }
 
-        protected override async void OnAppearing()
+        public async void SendData_Clicked(object sender, EventArgs e)
         {
-            base.OnAppearing();
-
-            await FetchAllPosts();
-        }
-
-        private async void BtnAdd_Clicked(object sender, EventArgs e)
-        {
-            if (!IsFormValid())
+            Contact contactForm = new Contact
             {
-                await DisplayAlert("Error", "Title are required", "OK");
-                return;
+                name = name.Text,
+                lastname= lastname.Text,
+                phone_number= phone_number.Text,
+                email= email.Text,
+                interested_in = interested_in.SelectedItem.ToString(),
+                company = company.Text,
+                description = description.Text,
+                type = type.SelectedItem.ToString(),
+            };
+
+            try
+            {
+                Uri uri = new Uri("http://192.168.1.64:8000/api/contact");
+                var client = new HttpClient();
+                var json = JsonConvert.SerializeObject(contactForm);
+                var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
+                var resp = await client.PostAsync(uri, contentJson);
+
+                if (resp.StatusCode == HttpStatusCode.OK)
+                {
+                    await DisplayAlert("Correcto", "Mensaje enviado", "OK");
+                    name.Text = "";
+                    lastname.Text = "";
+                    phone_number.Text = "";
+                    email.Text = "";
+                    company.Text = "";
+                    description.Text = "";
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Ocurrió un error", "OK");
+                }
+            } catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                await DisplayAlert("Error", "Ocurrió un error", "OK");
             }
-
-            await firebaseHelper.AddPost(TxtTitle.Text);
-
-            TxtTitle.Text = string.Empty;
-
-            await DisplayAlert("Success", "Post Added Successfully", "OK");
-
-            await FetchAllPosts();
         }
-
-        private async void LstPosts_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            var post = await firebaseHelper.GetPost(SelectedPost.PostId);
-
-            TxtTitle.Text = post.Title;
-        }
-
-        private async Task FetchAllPosts()
-        {
-            var allPersons = await firebaseHelper.GetAllPosts();
-
-            LstPosts.ItemsSource = allPersons;
-        }
-
-        private Post SelectedPost => (Post)LstPosts.SelectedItem;
-
-        private bool IsFormValid() => IsTitleValid();
-
-        private bool IsTitleValid() => !string.IsNullOrWhiteSpace(TxtTitle.Text);
     }
 }

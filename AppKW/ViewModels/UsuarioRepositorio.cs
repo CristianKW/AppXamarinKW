@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace AppKW.ViewModels
@@ -35,6 +36,20 @@ namespace AppKW.ViewModels
         public async Task<string> SignIn(string correo, string contrasena)
         {
             var userCredential = await authProvider.SignInWithEmailAndPasswordAsync(correo, contrasena);
+
+            string userEmail = userCredential.User.Email;
+
+            char delimitador = '@';
+
+            string[] domain = userEmail.Split(delimitador);
+
+            if (!string.IsNullOrEmpty(domain[1]) && domain[1] == "gmail.com") // cambiar dominio
+            {
+                await SecureStorage.SetAsync("role", "Employee");
+            }
+
+            //Console.WriteLine(domain[1]);
+
             if (userCredential.User.IsEmailVerified)
             {
                 if(!string.IsNullOrEmpty(userCredential.FirebaseToken))

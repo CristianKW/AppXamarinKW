@@ -42,11 +42,13 @@ namespace AppKW.Views
                 
                 //Validación de logueo exitoso
                 string token = await _usuarioRepositorio.SignIn(correo, contrasena);
+                
                 await SecureStorage.SetAsync("token", token);
+                
                 if (!string.IsNullOrEmpty(token))
                 {
                     //Redireccionar al Home
-                    await Navigation.PushAsync(new Inicio());
+                    await Shell.Current.GoToAsync($"//{nameof(Inicio)}");
                 }
                 else
                 {
