@@ -43,6 +43,7 @@ namespace AppKW.ViewModels
 
             string[] domain = userEmail.Split(delimitador);
 
+            
             if (!string.IsNullOrEmpty(domain[1]) && domain[1] == "gmail.com") // cambiar dominio
             {
                 await SecureStorage.SetAsync("role", "Employee");

@@ -15,8 +15,8 @@ namespace AppKW
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
-            BindingContext= this;
             Empleados.IsVisible = false;
+            getRole();
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
@@ -24,7 +24,16 @@ namespace AppKW
             await Shell.Current.GoToAsync("//LoginPage");
         }
 
-        //Revisar metodo, cambiar propiedad Empleados a true
+        public async void getRole()
+        {
+            string role = await SecureStorage.GetAsync("role");
 
+            if(!string.IsNullOrEmpty(role) && role == "Employee")
+            {
+                Empleados.IsVisible= true;
+            }
+            
+            Console.WriteLine("role: " + role);
+        }
     }
 }
