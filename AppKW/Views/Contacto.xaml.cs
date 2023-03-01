@@ -18,7 +18,6 @@ namespace AppKW.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Contacto : ContentPage
     {
-        //readonly FirebaseHelper firebaseHelper = new FirebaseHelper();
         public Contacto()
         {
             InitializeComponent();
@@ -44,7 +43,10 @@ namespace AppKW.Views
                 var client = new HttpClient();
                 var json = JsonConvert.SerializeObject(contactForm);
                 var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
+
+
                 var resp = await client.PostAsync(uri, contentJson);
+                Console.WriteLine(resp);
 
                 if (resp.StatusCode == HttpStatusCode.OK)
                 {
