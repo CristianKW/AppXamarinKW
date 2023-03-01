@@ -66,68 +66,49 @@
                         </StackLayout>
                     </Frame>
                 </StackLayout>
-                <StackLayout x:Name="StackLayout_1" VerticalOptions="Fill" BackgroundColor="Black">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition  Width="*" />
-                        </Grid.ColumnDefinitions>
-
-                        <Frame BackgroundColor="{StaticResource Second}"
-                               Grid.Row="0" 
-                               Grid.Column="0"
+                <StackLayout x:Name="StackLayout_1" VerticalOptions="Fill">
+                    <Frame BackgroundColor="{StaticResource Second}"
                                Margin="0,3,0,0"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
-                            <StackLayout VerticalOptions="Center"
-                                         HorizontalOptions="Center">
-                                <Image Source="mision.png" 
-                                       HeightRequest="90"/>
-
-                                <Button BackgroundColor="{StaticResource Second}"
-                                        Text="Misión" 
-                                        TextColor="White" 
-                                        VerticalOptions="Center"
-                                        HorizontalOptions="Center"
-                                        Clicked="Button_MisionClicked"/>
-                            </StackLayout>
-                        </Frame>
-                        <Frame BackgroundColor="{StaticResource Second}"
-                               Grid.Row="0" 
-                               Grid.Column="1"
-                               Margin="0,3,0,0"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
-                            <StackLayout HorizontalOptions="Center"
+                        <StackLayout HorizontalOptions="Center"
                                          VerticalOptions="Center">
-                                <Image x:Name="imgMision"
+                            <Image x:Name="imgVision"
                                        Source="vision.png" 
                                        HeightRequest="90"
                                        HorizontalOptions="Fill"
                                        VerticalOptions="Center">
-                                    <Image.GestureRecognizers>
-                                        <TapGestureRecognizer
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                            NumberOfTapsRequired="1"
+                                            x:Name="displayFullImages"
+                                            Tapped="displayFullImage_Tapped">
+                                    </TapGestureRecognizer>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Margin="0,3,0,0"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                        <StackLayout HorizontalOptions="Center"
+                                         VerticalOptions="Center">
+                            <Image x:Name="imgMision"
+                                       Source="vision.png" 
+                                       HeightRequest="90"
+                                       HorizontalOptions="Fill"
+                                       VerticalOptions="Center">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer
                                             NumberOfTapsRequired="1"
                                             x:Name="displayFullImage"
                                             Tapped="displayFullImage_Tapped">
-                                        </TapGestureRecognizer>
-                                    </Image.GestureRecognizers>
-                                </Image>
+                                    </TapGestureRecognizer>
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </StackLayout>
+                    </Frame>
 
-                               <!-- <Button BackgroundColor="{StaticResource Second}"
-                                            Text="Visión  " 
-                                            TextColor="White" 
-                                            HorizontalOptions="Center"
-                                            VerticalOptions="Center"
-                                            Clicked="Button_VisionClicked">
-                                    </Button> -->
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

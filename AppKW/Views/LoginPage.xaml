@@ -7,7 +7,7 @@
              x:Class="AppKW.Views.LoginPage"
              Shell.NavBarIsVisible="False"
              Shell.FlyoutBehavior="Disabled"
-             BackgroundColor="{StaticResource Primary}">
+             BackgroundColor="{StaticResource Second}">
     <ContentPage.Content>
         <StackLayout Padding="0">
             <Grid>
@@ -74,9 +74,9 @@
 
                             </StackLayout>
                             <Button Margin="0,0,0,5" 
-                                    Text="INICIAR" 
+                                    Text="I N I C I A R" 
                                     x:Name="BtnSignIn" 
-                                    BackgroundColor="#1cb8cb" 
+                                    BackgroundColor="#e91018" 
                                     TextColor="White" 
                                     FontAttributes="Bold" 
                                     CornerRadius="20" 

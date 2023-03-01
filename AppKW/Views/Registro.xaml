@@ -15,7 +15,7 @@
                     <Frame BackgroundColor="White" HasShadow="True" HeightRequest="485" HorizontalOptions="FillAndExpand">
                         <StackLayout>
                             <StackLayout HorizontalOptions="CenterAndExpand">
-                                <Label Text="REGISTRO" TextColor="#e91018" FontSize="Medium" FontAttributes="Bold"></Label>
+                                <Label Text="R E G I S T R O" TextColor="#000000"  FontSize="Medium" FontAttributes="Bold"></Label>
                             </StackLayout>
 
                             <StackLayout Margin="0, 20, 0, 0">
@@ -103,7 +103,7 @@
                                 </Frame>
                             </StackLayout>
                             <Button Text="R E G I S T R A R S E" 
-                                    Margin="0,0,10,5" 
+                                    Margin="0,10,0,5" 
                                     x:Name="ButtonRegister" 
                                     Clicked="ButtonRegister_Clicked"
                                     BackgroundColor="#d02030"
