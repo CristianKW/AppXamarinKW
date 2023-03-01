@@ -124,21 +124,9 @@
                                     TextColor="White" 
                                     FontAttributes="Bold" 
                                     CornerRadius="20" 
-                                    FontSize="Subtitle"></Button>
-
-
-
-                            <!-- TEST FIREBASE FORM 
-
-                    <Label Margin="0,10" Text="Xamarin Form And Firebase" FontAttributes="Bold" FontSize="Title" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-
-                    <Entry x:Name="TxtTitle" Placeholder="Title (Required)"></Entry>
-
-                    <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
-                        <Button x:Name="BtnAdd" WidthRequest="200" Text="Add" Clicked="BtnAdd_Clicked"/>
-                    </StackLayout>
-
-                     END TEST FORM -->
+                                    FontSize="Subtitle"
+                                    x:Name="SendData" Clicked="SendData_Clicked">
+                            </Button>
                         </StackLayout>
                     </ScrollView>
                 </Frame>
@@ -146,3 +134,4 @@
         </Grid>
     </ContentPage.Content>
 </ContentPage>
+    

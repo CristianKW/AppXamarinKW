@@ -56,7 +56,7 @@
                                     <Label Text="Elige la razón" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
                                     <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
                                         <StackLayout Orientation="Vertical">
-                                            <Picker x:Name="TxtPersona"
+                                            <Picker x:Name="TxtRazon"
                                                     TextColor="Black"
                                                     FontSize="16">
                                                 <Picker.Items>
@@ -68,14 +68,14 @@
                                     </Frame>
                                     <Label Text="Fecha de incidente" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
                                     <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
-                                        <DatePicker x:Name="startDatePicker"
+                                        <DatePicker x:Name="TxtDateOfIncident"
                                                     Format="D"
                                                     FontSize="16"/>
                                     </Frame>
                                     <Label Text="Escribe el mensaje de la situación" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
                                     <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
                                         <StackLayout Orientation="Vertical">
-                                            <Editor x:Name="TxtDescripcion" 
+                                            <Editor x:Name="TxtMessage" 
                                                     TextColor="Black"
                                                     FontSize="16"
                                                     HeightRequest="100" 
@@ -91,7 +91,9 @@
                                         FontAttributes="Bold" 
                                         CornerRadius="20" 
                                         FontSize="Subtitle"
-                                        Command="{Binding LoginCommand}"/>
+                                        x:Name="SendData" 
+                                        Clicked="SendData_Clicked"
+                                        />
 
 
                             </StackLayout>
