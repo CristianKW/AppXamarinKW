@@ -1,17 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppKW.Views.Registro">
+             x:Class="AppKW.Views.Registro"
+             BackgroundColor="{StaticResource Second}">
     <ContentPage.Content>
         <StackLayout Padding="0">
             <Grid>
                 <StackLayout Padding="0" Margin="0">
-                    <Frame HeightRequest="150" HorizontalOptions="FillAndExpand" Padding="0">
-                        <Image Source="https://wp.tyt.com.mx/wp-content/uploads/2021/04/Captura-de-pantalla-2021-04-05-a-las-20.33.28-1024x499.png" Aspect="Fill" Margin="0"/>
+                    <Frame HeightRequest="130" HorizontalOptions="FillAndExpand" Padding="0">
+                        <Image Source="pantalla_registro.png" Aspect="Fill" Margin="0"/>
                     </Frame>
                 </StackLayout>
-                <StackLayout Margin="15, 110, 15, 0">
-                    <Frame BackgroundColor="White" HasShadow="True" HeightRequest="500" HorizontalOptions="FillAndExpand">
+                <StackLayout Margin="15, 100, 15, 0">
+                    <Frame BackgroundColor="White" HasShadow="True" HeightRequest="485" HorizontalOptions="FillAndExpand">
                         <StackLayout>
                             <StackLayout HorizontalOptions="CenterAndExpand">
                                 <Label Text="REGISTRO" TextColor="#e91018" FontSize="Medium" FontAttributes="Bold"></Label>
@@ -21,7 +22,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,5,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://cdn.icon-icons.com/icons2/910/PNG/512/mail_icon-icons.com_71147.png" />
+                                            <Image Source="icon_name.png" />
 
 
                                         </Frame>
@@ -36,7 +37,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,5,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://cdn.icon-icons.com/icons2/910/PNG/512/mail_icon-icons.com_71147.png" />
+                                            <Image Source="icon_name.png" />
 
 
                                         </Frame>
@@ -62,7 +63,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,5,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://cdn.icon-icons.com/icons2/910/PNG/512/mail_icon-icons.com_71147.png" />
+                                            <Image Source="icon_email.png" />
 
 
                                         </Frame>
@@ -77,7 +78,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,5,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://static.vecteezy.com/system/resources/previews/012/674/669/non_2x/lock-icon-clipart-free-png.png" Aspect="Fill" Margin="0"/>
+                                            <Image Source="icon_password.png" Aspect="Fill" Margin="0"/>
                                         </Frame>
                                         <Entry Placeholder="Ingresa Contraseña" 
                                                IsPassword="True" 
@@ -90,7 +91,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,5,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://static.vecteezy.com/system/resources/previews/012/674/669/non_2x/lock-icon-clipart-free-png.png" Aspect="Fill" Margin="0"/>
+                                            <Image Source="icon_password_confirm.png" Aspect="Fill" Margin="0"/>
                                         </Frame>
                                         <Entry Placeholder="Confirma Contraseña" 
                                                IsPassword="True" 
@@ -101,21 +102,22 @@
                                     </StackLayout>
                                 </Frame>
                             </StackLayout>
-                            <Button Text="REGISTRARSE" 
+                            <Button Text="R E G I S T R A R S E" 
+                                    Margin="0,0,10,5" 
                                     x:Name="ButtonRegister" 
                                     Clicked="ButtonRegister_Clicked"
-                                    BackgroundColor="#22349a" 
-                                    Margin="0,15,0,0" 
+                                    BackgroundColor="#d02030"
                                     TextColor="White" 
                                     FontAttributes="Bold" 
-                                    CornerRadius="20" />
+                                    CornerRadius="20" 
+                                    FontSize="Subtitle"/>
                             <StackLayout>
                                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,5,0,0">
                                     <Frame BackgroundColor="#4081e3" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False">
-                                        <Image Source="https://www.shareicon.net/data/512x512/2015/10/02/110705_logo_512x512.png" Aspect="Fill" Margin="0"/>
+                                        <ImageButton Source="icon_facebook.png" Aspect="Fill" Margin="0" Clicked="ImageButtonFacebook"/>
                                     </Frame>
                                     <Frame BackgroundColor="#52ebff" WidthRequest="50" Padding="0" Margin="0" HeightRequest="50" CornerRadius="30" HasShadow="False">
-                                        <Image Source="https://e7.pngegg.com/pngimages/617/28/png-clipart-twitter-logo-blue-sky-wing-beak-font-twitter-blue-social-media.png" Aspect="Fill" Margin="0"/>
+                                        <ImageButton Source="icon_twitter.png" Aspect="Fill" Margin="0" Clicked="ImageButtonTwitter"/>
                                     </Frame>
                                 </StackLayout>
                             </StackLayout>

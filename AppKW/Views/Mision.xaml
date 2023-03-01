@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppKW.Views.Mision"
+             BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <Grid Margin="10,50,0,0">
+            <Frame BackgroundColor="#1975ce" CornerRadius="15" BorderColor="Black" />
+            <Frame
+                    Margin="0,35,0,0"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    CornerRadius="5"
+                    HeightRequest="450"
+                    WidthRequest="280">
+                        <StackLayout>
+                    <Label
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Welcome to Page 2"
+                    VerticalOptions="CenterAndExpand" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

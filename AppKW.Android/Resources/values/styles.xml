@@ -15,4 +15,17 @@
          which is used to tint widgets -->
     <!--<item name="colorAccent">#FF4081</item>-->
   </style>
+
+	<style name="MyTheme" parent="MyTheme.Base">
+	</style>
+	<style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:datePickerDialogTheme">@style/AppCompatDialogStyle</item>
+	</style>
+	<style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+		<!-- Cambiar a clor de la app rojo-->
+		<item name="colorAccent">#d02030</item>
+	</style>
+
+
+
 </resources>

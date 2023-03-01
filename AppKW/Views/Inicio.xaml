@@ -14,103 +14,40 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout>
-            <StackLayout Padding="0" Margin="0">
-                <ContentView Padding="0,0,0,15" VerticalOptions="FillAndExpand">
-                    <Frame HeightRequest="200" HorizontalOptions="FillAndExpand" Padding="0">
-                        <Image Source="img2.jpg" Aspect="Fill" Margin="0"/>
-                    </Frame>
-                </ContentView>
-
-            </StackLayout>
+        <StackLayout HeightRequest="200">
+            <CarouselView x:Name="Carousel" IndicatorView="IndicatorView">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <Image Source="{Binding Url}" Aspect="Fill" Margin="0"/>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="IndicatorView"
+                           IndicatorColor="#2e2e2e"
+                           SelectedIndicatorColor="#676767"
+                           IndicatorSize="5"
+                           VerticalOptions="Center"/>
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="25,16,20,14" Spacing="5">
+            <StackLayout Orientation="Vertical" Padding="20,16,20,14" Spacing="5">
                 <Label Text="KENWORTH DEL ESTE S.A. DE C.V." 
-                       FontSize="Title" 
-                       HorizontalTextAlignment="Center"
-                       />
-                <Label Text="SOMOS UNA EMPRESA QUE BUSCA CONSOLIDAR SU POSICIÓN EN LA REGIÓN
-                             SURESTE DE MÉXICO COMO LÍDER EXPERTO EN CAMIONES Y TRACTO CAMIONES,
-                             ENFOCADOS AL LOGRO DE OBJETIVOS Y AL DESARROLLO DE NUESTRA COMUNIDAD,
-                             SIENDO LA MEJOR OPCIÓN PARA NUESTROS CLIENTES." 
-                       FontSize="16" Padding="0,0,0,0"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="#d02030"
+                       FontFamily="Titulo"
                        HorizontalTextAlignment="Center"/>
-                <Label FontSize="16" Padding="0,24,0,0">
-
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <FormattedString.Spans>
-                                <Span Text="CONTAMOS CON CINCO SUCURSALES Y MATRIZ: &#10; &#10;" FontAttributes="Bold"/>
-                                <Span Text="• SUCURSAL VERACRUZ, VILLAHERMOSA Y VENTA PARADA (MATRIZ), DE UNIDADES, REFACCIONES Y SERVICIO. &#10; &#10;" FontAttributes="Bold"/>
-                                <Span Text="• SUCURSAL TRÉBOL CON VENTA DE UNIDADES Y REFACCIONES. &#10; &#10;" FontAttributes="Bold"/>
-                                <Span Text="• SUCURSAL TEHUACÁN Y ORIZABA CON VENTA DE REFACCIONES. &#10;" FontAttributes="Bold"/>
-                            </FormattedString.Spans>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-                <StackLayout>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition  Width="*" />
-                        </Grid.ColumnDefinitions>
-
-                        <Frame BackgroundColor="#011eb8" 
-                               Grid.Row="0" 
-                               Grid.Column="0"
-                               Margin="0,3,0,0"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
-                            <StackLayout VerticalOptions="Center"
-                                         HorizontalOptions="Center">
-                                <Image Source="mision.png" 
-                                       HeightRequest="90"/>
-
-                                <Button BackgroundColor="#011eb8"  
-                                        Text="Misión" 
-                                        TextColor="White" 
-                                        VerticalOptions="Center"
-                                        HorizontalOptions="Center"
-                                        Clicked="Button_MisionClicked"/>
-                            </StackLayout>
-                        </Frame>
-                        <Frame BackgroundColor="#011eb8" 
-                               Grid.Row="0" 
-                               Grid.Column="1"
-                               Margin="0,3,0,0"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
-                            <StackLayout HorizontalOptions="Center"
-                                         VerticalOptions="Center">
-                                <Image Source="vision.png" 
-                                       HeightRequest="90"
-                                       HorizontalOptions="Fill"
-                                       VerticalOptions="Center"/>
-
-                                <Button BackgroundColor="#011eb8"  
-                                        Text="Visión  " 
-                                        TextColor="White" 
-                                        HorizontalOptions="Center"
-                                        VerticalOptions="Center"
-                                        Clicked="Button_VisionClicked">
-
-                                </Button>
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
-                </StackLayout>
+                <Label Text="Somos una empresa que busca consolidar su posición en la región sureste de México como líder experto en camiones y tracto camiones, enfocados al logro de objetivos y al desarrollo de nuestra comunidad, siendo la mejor opción para nuestros clientes." 
+                       FontSize="16" 
+                       FontFamily="Texto"
+                       Padding="0,0,0,0"
+                       HorizontalTextAlignment="Center"/>
                 <StackLayout Padding="10" Margin="5">
                     <Frame IsClippedToBounds="True"
                                     HasShadow="True"
                                     Padding="0"
                                     BackgroundColor="White">
 
-                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="{StaticResource Second}">
                             <Image  Source="img3.png" Aspect="Fill" HeightRequest="200" />
                             <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
                                 <Label TextColor="#222" FontSize = "20" Text="HISTORIA" HorizontalTextAlignment="Center"/>
@@ -128,6 +65,69 @@
                             </StackLayout>
                         </StackLayout>
                     </Frame>
+                </StackLayout>
+                <StackLayout x:Name="StackLayout_1" VerticalOptions="Fill" BackgroundColor="Black">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition  Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Frame BackgroundColor="{StaticResource Second}"
+                               Grid.Row="0" 
+                               Grid.Column="0"
+                               Margin="0,3,0,0"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <StackLayout VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                                <Image Source="mision.png" 
+                                       HeightRequest="90"/>
+
+                                <Button BackgroundColor="{StaticResource Second}"
+                                        Text="Misión" 
+                                        TextColor="White" 
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"
+                                        Clicked="Button_MisionClicked"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame BackgroundColor="{StaticResource Second}"
+                               Grid.Row="0" 
+                               Grid.Column="1"
+                               Margin="0,3,0,0"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <StackLayout HorizontalOptions="Center"
+                                         VerticalOptions="Center">
+                                <Image x:Name="imgMision"
+                                       Source="vision.png" 
+                                       HeightRequest="90"
+                                       HorizontalOptions="Fill"
+                                       VerticalOptions="Center">
+                                    <Image.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                            NumberOfTapsRequired="1"
+                                            x:Name="displayFullImage"
+                                            Tapped="displayFullImage_Tapped">
+                                        </TapGestureRecognizer>
+                                    </Image.GestureRecognizers>
+                                </Image>
+
+                               <!-- <Button BackgroundColor="{StaticResource Second}"
+                                            Text="Visión  " 
+                                            TextColor="White" 
+                                            HorizontalOptions="Center"
+                                            VerticalOptions="Center"
+                                            Clicked="Button_VisionClicked">
+                                    </Button> -->
+                            </StackLayout>
+                        </Frame>
+                    </Grid>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

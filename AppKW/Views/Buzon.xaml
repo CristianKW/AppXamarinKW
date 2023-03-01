@@ -3,93 +3,103 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppKW.Views.Buzon"
              xmlns:vm="clr-namespace:AppKW.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundColor="{StaticResource Second}">
 
     <ContentPage.BindingContext>
         <vm:BuzonViewModel/>
     </ContentPage.BindingContext>
 
-    <ContentPage.Content>
-
-        <StackLayout>
-            <ScrollView>
-                <StackLayout Margin="10">
-                    <Label Text="Days Between Dates"
-               Style="{DynamicResource TitleStyle}"
-               Margin="0, 20"
-               HorizontalTextAlignment="Center" />
-
-                    <Label Text="Start Date:" />
-
-                    <DatePicker x:Name="startDatePicker"
-                    Format="D"
-                    Margin="30, 0, 0, 30"
-                    DateSelected="OnDateSelected" />
-
-                    <Label Text="End Date:" />
-
-                    <DatePicker x:Name="endDatePicker"
-                    MinimumDate="{Binding Source={x:Reference startDatePicker},
-                                          Path=Date}"
-                    Format="D"
-                    Margin="30, 0, 0, 30"
-                    DateSelected="OnDateSelected" />
-
-                    <StackLayout Orientation="Horizontal"
-                     Margin="0, 0, 0, 30">
-                        <Label Text="Include both days in total: "
-                   VerticalOptions="Center" />
-                        <Switch x:Name="includeSwitch"
-                    Toggled="OnSwitchToggled" />
-                    </StackLayout>
-
-                    <Label x:Name="resultLabel"
-               FontAttributes="Bold"
-               HorizontalTextAlignment="Center" />
-
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
-       <!-- <StackLayout Padding="0">
+    <ContentPage.Content> 
+        <StackLayout Padding="0">
             <Grid>
                 <StackLayout Margin="15, 15, 15, 0">
-                    <Frame BackgroundColor="White" HasShadow="True" HeightRequest="480" HorizontalOptions="FillAndExpand">
-                        <StackLayout>
-                            <StackLayout HorizontalOptions="CenterAndExpand">
-                                <Label Text="FORMULARIO DE QUEJA O RECLAMACIÓN" 
-                                       TextColor="#000000"  
-                                       FontSize="Medium" 
+                    <Frame BackgroundColor="#e1e2e1" BorderColor="#f5f5f6" HasShadow="True" HeightRequest="600" HorizontalOptions="FillAndExpand">
+                        <ScrollView>
+                            <StackLayout>
+                                <StackLayout HorizontalOptions="CenterAndExpand">
+                                    <Label Text="FORMULARIO DE QUEJA O RECLAMACIÓN" 
+                                       TextColor="Black" 
+                                       FontFamily="Titulo"
+                                       FontSize="Title"
                                        FontAttributes="Bold"
                                        HorizontalTextAlignment="Center">
-                                </Label>
-                                <Label Text="Ponemos a su disposición este documento, que debe rellenar si ha tenido algún incidente con nuestra empresa. 
+                                    </Label>
+                                    <Label Text="Ponemos a su disposición este documento, que debe rellenar si ha tenido algún incidente con nuestra empresa. 
                                        Gracias de antemano por contribuir a la mejora de nuestros servicios." 
-                                       TextColor="#6d0a26" 
+                                       TextColor="Black" 
+                                       FontFamily="Texto"
+                                       FontSize="Header"
                                        HorizontalTextAlignment="Center"/>
+                                </StackLayout>
+                                <StackLayout Margin="0, 25, 0, 0">
+                                    <Label Text="Ingresa tu nombre completo" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                    <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Entry x:Name="TxtNombre" 
+                                               TextColor="Black" 
+                                               FontSize="16"
+                                               HorizontalOptions="FillAndExpand" 
+                                               Margin="0, 0, 15, 0"></Entry>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Ingresa a que compañia perteneces" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                    <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Entry x:Name="TxtCompania" 
+                                               TextColor="Black"
+                                               FontSize="16"
+                                               HorizontalOptions="FillAndExpand" 
+                                               Margin="0, 0, 15, 0"></Entry>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Elige la razón" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                    <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Vertical">
+                                            <Picker x:Name="TxtPersona"
+                                                    TextColor="Black"
+                                                    FontSize="16">
+                                                <Picker.Items>
+                                                        <x:String>Sugerencia</x:String>
+                                                        <x:String>Queja</x:String>
+                                                    </Picker.Items>
+                                            </Picker>
+                                        </StackLayout>
+                                    </Frame>
+                                    <Label Text="Fecha de incidente" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                    <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
+                                        <DatePicker x:Name="startDatePicker"
+                                                    Format="D"
+                                                    FontSize="16"/>
+                                    </Frame>
+                                    <Label Text="Escribe el mensaje de la situación" TextColor="Black" FontSize="18" FontAttributes="Bold"/>
+                                    <Frame BackgroundColor="#31FFFFFF" Padding="0" Margin="0" CornerRadius="0"  HorizontalOptions="FillAndExpand">
+                                        <StackLayout Orientation="Vertical">
+                                            <Editor x:Name="TxtDescripcion" 
+                                                    TextColor="Black"
+                                                    FontSize="16"
+                                                    HeightRequest="100" 
+                                                    Margin="0, 0, 15, 0"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+
+                                <Button Margin="0,0,0,5" 
+                                        Text="ENVIAR"
+                                        BackgroundColor="#d02030"
+                                        TextColor="White" 
+                                        FontAttributes="Bold" 
+                                        CornerRadius="20" 
+                                        FontSize="Subtitle"
+                                        Command="{Binding LoginCommand}"/>
+
+
                             </StackLayout>
-                            <StackLayout Margin="0, 25, 0, 0">
-                                <Label Text="Fecha de incidente" TextColor="Black" FontSize="16"/>
-                                <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
-                                    <StackLayout Orientation="Horizontal">
-                                        <Entry  TextColor="#000000" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
-                                    </StackLayout>
-                                </Frame>
-                                <Label Text="Fecha de incidente" TextColor="Black" FontSize="16"/>
-                                <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="0" HorizontalOptions="FillAndExpand">
-                                    <StackLayout Orientation="Horizontal">
-                                        <Entry  TextColor="#000000" HorizontalOptions="FillAndExpand" Margin="0, 0, 15, 0"></Entry>
-                                    </StackLayout>
-                                </Frame>
-                            </StackLayout>
-
-                            <Button Margin="0,0,0,5" Text="INICIAR" BackgroundColor="#1cb8cb" TextColor="White" FontAttributes="Bold" CornerRadius="20" Command="{Binding LoginCommand}"/>
-
-
-                        </StackLayout>
+                        </ScrollView>
                     </Frame>
                 </StackLayout>
             </Grid>
-        </StackLayout> -->
-        
+        </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

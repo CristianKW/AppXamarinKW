@@ -28,14 +28,14 @@ namespace AppKW.Views
         {
             Contact contactForm = new Contact
             {
-                name = name.Text,
-                lastname= lastname.Text,
-                phone_number= phone_number.Text,
-                email= email.Text,
-                interested_in = interested_in.SelectedItem.ToString(),
-                company = company.Text,
-                description = description.Text,
-                type = type.SelectedItem.ToString(),
+                name = TxtNombre.Text,
+                lastname= TxtApellido.Text,
+                phone_number= TxtTelefono.Text,
+                email= TxtCorreo.Text,
+                interested_in = TxtInteresado.SelectedItem.ToString(),
+                company = TxtCompania.Text,
+                description = TxtDescripcion.Text,
+                type = TxtPersona.SelectedItem.ToString(),
             };
 
             try
@@ -49,21 +49,21 @@ namespace AppKW.Views
                 if (resp.StatusCode == HttpStatusCode.OK)
                 {
                     await DisplayAlert("Correcto", "Mensaje enviado", "OK");
-                    name.Text = "";
-                    lastname.Text = "";
-                    phone_number.Text = "";
-                    email.Text = "";
-                    company.Text = "";
-                    description.Text = "";
+                    TxtNombre.Text = "";
+                    TxtApellido.Text = "";
+                    TxtTelefono.Text = "";
+                    TxtCorreo.Text = "";
+                    TxtCompania.Text = "";
+                    TxtDescripcion.Text = "";
                 }
                 else
                 {
-                    await DisplayAlert("Error", "Ocurrió un error", "OK");
+                    await DisplayAlert("Error", "Ocurrió un error Servicio", "OK");
                 }
             } catch(Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                await DisplayAlert("Error", "Ocurrió un error", "OK");
+                await DisplayAlert("Error", ex.Message, "OK");
             }
         }
     }

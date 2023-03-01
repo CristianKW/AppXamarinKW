@@ -1,6 +1,7 @@
 ﻿using AppKW.Models;
 using AppKW.ViewModels;
 using Firebase.Auth;
+using Java.Net;
 using Plugin.Toast.Abstractions;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,7 @@ namespace AppKW.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+            
         }
 
 
@@ -117,5 +119,14 @@ namespace AppKW.Views
             }
         } 
 
+        public void ImageButtonFacebook(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://www.facebook.com/kenworthdeleste"));
+        }
+
+        private void ImageButtonTwitter(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://twitter.com/KenworthdelEste"));
+        }
     }
 }

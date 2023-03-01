@@ -32,7 +32,7 @@
             https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
             -->
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="TextColor" Value="{StaticResource Second}"></Setter>
             </Style>
             <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
                 <Setter Property="VisualStateManager.VisualStateGroups">
@@ -81,21 +81,25 @@
     <ShellItem Route="StartPage" FlyoutItemIsVisible="False">
         <ShellContent ContentTemplate="{DataTemplate local:StartPage}"></ShellContent>
     </ShellItem>
-    
-    <FlyoutItem Title="Inicio" Icon="icon_about.png">
+
+    <FlyoutItem Title="Inicio" FlyoutIcon="icon_home">
         <ShellContent Route="Inicio" ContentTemplate="{DataTemplate local:Inicio}" />
     </FlyoutItem>
     
-    <FlyoutItem Title="Unidades" Icon="icon_feed.png">
+    <FlyoutItem Title="Unidades" Icon="icon_units">
         <ShellContent Route="UnidadesPage" ContentTemplate="{DataTemplate local:Unidades}" />
     </FlyoutItem>
     
-    <FlyoutItem Title="Buzon" Icon="icon_feed.png">
+    <FlyoutItem Title="Buzon" Icon="icon_mailbox.png">
         <ShellContent Route="BuzonPage" ContentTemplate="{DataTemplate local:Buzon}" />
     </FlyoutItem>
     
-    <FlyoutItem Title="Contacto" Icon="icon_feed.png">
+    <FlyoutItem Title="Contacto" Icon="icon_contact.png">
         <ShellContent Route="ContactoPage" ContentTemplate="{DataTemplate local:Contacto}"/>
+    </FlyoutItem>
+    
+    <FlyoutItem Title="Sucursales" Icon="icon_location.png">
+        <ShellContent Route="SucursalesoPage" ContentTemplate="{DataTemplate local:SucursalesPage}"/>
     </FlyoutItem>
 
     <FlyoutItem Title="Empleados" Icon="icon_feed.png" x:Name="Empleados">

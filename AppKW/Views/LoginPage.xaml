@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="AppKW.Views.LoginPage"
              Shell.NavBarIsVisible="False"
-             Shell.FlyoutBehavior="Disabled">
+             Shell.FlyoutBehavior="Disabled"
+             BackgroundColor="{StaticResource Primary}">
     <ContentPage.Content>
         <StackLayout Padding="0">
             <Grid>
@@ -29,8 +30,8 @@
                             <StackLayout Margin="0, 25, 0, 0">
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
-                                        <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://cdn.icon-icons.com/icons2/910/PNG/512/mail_icon-icons.com_71147.png" />
+                                        <Frame CornerRadius="40" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
+                                            <Image Source="icon_email_check.png" />
                                         </Frame>
 
                                         <Entry Placeholder="Email" 
@@ -43,7 +44,7 @@
                                 <Frame BackgroundColor="White" BorderColor="DarkGray" Padding="0" Margin="0,15,0,0" CornerRadius="50" HorizontalOptions="FillAndExpand">
                                     <StackLayout Orientation="Horizontal">
                                         <Frame CornerRadius="50" HeightRequest="35" WidthRequest="35" Padding="0" HorizontalOptions="Start" Margin="7">
-                                            <Image Source="https://static.vecteezy.com/system/resources/previews/012/674/669/non_2x/lock-icon-clipart-free-png.png" Aspect="Fill" Margin="0"/>
+                                            <Image Source="icon_password_check.png" Aspect="Fill" Margin="0"/>
                                         </Frame>
                                         <Entry Placeholder="Password" 
                                                IsPassword="True" 
