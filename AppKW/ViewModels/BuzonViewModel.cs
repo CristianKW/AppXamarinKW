@@ -8,7 +8,7 @@ namespace AppKW.ViewModels
     {
         public BuzonViewModel()
         {
-            Title = "Buzon";
+            Title = "Buzón";
         }
     }
 }

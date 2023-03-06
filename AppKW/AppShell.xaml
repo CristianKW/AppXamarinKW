@@ -90,17 +90,21 @@
         <ShellContent Route="UnidadesPage" ContentTemplate="{DataTemplate local:Unidades}" />
     </FlyoutItem>
     
+    <FlyoutItem Title="Sucursales" Icon="icon_location.png">
+        <ShellContent Route="SucursalesoPage" ContentTemplate="{DataTemplate local:SucursalesPage}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Contacto" Icon="icon_contact.png">
+        <ShellContent Route="ContactoPage" ContentTemplate="{DataTemplate local:Contacto}"/>
+    </FlyoutItem>
+
     <FlyoutItem Title="Buzon" Icon="icon_mailbox.png">
         <ShellContent Route="BuzonPage" ContentTemplate="{DataTemplate local:Buzon}" />
     </FlyoutItem>
     
-    <FlyoutItem Title="Contacto" Icon="icon_contact.png">
-        <ShellContent Route="ContactoPage" ContentTemplate="{DataTemplate local:Contacto}"/>
-    </FlyoutItem>
     
-    <FlyoutItem Title="Sucursales" Icon="icon_location.png">
-        <ShellContent Route="SucursalesoPage" ContentTemplate="{DataTemplate local:SucursalesPage}"/>
-    </FlyoutItem>
+    
+    
 
     <FlyoutItem Title="Empleados" Icon="icon_feed.png" x:Name="Empleados">
         <ShellContent Route="EmployeesPage" ContentTemplate="{DataTemplate local:EmployeesPage}"/>

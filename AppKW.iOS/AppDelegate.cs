@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using Forms.BackgroundVideoView.iOSCore;
 using Foundation;
 using UIKit;
 
@@ -22,6 +22,9 @@ namespace AppKW.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            //Video 
+            Abstractions.Init();
+
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 

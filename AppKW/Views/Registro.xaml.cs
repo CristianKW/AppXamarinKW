@@ -91,6 +91,7 @@ namespace AppKW.Views
                         //await DisplayAlert("Informacion", "Registro exito", "Ok");
                         //dirigir al Login
                         await DisplayAlert("Registro exitoso", "Se envió un enlace de verificación a tu correo.", "Ok");
+                        await Navigation.PushAsync(new LoginPage());
                     }
                     else
                     {

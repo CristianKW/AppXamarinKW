@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppKW.Views.Unidades"
              xmlns:vm="clr-namespace:AppKW.ViewModels"
-             Title="{Binding Title}">
+             Title="{Binding Title}"
+             BackgroundColor="{StaticResource Second}">
 
     <ContentPage.BindingContext>
         <vm:UnidadesViewModel/>
     </ContentPage.BindingContext>
-    
+
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="10" Margin="5">
@@ -18,17 +19,15 @@
                 Padding="0"
                 BackgroundColor="White" >
                     <Frame.Margin>
-                        <OnPlatform x:TypeArguments="Thickness"
-                        Android="10"
-                        iOS="10"/>
+                        <OnPlatform x:TypeArguments="Thickness"/>
                     </Frame.Margin>
 
                     <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                        <Image  Source="https://kenworthdeleste.com.mx/KwEste/images/3.jpg" Aspect="Fill" HeightRequest="200" />
+                        <Image  Source="unidad_T680.png" Aspect="Fill" HeightRequest="350" />
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
-                            <Label TextColor="#222" FontSize = "25" Text="T370"/>
-                            <Label Text="Fabricados para resistir." FontSize = "16"/>
-                            <Button Margin="0,25,0,0" Text="BUTTON" TextColor="White" BackgroundColor="#0097e6"/>
+                            <Label TextColor="#222" FontSize = "25" Text="La Nueva Generación del Líder" FontFamily="Texto"/>
+                            <Label Text="El Kenworth T680 Next Gen está diseñado para optimizar el rendimiento." FontSize = "16"/>
+                            <Button Margin="0,25,0,0" Text="I N S P E C C I O N A R" BackgroundColor="#d02030" TextColor="White" FontAttributes="Bold" CornerRadius="20"  FontSize="Subtitle"/>
                         </StackLayout>
 
                     </StackLayout>
@@ -38,17 +37,34 @@
                 Padding="0"
                 BackgroundColor="White" >
                     <Frame.Margin>
-                        <OnPlatform x:TypeArguments="Thickness"
-                        Android="10"
-                        iOS="10"/>
+                        <OnPlatform x:TypeArguments="Thickness"/>
                     </Frame.Margin>
 
                     <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
-                        <Image  Source="un1.png" Aspect="Fill" HeightRequest="200" />
+                        <Image  Source="unidad_T380.png" Aspect="Fill" HeightRequest="350" />
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
-                            <Label TextColor="#222" FontSize = "25" Text="Card Title"/>
-                            <Label Text="Card description" FontSize = "16"/>
-                            <Button Margin="0,15,0,0" Text="BUTTON" TextColor="White" BackgroundColor="#0097e6"/>
+                            <Label TextColor="#222" FontSize = "25" Text="Un Nuevo Modelo de Negocio" FontFamily="Texto"/>
+                            <Label Text="Kenworth T380 con mejor tecnología para maniobrarlo con seguridad." FontSize = "16"/>
+                            <Button Margin="0,15,0,0" Text="I N S P E C C I O N A R" BackgroundColor="#d02030" TextColor="White" FontAttributes="Bold" CornerRadius="20"  FontSize="Subtitle"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
+                <Frame IsClippedToBounds="True"
+                HasShadow="True"
+                Padding="0"
+                BackgroundColor="White" >
+                    <Frame.Margin>
+                        <OnPlatform x:TypeArguments="Thickness"/>
+
+                    </Frame.Margin>
+
+                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical">
+                        <Image  Source="unidad_KW45_55.png" Aspect="Fill" HeightRequest="350" />
+                        <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
+                            <Label TextColor="#222" FontSize = "25" Text="Maniobrabilidad y visibilidad inigualable" FontFamily="Texto"/>
+                            <Label Text="Kenworth KW45/55 diseñados para manejarse entre calles y callejones." FontSize = "16"/>
+                            <Button Margin="0,15,0,0" Text="I N S P E C C I O N A R" BackgroundColor="#d02030" TextColor="White" FontAttributes="Bold" CornerRadius="20"  FontSize="Subtitle"/>
                         </StackLayout>
 
                     </StackLayout>

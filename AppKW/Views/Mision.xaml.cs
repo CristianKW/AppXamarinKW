@@ -16,5 +16,10 @@ namespace AppKW.Views
         {
             InitializeComponent();
         }
+
+        private async void Regresar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
+        }
     }
 }

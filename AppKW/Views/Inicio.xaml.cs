@@ -35,24 +35,34 @@ namespace AppKW.Views
             }));
         }
 
-        async void Button_VisionClicked(object sender, EventArgs e)
+        private void DisplayFullImage_TappedMision(object sender, EventArgs e)
         {
-            await DisplayAlert("NUESTRA VISIÓN", "Consolidarnos como una empresa líder, " +
-                "rentable, en constante crecimiento, comprometidos con la calidad, el desarrollo " +
-                "de nuestro personal y de la comunidad", "Ok");
-        }
-
-        async void Button_MisionClicked(object sender, EventArgs e)
-        {
-            await DisplayAlert("NUESTRA MISIÓN", "Somos una organización en constante desarrollo, " +
-                "comprometidos en dar solución a los retos del transporte, superando las expectativas " +
-                "de nuestros clientes, fortaleciendo nuestra empresa y comunidad.", "Ok");
-        }
-
-        private void displayFullImage_Tapped(object sender, EventArgs e)
-        {
-            var imageSource = imgMision.Source;
             Navigation.PushModalAsync(new Mision());
+        }
+        private void DisplayFullImage_TappedVision(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new Vision());
+        }
+        //Redireccionamento a redes sociales.
+        private void RedSocial_Facebook(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://www.facebook.com/kenworthdeleste"));
+        }
+        private void RedSocial_twitter(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://twitter.com/KenworthdelEste"));
+        }
+        private void RedSocial_Instagram(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://www.instagram.com/kenworthdeleste/"));
+        }
+        private void RedSocial_youtube(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://www.youtube.com/channel/UCeZZCLFDX220ex1iyUote1g/videos"));
+        }
+        private void RedSocial_tiktok(object sender, EventArgs e)
+        {
+            Launcher.OpenAsync(new System.Uri("https://www.tiktok.com/@kenworthdeleste?lang=es"));
         }
     }
 }

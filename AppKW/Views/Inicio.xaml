@@ -50,65 +50,81 @@
                         <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" BackgroundColor="{StaticResource Second}">
                             <Image  Source="img3.png" Aspect="Fill" HeightRequest="200" />
                             <StackLayout HorizontalOptions="FillAndExpand" Orientation="Vertical" Padding="15">
-                                <Label TextColor="#222" FontSize = "20" Text="HISTORIA" HorizontalTextAlignment="Center"/>
+                                <Label TextColor="White" FontSize = "20" Text="HISTORIA" HorizontalTextAlignment="Center"/>
                                 <Label Text="En 1923 Harry W. Kent y Edgar K. Worthington deciden establecer una marca de 
                                        vehículos y al unir sus apellidos nace el nombre de: KENWORTH. &#10;" 
                                        FontFamily="Century Gothic"
                                        FontSize="17"
                                        HorizontalTextAlignment="Center"
-                                       Padding="5,5,5,5"/>
+                                       Padding="5,5,5,5"
+                                       TextColor="White"/>
                                 <Label Text="En 1944 KENWORTH pasa a ser propiedad de: Pacific Car and Foundry (Paccar)."
                                        FontFamily="Century Gothic"
                                        FontSize="17"
                                        HorizontalTextAlignment="Center"
-                                       Padding="5,10,5,10"/>
+                                       Padding="5,10,5,10"
+                                       TextColor="White"/>
                             </StackLayout>
                         </StackLayout>
                     </Frame>
                 </StackLayout>
                 <StackLayout x:Name="StackLayout_1" VerticalOptions="Fill">
-                    <Frame BackgroundColor="{StaticResource Second}"
+                    <Frame
                                Margin="0,3,0,0"
                                HorizontalOptions="Center"
                                VerticalOptions="Center">
                         <StackLayout HorizontalOptions="Center"
                                          VerticalOptions="Center">
-                            <Image x:Name="imgVision"
-                                       Source="vision.png" 
-                                       HeightRequest="90"
+                            <Image x:Name="imgMision"
+                                       Source="mision.png" 
+                                       HeightRequest="160"
                                        HorizontalOptions="Fill"
                                        VerticalOptions="Center">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer
                                             NumberOfTapsRequired="1"
                                             x:Name="displayFullImages"
-                                            Tapped="displayFullImage_Tapped">
+                                            Tapped="DisplayFullImage_TappedMision">
                                     </TapGestureRecognizer>
                                 </Image.GestureRecognizers>
                             </Image>
                         </StackLayout>
                     </Frame>
-                    <Frame Margin="0,3,0,0"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
+                    <Frame>
                         <StackLayout HorizontalOptions="Center"
-                                         VerticalOptions="Center">
-                            <Image x:Name="imgMision"
+                                     VerticalOptions="Center">
+                            <Image x:Name="imgVision"
                                        Source="vision.png" 
-                                       HeightRequest="90"
+                                       HeightRequest="160"
                                        HorizontalOptions="Fill"
                                        VerticalOptions="Center">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer
                                             NumberOfTapsRequired="1"
                                             x:Name="displayFullImage"
-                                            Tapped="displayFullImage_Tapped">
+                                            Tapped="DisplayFullImage_TappedVision">
                                     </TapGestureRecognizer>
                                 </Image.GestureRecognizers>
                             </Image>
                         </StackLayout>
                     </Frame>
-
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Frame BackgroundColor="#4081e3" WidthRequest="25" Padding="0" Margin="0" HeightRequest="25" CornerRadius="30" HasShadow="False">
+                        <ImageButton Source="facebook.png" Aspect="Fill" Margin="0" Clicked="RedSocial_Facebook"/>
+                    </Frame>
+                    <Frame BackgroundColor="#01abe5" WidthRequest="25" Padding="0" Margin="0" HeightRequest="25" CornerRadius="30" HasShadow="False">
+                        <ImageButton Source="twitter.png" Aspect="Fill" Margin="0" Clicked="RedSocial_twitter"/>
+                    </Frame>
+                    <Frame WidthRequest="25" Padding="0" Margin="0" HeightRequest="25" CornerRadius="30" HasShadow="False">
+                        <ImageButton Source="instagram.png" Aspect="Fill" Margin="0" Clicked="RedSocial_Instagram"/>
+                    </Frame>
+                    <Frame WidthRequest="25" Padding="0" Margin="0" HeightRequest="25" CornerRadius="30" HasShadow="False">
+                        <ImageButton Source="youtube.png" Aspect="Fill" Margin="0" Clicked="RedSocial_youtube"/>
+                    </Frame>
+                    <Frame WidthRequest="25" Padding="0" Margin="0" HeightRequest="25" CornerRadius="30" HasShadow="False">
+                        <ImageButton Source="tiktok.png" Aspect="Fill" Margin="0" Clicked="RedSocial_tiktok"/>
+                    </Frame>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

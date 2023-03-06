@@ -39,6 +39,49 @@ namespace AppKW.Views
 
             try
             {
+                //Validaciones
+                if (System.String.IsNullOrEmpty(TxtNombre.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa un nombre.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtApellido.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa un apellido.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtTelefono.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa un número de teléfono.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtCorreo.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa un correo electrónico válido.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtInteresado.SelectedItem.ToString()))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, selecciona en que se encuentra interesado.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtCompania.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa una compañía.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtDescripcion.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, describe el mensaje.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtPersona.SelectedItem.ToString()))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, selecciona el tipo de persona que eres.", "Ok");
+                    return;
+                }
+
+
                 Uri uri = new Uri("http://192.168.1.64:8000/api/contact");
                 var client = new HttpClient();
                 var json = JsonConvert.SerializeObject(contactForm);
@@ -64,7 +107,7 @@ namespace AppKW.Views
                 }
             } catch(Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                //Console.WriteLine(ex.ToString());
                 await DisplayAlert("Error", ex.Message, "OK");
             }
         }

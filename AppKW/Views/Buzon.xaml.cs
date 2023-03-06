@@ -13,6 +13,8 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using System.Net;
 using Firebase.Auth;
+using Java.Lang;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace AppKW.Views
 {
@@ -37,6 +39,34 @@ namespace AppKW.Views
 
             try
             {
+                //Validaciones de formulario
+                if (System.String.IsNullOrEmpty(TxtNombre.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa un nombre con apellido.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtCompania.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa a qué compañía perteneces.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtRazon.SelectedItem.ToString()))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, selecciona una razón.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtDateOfIncident.Date.ToString()))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido.", "Ok");
+                    return;
+                }
+                if (System.String.IsNullOrEmpty(TxtMessage.Text))
+                {
+                    await DisplayAlert("Advertencia", "Este dato es requerido, ingresa el mensaje donde expliques el porqué de este asunto.", "Ok");
+                    return;
+                }
+                
+
                 Uri uri = new Uri("http://192.168.1.64:8000/api/mailbox");
                 var client = new HttpClient();
                 var json = JsonConvert.SerializeObject(mailboxForm);
@@ -58,9 +88,9 @@ namespace AppKW.Views
                     await DisplayAlert("Error", "Ocurrió un error Servicio", "OK");
                 }
             }
-            catch (Exception ex)
+            catch (System.Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                //Console.WriteLine(ex.ToString());
                 await DisplayAlert("Error", ex.Message, "OK");
             }
         }

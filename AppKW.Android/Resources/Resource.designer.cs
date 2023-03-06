@@ -14,7 +14,7 @@ namespace AppKW.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.0.5")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.0.93")]
 	public partial class Resource
 	{
 		
@@ -25,6 +25,2491 @@ namespace AppKW.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_fade_in = global::AppKW.Droid.Resource.Animation.abc_fade_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_fade_out = global::AppKW.Droid.Resource.Animation.abc_fade_out;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_grow_fade_in_from_bottom = global::AppKW.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_popup_enter = global::AppKW.Droid.Resource.Animation.abc_popup_enter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_popup_exit = global::AppKW.Droid.Resource.Animation.abc_popup_exit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_shrink_fade_out_from_bottom = global::AppKW.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_slide_in_bottom = global::AppKW.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_slide_in_top = global::AppKW.Droid.Resource.Animation.abc_slide_in_top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_slide_out_bottom = global::AppKW.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_slide_out_top = global::AppKW.Droid.Resource.Animation.abc_slide_out_top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_tooltip_enter = global::AppKW.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.abc_tooltip_exit = global::AppKW.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.design_bottom_sheet_slide_in = global::AppKW.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.design_bottom_sheet_slide_out = global::AppKW.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.design_snackbar_in = global::AppKW.Droid.Resource.Animation.design_snackbar_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.design_snackbar_out = global::AppKW.Droid.Resource.Animation.design_snackbar_out;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.EnterFromLeft = global::AppKW.Droid.Resource.Animation.EnterFromLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.EnterFromRight = global::AppKW.Droid.Resource.Animation.EnterFromRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.ExitToLeft = global::AppKW.Droid.Resource.Animation.ExitToLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animation.ExitToRight = global::AppKW.Droid.Resource.Animation.ExitToRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.design_appbar_state_list_animator = global::AppKW.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.design_fab_hide_motion_spec = global::AppKW.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.design_fab_show_motion_spec = global::AppKW.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_btn_state_list_anim = global::AppKW.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::AppKW.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_chip_state_list_anim = global::AppKW.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_fab_hide_motion_spec = global::AppKW.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_fab_show_motion_spec = global::AppKW.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::AppKW.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::AppKW.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarDivider = global::AppKW.Droid.Resource.Attribute.actionBarDivider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarItemBackground = global::AppKW.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarPopupTheme = global::AppKW.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarSize = global::AppKW.Droid.Resource.Attribute.actionBarSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarSplitStyle = global::AppKW.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarStyle = global::AppKW.Droid.Resource.Attribute.actionBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarTabBarStyle = global::AppKW.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarTabStyle = global::AppKW.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarTabTextStyle = global::AppKW.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarTheme = global::AppKW.Droid.Resource.Attribute.actionBarTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionBarWidgetTheme = global::AppKW.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionButtonStyle = global::AppKW.Droid.Resource.Attribute.actionButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionDropDownStyle = global::AppKW.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionLayout = global::AppKW.Droid.Resource.Attribute.actionLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionMenuTextAppearance = global::AppKW.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionMenuTextColor = global::AppKW.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeBackground = global::AppKW.Droid.Resource.Attribute.actionModeBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeCloseButtonStyle = global::AppKW.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeCloseDrawable = global::AppKW.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeCopyDrawable = global::AppKW.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeCutDrawable = global::AppKW.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeFindDrawable = global::AppKW.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModePasteDrawable = global::AppKW.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModePopupWindowStyle = global::AppKW.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeSelectAllDrawable = global::AppKW.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeShareDrawable = global::AppKW.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeSplitBackground = global::AppKW.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeStyle = global::AppKW.Droid.Resource.Attribute.actionModeStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionModeWebSearchDrawable = global::AppKW.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionOverflowButtonStyle = global::AppKW.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionOverflowMenuStyle = global::AppKW.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionProviderClass = global::AppKW.Droid.Resource.Attribute.actionProviderClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.actionViewClass = global::AppKW.Droid.Resource.Attribute.actionViewClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.activityChooserViewStyle = global::AppKW.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alertDialogButtonGroupStyle = global::AppKW.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alertDialogCenterButtons = global::AppKW.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alertDialogStyle = global::AppKW.Droid.Resource.Attribute.alertDialogStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alertDialogTheme = global::AppKW.Droid.Resource.Attribute.alertDialogTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.allowStacking = global::AppKW.Droid.Resource.Attribute.allowStacking;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alpha = global::AppKW.Droid.Resource.Attribute.alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.alphabeticModifiers = global::AppKW.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.arrowHeadLength = global::AppKW.Droid.Resource.Attribute.arrowHeadLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.arrowShaftLength = global::AppKW.Droid.Resource.Attribute.arrowShaftLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoCompleteTextViewStyle = global::AppKW.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoSizeMaxTextSize = global::AppKW.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoSizeMinTextSize = global::AppKW.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoSizePresetSizes = global::AppKW.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoSizeStepGranularity = global::AppKW.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.autoSizeTextType = global::AppKW.Droid.Resource.Attribute.autoSizeTextType;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.background = global::AppKW.Droid.Resource.Attribute.background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.backgroundSplit = global::AppKW.Droid.Resource.Attribute.backgroundSplit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.backgroundStacked = global::AppKW.Droid.Resource.Attribute.backgroundStacked;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.backgroundTint = global::AppKW.Droid.Resource.Attribute.backgroundTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.backgroundTintMode = global::AppKW.Droid.Resource.Attribute.backgroundTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.barLength = global::AppKW.Droid.Resource.Attribute.barLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_autoHide = global::AppKW.Droid.Resource.Attribute.behavior_autoHide;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_fitToContents = global::AppKW.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_hideable = global::AppKW.Droid.Resource.Attribute.behavior_hideable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_overlapTop = global::AppKW.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_peekHeight = global::AppKW.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.behavior_skipCollapsed = global::AppKW.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.borderlessButtonStyle = global::AppKW.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.borderWidth = global::AppKW.Droid.Resource.Attribute.borderWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.bottomAppBarStyle = global::AppKW.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.bottomNavigationStyle = global::AppKW.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.bottomSheetDialogTheme = global::AppKW.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.bottomSheetStyle = global::AppKW.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxBackgroundColor = global::AppKW.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxBackgroundMode = global::AppKW.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxCollapsedPaddingTop = global::AppKW.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxCornerRadiusBottomEnd = global::AppKW.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxCornerRadiusBottomStart = global::AppKW.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxCornerRadiusTopEnd = global::AppKW.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxCornerRadiusTopStart = global::AppKW.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxStrokeColor = global::AppKW.Droid.Resource.Attribute.boxStrokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.boxStrokeWidth = global::AppKW.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonBarButtonStyle = global::AppKW.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonBarNegativeButtonStyle = global::AppKW.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonBarNeutralButtonStyle = global::AppKW.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonBarPositiveButtonStyle = global::AppKW.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonBarStyle = global::AppKW.Droid.Resource.Attribute.buttonBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonGravity = global::AppKW.Droid.Resource.Attribute.buttonGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonIconDimen = global::AppKW.Droid.Resource.Attribute.buttonIconDimen;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonPanelSideLayout = global::AppKW.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonStyle = global::AppKW.Droid.Resource.Attribute.buttonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonStyleSmall = global::AppKW.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonTint = global::AppKW.Droid.Resource.Attribute.buttonTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.buttonTintMode = global::AppKW.Droid.Resource.Attribute.buttonTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardBackgroundColor = global::AppKW.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardCornerRadius = global::AppKW.Droid.Resource.Attribute.cardCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardElevation = global::AppKW.Droid.Resource.Attribute.cardElevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardMaxElevation = global::AppKW.Droid.Resource.Attribute.cardMaxElevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardPreventCornerOverlap = global::AppKW.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardUseCompatPadding = global::AppKW.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cardViewStyle = global::AppKW.Droid.Resource.Attribute.cardViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkboxStyle = global::AppKW.Droid.Resource.Attribute.checkboxStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkedChip = global::AppKW.Droid.Resource.Attribute.checkedChip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkedIcon = global::AppKW.Droid.Resource.Attribute.checkedIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkedIconEnabled = global::AppKW.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkedIconVisible = global::AppKW.Droid.Resource.Attribute.checkedIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.checkedTextViewStyle = global::AppKW.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipBackgroundColor = global::AppKW.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipCornerRadius = global::AppKW.Droid.Resource.Attribute.chipCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipEndPadding = global::AppKW.Droid.Resource.Attribute.chipEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipGroupStyle = global::AppKW.Droid.Resource.Attribute.chipGroupStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipIcon = global::AppKW.Droid.Resource.Attribute.chipIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipIconEnabled = global::AppKW.Droid.Resource.Attribute.chipIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipIconSize = global::AppKW.Droid.Resource.Attribute.chipIconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipIconTint = global::AppKW.Droid.Resource.Attribute.chipIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipIconVisible = global::AppKW.Droid.Resource.Attribute.chipIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipMinHeight = global::AppKW.Droid.Resource.Attribute.chipMinHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipSpacing = global::AppKW.Droid.Resource.Attribute.chipSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipSpacingHorizontal = global::AppKW.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipSpacingVertical = global::AppKW.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipStandaloneStyle = global::AppKW.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipStartPadding = global::AppKW.Droid.Resource.Attribute.chipStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipStrokeColor = global::AppKW.Droid.Resource.Attribute.chipStrokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipStrokeWidth = global::AppKW.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.chipStyle = global::AppKW.Droid.Resource.Attribute.chipStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIcon = global::AppKW.Droid.Resource.Attribute.closeIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconEnabled = global::AppKW.Droid.Resource.Attribute.closeIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconEndPadding = global::AppKW.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconSize = global::AppKW.Droid.Resource.Attribute.closeIconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconStartPadding = global::AppKW.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconTint = global::AppKW.Droid.Resource.Attribute.closeIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeIconVisible = global::AppKW.Droid.Resource.Attribute.closeIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.closeItemLayout = global::AppKW.Droid.Resource.Attribute.closeItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.collapseContentDescription = global::AppKW.Droid.Resource.Attribute.collapseContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.collapsedTitleGravity = global::AppKW.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.collapsedTitleTextAppearance = global::AppKW.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.collapseIcon = global::AppKW.Droid.Resource.Attribute.collapseIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.color = global::AppKW.Droid.Resource.Attribute.color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorAccent = global::AppKW.Droid.Resource.Attribute.colorAccent;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorBackgroundFloating = global::AppKW.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorButtonNormal = global::AppKW.Droid.Resource.Attribute.colorButtonNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorControlActivated = global::AppKW.Droid.Resource.Attribute.colorControlActivated;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorControlHighlight = global::AppKW.Droid.Resource.Attribute.colorControlHighlight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorControlNormal = global::AppKW.Droid.Resource.Attribute.colorControlNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorError = global::AppKW.Droid.Resource.Attribute.colorError;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorPrimary = global::AppKW.Droid.Resource.Attribute.colorPrimary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorPrimaryDark = global::AppKW.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorSecondary = global::AppKW.Droid.Resource.Attribute.colorSecondary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.colorSwitchThumbNormal = global::AppKW.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.commitIcon = global::AppKW.Droid.Resource.Attribute.commitIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentDescription = global::AppKW.Droid.Resource.Attribute.contentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetEnd = global::AppKW.Droid.Resource.Attribute.contentInsetEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetEndWithActions = global::AppKW.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetLeft = global::AppKW.Droid.Resource.Attribute.contentInsetLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetRight = global::AppKW.Droid.Resource.Attribute.contentInsetRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetStart = global::AppKW.Droid.Resource.Attribute.contentInsetStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentInsetStartWithNavigation = global::AppKW.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentPadding = global::AppKW.Droid.Resource.Attribute.contentPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentPaddingBottom = global::AppKW.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentPaddingLeft = global::AppKW.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentPaddingRight = global::AppKW.Droid.Resource.Attribute.contentPaddingRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentPaddingTop = global::AppKW.Droid.Resource.Attribute.contentPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.contentScrim = global::AppKW.Droid.Resource.Attribute.contentScrim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.controlBackground = global::AppKW.Droid.Resource.Attribute.controlBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.coordinatorLayoutStyle = global::AppKW.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.cornerRadius = global::AppKW.Droid.Resource.Attribute.cornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.counterEnabled = global::AppKW.Droid.Resource.Attribute.counterEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.counterMaxLength = global::AppKW.Droid.Resource.Attribute.counterMaxLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.counterOverflowTextAppearance = global::AppKW.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.counterTextAppearance = global::AppKW.Droid.Resource.Attribute.counterTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.customNavigationLayout = global::AppKW.Droid.Resource.Attribute.customNavigationLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.defaultQueryHint = global::AppKW.Droid.Resource.Attribute.defaultQueryHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dialogCornerRadius = global::AppKW.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dialogPreferredPadding = global::AppKW.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dialogTheme = global::AppKW.Droid.Resource.Attribute.dialogTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.displayOptions = global::AppKW.Droid.Resource.Attribute.displayOptions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.divider = global::AppKW.Droid.Resource.Attribute.divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dividerHorizontal = global::AppKW.Droid.Resource.Attribute.dividerHorizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dividerPadding = global::AppKW.Droid.Resource.Attribute.dividerPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dividerVertical = global::AppKW.Droid.Resource.Attribute.dividerVertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.drawableSize = global::AppKW.Droid.Resource.Attribute.drawableSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.drawerArrowStyle = global::AppKW.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dropdownListPreferredItemHeight = global::AppKW.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.dropDownListViewStyle = global::AppKW.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.editTextBackground = global::AppKW.Droid.Resource.Attribute.editTextBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.editTextColor = global::AppKW.Droid.Resource.Attribute.editTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.editTextStyle = global::AppKW.Droid.Resource.Attribute.editTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.elevation = global::AppKW.Droid.Resource.Attribute.elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.enforceMaterialTheme = global::AppKW.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.enforceTextAppearance = global::AppKW.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.errorEnabled = global::AppKW.Droid.Resource.Attribute.errorEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.errorTextAppearance = global::AppKW.Droid.Resource.Attribute.errorTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandActivityOverflowButtonDrawable = global::AppKW.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expanded = global::AppKW.Droid.Resource.Attribute.expanded;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleGravity = global::AppKW.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleMargin = global::AppKW.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleMarginBottom = global::AppKW.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleMarginEnd = global::AppKW.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleMarginStart = global::AppKW.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleMarginTop = global::AppKW.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.expandedTitleTextAppearance = global::AppKW.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabAlignmentMode = global::AppKW.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabCradleMargin = global::AppKW.Droid.Resource.Attribute.fabCradleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabCradleRoundedCornerRadius = global::AppKW.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabCradleVerticalOffset = global::AppKW.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabCustomSize = global::AppKW.Droid.Resource.Attribute.fabCustomSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fabSize = global::AppKW.Droid.Resource.Attribute.fabSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fastScrollEnabled = global::AppKW.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::AppKW.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::AppKW.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fastScrollVerticalThumbDrawable = global::AppKW.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fastScrollVerticalTrackDrawable = global::AppKW.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.firstBaselineToTopHeight = global::AppKW.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.floatingActionButtonStyle = global::AppKW.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.font = global::AppKW.Droid.Resource.Attribute.font;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontFamily = global::AppKW.Droid.Resource.Attribute.fontFamily;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderAuthority = global::AppKW.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderCerts = global::AppKW.Droid.Resource.Attribute.fontProviderCerts;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderFetchStrategy = global::AppKW.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderFetchTimeout = global::AppKW.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderPackage = global::AppKW.Droid.Resource.Attribute.fontProviderPackage;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontProviderQuery = global::AppKW.Droid.Resource.Attribute.fontProviderQuery;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontStyle = global::AppKW.Droid.Resource.Attribute.fontStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontVariationSettings = global::AppKW.Droid.Resource.Attribute.fontVariationSettings;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.fontWeight = global::AppKW.Droid.Resource.Attribute.fontWeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.foregroundInsidePadding = global::AppKW.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.gapBetweenBars = global::AppKW.Droid.Resource.Attribute.gapBetweenBars;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.goIcon = global::AppKW.Droid.Resource.Attribute.goIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.headerLayout = global::AppKW.Droid.Resource.Attribute.headerLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.height = global::AppKW.Droid.Resource.Attribute.height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.helperText = global::AppKW.Droid.Resource.Attribute.helperText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.helperTextEnabled = global::AppKW.Droid.Resource.Attribute.helperTextEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.helperTextTextAppearance = global::AppKW.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hideMotionSpec = global::AppKW.Droid.Resource.Attribute.hideMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hideOnContentScroll = global::AppKW.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hideOnScroll = global::AppKW.Droid.Resource.Attribute.hideOnScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hintAnimationEnabled = global::AppKW.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hintEnabled = global::AppKW.Droid.Resource.Attribute.hintEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hintTextAppearance = global::AppKW.Droid.Resource.Attribute.hintTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.homeAsUpIndicator = global::AppKW.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.homeLayout = global::AppKW.Droid.Resource.Attribute.homeLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.hoveredFocusedTranslationZ = global::AppKW.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.icon = global::AppKW.Droid.Resource.Attribute.icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconEndPadding = global::AppKW.Droid.Resource.Attribute.iconEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconGravity = global::AppKW.Droid.Resource.Attribute.iconGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconifiedByDefault = global::AppKW.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconPadding = global::AppKW.Droid.Resource.Attribute.iconPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconSize = global::AppKW.Droid.Resource.Attribute.iconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconStartPadding = global::AppKW.Droid.Resource.Attribute.iconStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconTint = global::AppKW.Droid.Resource.Attribute.iconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.iconTintMode = global::AppKW.Droid.Resource.Attribute.iconTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.imageButtonStyle = global::AppKW.Droid.Resource.Attribute.imageButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.indeterminateProgressStyle = global::AppKW.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.initialActivityCount = global::AppKW.Droid.Resource.Attribute.initialActivityCount;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.insetForeground = global::AppKW.Droid.Resource.Attribute.insetForeground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.isLightTheme = global::AppKW.Droid.Resource.Attribute.isLightTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemBackground = global::AppKW.Droid.Resource.Attribute.itemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemHorizontalPadding = global::AppKW.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemHorizontalTranslationEnabled = global::AppKW.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemIconPadding = global::AppKW.Droid.Resource.Attribute.itemIconPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemIconSize = global::AppKW.Droid.Resource.Attribute.itemIconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemIconTint = global::AppKW.Droid.Resource.Attribute.itemIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemPadding = global::AppKW.Droid.Resource.Attribute.itemPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemSpacing = global::AppKW.Droid.Resource.Attribute.itemSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemTextAppearance = global::AppKW.Droid.Resource.Attribute.itemTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemTextAppearanceActive = global::AppKW.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemTextAppearanceInactive = global::AppKW.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.itemTextColor = global::AppKW.Droid.Resource.Attribute.itemTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.keylines = global::AppKW.Droid.Resource.Attribute.keylines;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.labelVisibilityMode = global::AppKW.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.lastBaselineToBottomHeight = global::AppKW.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout = global::AppKW.Droid.Resource.Attribute.layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layoutManager = global::AppKW.Droid.Resource.Attribute.layoutManager;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_anchor = global::AppKW.Droid.Resource.Attribute.layout_anchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_anchorGravity = global::AppKW.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_behavior = global::AppKW.Droid.Resource.Attribute.layout_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_collapseMode = global::AppKW.Droid.Resource.Attribute.layout_collapseMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_collapseParallaxMultiplier = global::AppKW.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_dodgeInsetEdges = global::AppKW.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_insetEdge = global::AppKW.Droid.Resource.Attribute.layout_insetEdge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_keyline = global::AppKW.Droid.Resource.Attribute.layout_keyline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_scrollFlags = global::AppKW.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.layout_scrollInterpolator = global::AppKW.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.liftOnScroll = global::AppKW.Droid.Resource.Attribute.liftOnScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.lineHeight = global::AppKW.Droid.Resource.Attribute.lineHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.lineSpacing = global::AppKW.Droid.Resource.Attribute.lineSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listChoiceBackgroundIndicator = global::AppKW.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listDividerAlertDialog = global::AppKW.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listItemLayout = global::AppKW.Droid.Resource.Attribute.listItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listLayout = global::AppKW.Droid.Resource.Attribute.listLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listMenuViewStyle = global::AppKW.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPopupWindowStyle = global::AppKW.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPreferredItemHeight = global::AppKW.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPreferredItemHeightLarge = global::AppKW.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPreferredItemHeightSmall = global::AppKW.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPreferredItemPaddingLeft = global::AppKW.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.listPreferredItemPaddingRight = global::AppKW.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.logo = global::AppKW.Droid.Resource.Attribute.logo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.logoDescription = global::AppKW.Droid.Resource.Attribute.logoDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.materialButtonStyle = global::AppKW.Droid.Resource.Attribute.materialButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.materialCardViewStyle = global::AppKW.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.maxActionInlineWidth = global::AppKW.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.maxButtonHeight = global::AppKW.Droid.Resource.Attribute.maxButtonHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.maxImageSize = global::AppKW.Droid.Resource.Attribute.maxImageSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.measureWithLargestChild = global::AppKW.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.menu = global::AppKW.Droid.Resource.Attribute.menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.multiChoiceItemLayout = global::AppKW.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.navigationContentDescription = global::AppKW.Droid.Resource.Attribute.navigationContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.navigationIcon = global::AppKW.Droid.Resource.Attribute.navigationIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.navigationMode = global::AppKW.Droid.Resource.Attribute.navigationMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.navigationViewStyle = global::AppKW.Droid.Resource.Attribute.navigationViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.numericModifiers = global::AppKW.Droid.Resource.Attribute.numericModifiers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.overlapAnchor = global::AppKW.Droid.Resource.Attribute.overlapAnchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.paddingBottomNoButtons = global::AppKW.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.paddingEnd = global::AppKW.Droid.Resource.Attribute.paddingEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.paddingStart = global::AppKW.Droid.Resource.Attribute.paddingStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.paddingTopNoTitle = global::AppKW.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.panelBackground = global::AppKW.Droid.Resource.Attribute.panelBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.panelMenuListTheme = global::AppKW.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.panelMenuListWidth = global::AppKW.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.passwordToggleContentDescription = global::AppKW.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.passwordToggleDrawable = global::AppKW.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.passwordToggleEnabled = global::AppKW.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.passwordToggleTint = global::AppKW.Droid.Resource.Attribute.passwordToggleTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.passwordToggleTintMode = global::AppKW.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.popupMenuStyle = global::AppKW.Droid.Resource.Attribute.popupMenuStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.popupTheme = global::AppKW.Droid.Resource.Attribute.popupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.popupWindowStyle = global::AppKW.Droid.Resource.Attribute.popupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.preserveIconSpacing = global::AppKW.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.pressedTranslationZ = global::AppKW.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.progressBarPadding = global::AppKW.Droid.Resource.Attribute.progressBarPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.progressBarStyle = global::AppKW.Droid.Resource.Attribute.progressBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.queryBackground = global::AppKW.Droid.Resource.Attribute.queryBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.queryHint = global::AppKW.Droid.Resource.Attribute.queryHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.radioButtonStyle = global::AppKW.Droid.Resource.Attribute.radioButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.ratingBarStyle = global::AppKW.Droid.Resource.Attribute.ratingBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.ratingBarStyleIndicator = global::AppKW.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.ratingBarStyleSmall = global::AppKW.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.reverseLayout = global::AppKW.Droid.Resource.Attribute.reverseLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.rippleColor = global::AppKW.Droid.Resource.Attribute.rippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.scrimAnimationDuration = global::AppKW.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.scrimBackground = global::AppKW.Droid.Resource.Attribute.scrimBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.scrimVisibleHeightTrigger = global::AppKW.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.searchHintIcon = global::AppKW.Droid.Resource.Attribute.searchHintIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.searchIcon = global::AppKW.Droid.Resource.Attribute.searchIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.searchViewStyle = global::AppKW.Droid.Resource.Attribute.searchViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.seekBarStyle = global::AppKW.Droid.Resource.Attribute.seekBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.selectableItemBackground = global::AppKW.Droid.Resource.Attribute.selectableItemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.selectableItemBackgroundBorderless = global::AppKW.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.showAsAction = global::AppKW.Droid.Resource.Attribute.showAsAction;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.showDividers = global::AppKW.Droid.Resource.Attribute.showDividers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.showMotionSpec = global::AppKW.Droid.Resource.Attribute.showMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.showText = global::AppKW.Droid.Resource.Attribute.showText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.showTitle = global::AppKW.Droid.Resource.Attribute.showTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.singleChoiceItemLayout = global::AppKW.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.singleLine = global::AppKW.Droid.Resource.Attribute.singleLine;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.singleSelection = global::AppKW.Droid.Resource.Attribute.singleSelection;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.snackbarButtonStyle = global::AppKW.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.snackbarStyle = global::AppKW.Droid.Resource.Attribute.snackbarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.spanCount = global::AppKW.Droid.Resource.Attribute.spanCount;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.spinBars = global::AppKW.Droid.Resource.Attribute.spinBars;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.spinnerDropDownItemStyle = global::AppKW.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.spinnerStyle = global::AppKW.Droid.Resource.Attribute.spinnerStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.splitTrack = global::AppKW.Droid.Resource.Attribute.splitTrack;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.srcCompat = global::AppKW.Droid.Resource.Attribute.srcCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.stackFromEnd = global::AppKW.Droid.Resource.Attribute.stackFromEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.state_above_anchor = global::AppKW.Droid.Resource.Attribute.state_above_anchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.state_collapsed = global::AppKW.Droid.Resource.Attribute.state_collapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.state_collapsible = global::AppKW.Droid.Resource.Attribute.state_collapsible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.state_liftable = global::AppKW.Droid.Resource.Attribute.state_liftable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.state_lifted = global::AppKW.Droid.Resource.Attribute.state_lifted;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.statusBarBackground = global::AppKW.Droid.Resource.Attribute.statusBarBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.statusBarScrim = global::AppKW.Droid.Resource.Attribute.statusBarScrim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.strokeColor = global::AppKW.Droid.Resource.Attribute.strokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.strokeWidth = global::AppKW.Droid.Resource.Attribute.strokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.subMenuArrow = global::AppKW.Droid.Resource.Attribute.subMenuArrow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.submitBackground = global::AppKW.Droid.Resource.Attribute.submitBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.subtitle = global::AppKW.Droid.Resource.Attribute.subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.subtitleTextAppearance = global::AppKW.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.subtitleTextColor = global::AppKW.Droid.Resource.Attribute.subtitleTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.subtitleTextStyle = global::AppKW.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.suggestionRowLayout = global::AppKW.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.switchMinWidth = global::AppKW.Droid.Resource.Attribute.switchMinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.switchPadding = global::AppKW.Droid.Resource.Attribute.switchPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.switchStyle = global::AppKW.Droid.Resource.Attribute.switchStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.switchTextAppearance = global::AppKW.Droid.Resource.Attribute.switchTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabBackground = global::AppKW.Droid.Resource.Attribute.tabBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabContentStart = global::AppKW.Droid.Resource.Attribute.tabContentStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabGravity = global::AppKW.Droid.Resource.Attribute.tabGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIconTint = global::AppKW.Droid.Resource.Attribute.tabIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIconTintMode = global::AppKW.Droid.Resource.Attribute.tabIconTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicator = global::AppKW.Droid.Resource.Attribute.tabIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicatorAnimationDuration = global::AppKW.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicatorColor = global::AppKW.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicatorFullWidth = global::AppKW.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicatorGravity = global::AppKW.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabIndicatorHeight = global::AppKW.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabInlineLabel = global::AppKW.Droid.Resource.Attribute.tabInlineLabel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabMaxWidth = global::AppKW.Droid.Resource.Attribute.tabMaxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabMinWidth = global::AppKW.Droid.Resource.Attribute.tabMinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabMode = global::AppKW.Droid.Resource.Attribute.tabMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabPadding = global::AppKW.Droid.Resource.Attribute.tabPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabPaddingBottom = global::AppKW.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabPaddingEnd = global::AppKW.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabPaddingStart = global::AppKW.Droid.Resource.Attribute.tabPaddingStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabPaddingTop = global::AppKW.Droid.Resource.Attribute.tabPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabRippleColor = global::AppKW.Droid.Resource.Attribute.tabRippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabSelectedTextColor = global::AppKW.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabStyle = global::AppKW.Droid.Resource.Attribute.tabStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabTextAppearance = global::AppKW.Droid.Resource.Attribute.tabTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabTextColor = global::AppKW.Droid.Resource.Attribute.tabTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tabUnboundedRipple = global::AppKW.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAllCaps = global::AppKW.Droid.Resource.Attribute.textAllCaps;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceBody1 = global::AppKW.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceBody2 = global::AppKW.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceButton = global::AppKW.Droid.Resource.Attribute.textAppearanceButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceCaption = global::AppKW.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline1 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline2 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline3 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline4 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline5 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceHeadline6 = global::AppKW.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceLargePopupMenu = global::AppKW.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceListItem = global::AppKW.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceListItemSecondary = global::AppKW.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceListItemSmall = global::AppKW.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceOverline = global::AppKW.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearancePopupMenuHeader = global::AppKW.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceSearchResultSubtitle = global::AppKW.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceSearchResultTitle = global::AppKW.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceSmallPopupMenu = global::AppKW.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceSubtitle1 = global::AppKW.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textAppearanceSubtitle2 = global::AppKW.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textColorAlertDialogListItem = global::AppKW.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textColorSearchUrl = global::AppKW.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textEndPadding = global::AppKW.Droid.Resource.Attribute.textEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textInputStyle = global::AppKW.Droid.Resource.Attribute.textInputStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.textStartPadding = global::AppKW.Droid.Resource.Attribute.textStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.theme = global::AppKW.Droid.Resource.Attribute.theme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.thickness = global::AppKW.Droid.Resource.Attribute.thickness;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.thumbTextPadding = global::AppKW.Droid.Resource.Attribute.thumbTextPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.thumbTint = global::AppKW.Droid.Resource.Attribute.thumbTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.thumbTintMode = global::AppKW.Droid.Resource.Attribute.thumbTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tickMark = global::AppKW.Droid.Resource.Attribute.tickMark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tickMarkTint = global::AppKW.Droid.Resource.Attribute.tickMarkTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tickMarkTintMode = global::AppKW.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tint = global::AppKW.Droid.Resource.Attribute.tint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tintMode = global::AppKW.Droid.Resource.Attribute.tintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.title = global::AppKW.Droid.Resource.Attribute.title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleEnabled = global::AppKW.Droid.Resource.Attribute.titleEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMargin = global::AppKW.Droid.Resource.Attribute.titleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMarginBottom = global::AppKW.Droid.Resource.Attribute.titleMarginBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMarginEnd = global::AppKW.Droid.Resource.Attribute.titleMarginEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMargins = global::AppKW.Droid.Resource.Attribute.titleMargins;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMarginStart = global::AppKW.Droid.Resource.Attribute.titleMarginStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleMarginTop = global::AppKW.Droid.Resource.Attribute.titleMarginTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleTextAppearance = global::AppKW.Droid.Resource.Attribute.titleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleTextColor = global::AppKW.Droid.Resource.Attribute.titleTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.titleTextStyle = global::AppKW.Droid.Resource.Attribute.titleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.toolbarId = global::AppKW.Droid.Resource.Attribute.toolbarId;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.toolbarNavigationButtonStyle = global::AppKW.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.toolbarStyle = global::AppKW.Droid.Resource.Attribute.toolbarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tooltipForegroundColor = global::AppKW.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tooltipFrameBackground = global::AppKW.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.tooltipText = global::AppKW.Droid.Resource.Attribute.tooltipText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.track = global::AppKW.Droid.Resource.Attribute.track;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.trackTint = global::AppKW.Droid.Resource.Attribute.trackTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.trackTintMode = global::AppKW.Droid.Resource.Attribute.trackTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.ttcIndex = global::AppKW.Droid.Resource.Attribute.ttcIndex;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.useCompatPadding = global::AppKW.Droid.Resource.Attribute.useCompatPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.viewInflaterClass = global::AppKW.Droid.Resource.Attribute.viewInflaterClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.voiceIcon = global::AppKW.Droid.Resource.Attribute.voiceIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowActionBar = global::AppKW.Droid.Resource.Attribute.windowActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowActionBarOverlay = global::AppKW.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowActionModeOverlay = global::AppKW.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowFixedHeightMajor = global::AppKW.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowFixedHeightMinor = global::AppKW.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowFixedWidthMajor = global::AppKW.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowFixedWidthMinor = global::AppKW.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowMinWidthMajor = global::AppKW.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowMinWidthMinor = global::AppKW.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Attribute.windowNoTitle = global::AppKW.Droid.Resource.Attribute.windowNoTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Boolean.abc_action_bar_embed_tabs = global::AppKW.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::AppKW.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::AppKW.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_background_cache_hint_selector_material_dark = global::AppKW.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_background_cache_hint_selector_material_light = global::AppKW.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_btn_colored_borderless_text_material = global::AppKW.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_btn_colored_text_material = global::AppKW.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_color_highlight_material = global::AppKW.Droid.Resource.Color.abc_color_highlight_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_hint_foreground_material_dark = global::AppKW.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_hint_foreground_material_light = global::AppKW.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_primary_text_disable_only_material_dark = global::AppKW.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_primary_text_disable_only_material_light = global::AppKW.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_primary_text_material_dark = global::AppKW.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_primary_text_material_light = global::AppKW.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_search_url_text = global::AppKW.Droid.Resource.Color.abc_search_url_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_search_url_text_normal = global::AppKW.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_search_url_text_pressed = global::AppKW.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_search_url_text_selected = global::AppKW.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_secondary_text_material_dark = global::AppKW.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_secondary_text_material_light = global::AppKW.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_btn_checkable = global::AppKW.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_default = global::AppKW.Droid.Resource.Color.abc_tint_default;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_edittext = global::AppKW.Droid.Resource.Color.abc_tint_edittext;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_seek_thumb = global::AppKW.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_spinner = global::AppKW.Droid.Resource.Color.abc_tint_spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.abc_tint_switch_track = global::AppKW.Droid.Resource.Color.abc_tint_switch_track;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.accent_material_dark = global::AppKW.Droid.Resource.Color.accent_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.accent_material_light = global::AppKW.Droid.Resource.Color.accent_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.background_floating_material_dark = global::AppKW.Droid.Resource.Color.background_floating_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.background_floating_material_light = global::AppKW.Droid.Resource.Color.background_floating_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.background_material_dark = global::AppKW.Droid.Resource.Color.background_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.background_material_light = global::AppKW.Droid.Resource.Color.background_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_disabled_material_dark = global::AppKW.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_disabled_material_light = global::AppKW.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_inverse_material_dark = global::AppKW.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_inverse_material_light = global::AppKW.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_material_dark = global::AppKW.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.bright_foreground_material_light = global::AppKW.Droid.Resource.Color.bright_foreground_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.browser_actions_bg_grey = global::AppKW.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.browser_actions_divider_color = global::AppKW.Droid.Resource.Color.browser_actions_divider_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.browser_actions_text_color = global::AppKW.Droid.Resource.Color.browser_actions_text_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.browser_actions_title_color = global::AppKW.Droid.Resource.Color.browser_actions_title_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.button_material_dark = global::AppKW.Droid.Resource.Color.button_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.button_material_light = global::AppKW.Droid.Resource.Color.button_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.cardview_dark_background = global::AppKW.Droid.Resource.Color.cardview_dark_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.cardview_light_background = global::AppKW.Droid.Resource.Color.cardview_light_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.cardview_shadow_end_color = global::AppKW.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.cardview_shadow_start_color = global::AppKW.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_bottom_navigation_shadow_color = global::AppKW.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_default_color_primary = global::AppKW.Droid.Resource.Color.design_default_color_primary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_default_color_primary_dark = global::AppKW.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_error = global::AppKW.Droid.Resource.Color.design_error;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_shadow_end_color = global::AppKW.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_shadow_mid_color = global::AppKW.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_shadow_start_color = global::AppKW.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_stroke_end_inner_color = global::AppKW.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_stroke_end_outer_color = global::AppKW.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_stroke_top_inner_color = global::AppKW.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_fab_stroke_top_outer_color = global::AppKW.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.design_snackbar_background_color = global::AppKW.Droid.Resource.Color.design_snackbar_background_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.dim_foreground_disabled_material_dark = global::AppKW.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.dim_foreground_disabled_material_light = global::AppKW.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.dim_foreground_material_dark = global::AppKW.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.dim_foreground_material_light = global::AppKW.Droid.Resource.Color.dim_foreground_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.error_color_material_dark = global::AppKW.Droid.Resource.Color.error_color_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.error_color_material_light = global::AppKW.Droid.Resource.Color.error_color_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.foreground_material_dark = global::AppKW.Droid.Resource.Color.foreground_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.foreground_material_light = global::AppKW.Droid.Resource.Color.foreground_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.highlighted_text_material_dark = global::AppKW.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.highlighted_text_material_light = global::AppKW.Droid.Resource.Color.highlighted_text_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_blue_grey_800 = global::AppKW.Droid.Resource.Color.material_blue_grey_800;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_blue_grey_900 = global::AppKW.Droid.Resource.Color.material_blue_grey_900;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_blue_grey_950 = global::AppKW.Droid.Resource.Color.material_blue_grey_950;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_deep_teal_200 = global::AppKW.Droid.Resource.Color.material_deep_teal_200;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_deep_teal_500 = global::AppKW.Droid.Resource.Color.material_deep_teal_500;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_100 = global::AppKW.Droid.Resource.Color.material_grey_100;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_300 = global::AppKW.Droid.Resource.Color.material_grey_300;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_50 = global::AppKW.Droid.Resource.Color.material_grey_50;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_600 = global::AppKW.Droid.Resource.Color.material_grey_600;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_800 = global::AppKW.Droid.Resource.Color.material_grey_800;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_850 = global::AppKW.Droid.Resource.Color.material_grey_850;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.material_grey_900 = global::AppKW.Droid.Resource.Color.material_grey_900;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_bg_color_selector = global::AppKW.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_ripple_color = global::AppKW.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_stroke_color_selector = global::AppKW.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_text_btn_ripple_color = global::AppKW.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_text_color_disabled = global::AppKW.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_text_color_selector = global::AppKW.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_btn_transparent_bg_color = global::AppKW.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_chip_background_color = global::AppKW.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_chip_close_icon_tint = global::AppKW.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_chip_text_color = global::AppKW.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_fab_ripple_color = global::AppKW.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_scrim_color = global::AppKW.Droid.Resource.Color.mtrl_scrim_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_tabs_colored_ripple_color = global::AppKW.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_tabs_icon_color_selector = global::AppKW.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::AppKW.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::AppKW.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_tabs_ripple_color = global::AppKW.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_textinput_default_box_stroke_color = global::AppKW.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_textinput_disabled_color = global::AppKW.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::AppKW.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::AppKW.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.mtrl_text_btn_text_color_selector = global::AppKW.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.notification_action_color_filter = global::AppKW.Droid.Resource.Color.notification_action_color_filter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.notification_icon_bg_color = global::AppKW.Droid.Resource.Color.notification_icon_bg_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.notification_material_background_media_default_color = global::AppKW.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_dark_material_dark = global::AppKW.Droid.Resource.Color.primary_dark_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_dark_material_light = global::AppKW.Droid.Resource.Color.primary_dark_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_material_dark = global::AppKW.Droid.Resource.Color.primary_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_material_light = global::AppKW.Droid.Resource.Color.primary_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_text_default_material_dark = global::AppKW.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_text_default_material_light = global::AppKW.Droid.Resource.Color.primary_text_default_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_text_disabled_material_dark = global::AppKW.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.primary_text_disabled_material_light = global::AppKW.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.ripple_material_dark = global::AppKW.Droid.Resource.Color.ripple_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.ripple_material_light = global::AppKW.Droid.Resource.Color.ripple_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.secondary_text_default_material_dark = global::AppKW.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.secondary_text_default_material_light = global::AppKW.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.secondary_text_disabled_material_dark = global::AppKW.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.secondary_text_disabled_material_light = global::AppKW.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_disabled_material_dark = global::AppKW.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_disabled_material_light = global::AppKW.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_material_dark = global::AppKW.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_material_light = global::AppKW.Droid.Resource.Color.switch_thumb_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_normal_material_dark = global::AppKW.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.switch_thumb_normal_material_light = global::AppKW.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.tooltip_background_dark = global::AppKW.Droid.Resource.Color.tooltip_background_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Color.tooltip_background_light = global::AppKW.Droid.Resource.Color.tooltip_background_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_content_inset_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::AppKW.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_default_height_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_default_padding_end_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_default_padding_start_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_elevation_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_stacked_max_height = global::AppKW.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::AppKW.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::AppKW.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_button_min_height_material = global::AppKW.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_button_min_width_material = global::AppKW.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_action_button_min_width_overflow_material = global::AppKW.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_alert_dialog_button_bar_height = global::AppKW.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_alert_dialog_button_dimen = global::AppKW.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_button_inset_horizontal_material = global::AppKW.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_button_inset_vertical_material = global::AppKW.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_button_padding_horizontal_material = global::AppKW.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_button_padding_vertical_material = global::AppKW.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::AppKW.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_config_prefDialogWidth = global::AppKW.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_control_corner_material = global::AppKW.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_control_inset_material = global::AppKW.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_control_padding_material = global::AppKW.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_corner_radius_material = global::AppKW.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_fixed_height_major = global::AppKW.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_fixed_height_minor = global::AppKW.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_fixed_width_major = global::AppKW.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_fixed_width_minor = global::AppKW.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::AppKW.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::AppKW.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_min_width_major = global::AppKW.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_min_width_minor = global::AppKW.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_padding_material = global::AppKW.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_padding_top_material = global::AppKW.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dialog_title_divider_material = global::AppKW.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_disabled_alpha_material_dark = global::AppKW.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_disabled_alpha_material_light = global::AppKW.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dropdownitem_icon_width = global::AppKW.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dropdownitem_text_padding_left = global::AppKW.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_dropdownitem_text_padding_right = global::AppKW.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_edit_text_inset_bottom_material = global::AppKW.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::AppKW.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_edit_text_inset_top_material = global::AppKW.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_floating_window_z = global::AppKW.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_list_item_padding_horizontal_material = global::AppKW.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_panel_menu_list_width = global::AppKW.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_progress_bar_height_material = global::AppKW.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_search_view_preferred_height = global::AppKW.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_search_view_preferred_width = global::AppKW.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_seekbar_track_background_height_material = global::AppKW.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_seekbar_track_progress_height_material = global::AppKW.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_select_dialog_padding_start_material = global::AppKW.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_switch_padding = global::AppKW.Droid.Resource.Dimension.abc_switch_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_body_1_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_body_2_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_button_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_caption_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_display_1_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_display_2_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_display_3_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_display_4_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_headline_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_large_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_medium_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_menu_header_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_menu_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_small_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_subhead_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::AppKW.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_title_material = global::AppKW.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.abc_text_size_title_material_toolbar = global::AppKW.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.browser_actions_context_menu_max_width = global::AppKW.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.browser_actions_context_menu_min_padding = global::AppKW.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.cardview_compat_inset_shadow = global::AppKW.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.cardview_default_elevation = global::AppKW.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.cardview_default_radius = global::AppKW.Droid.Resource.Dimension.cardview_default_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_button_inset_horizontal_material = global::AppKW.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_button_inset_vertical_material = global::AppKW.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_button_padding_horizontal_material = global::AppKW.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_button_padding_vertical_material = global::AppKW.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_control_corner_material = global::AppKW.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_notification_large_icon_max_height = global::AppKW.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.compat_notification_large_icon_max_width = global::AppKW.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_appbar_elevation = global::AppKW.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_active_text_size = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_elevation = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_height = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_icon_size = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_item_max_width = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_item_min_width = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_margin = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_shadow_height = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_navigation_text_size = global::AppKW.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_sheet_modal_elevation = global::AppKW.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_bottom_sheet_peek_height_min = global::AppKW.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_border_width = global::AppKW.Droid.Resource.Dimension.design_fab_border_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_elevation = global::AppKW.Droid.Resource.Dimension.design_fab_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_image_size = global::AppKW.Droid.Resource.Dimension.design_fab_image_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_size_mini = global::AppKW.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_size_normal = global::AppKW.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_translation_z_hovered_focused = global::AppKW.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_fab_translation_z_pressed = global::AppKW.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_elevation = global::AppKW.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_icon_padding = global::AppKW.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_icon_size = global::AppKW.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_item_horizontal_padding = global::AppKW.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_item_icon_padding = global::AppKW.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_max_width = global::AppKW.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_padding_bottom = global::AppKW.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_navigation_separator_vertical_padding = global::AppKW.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_action_inline_max_width = global::AppKW.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_background_corner_radius = global::AppKW.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_elevation = global::AppKW.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::AppKW.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_max_width = global::AppKW.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_min_width = global::AppKW.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_padding_horizontal = global::AppKW.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_padding_vertical = global::AppKW.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::AppKW.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_snackbar_text_size = global::AppKW.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_tab_max_width = global::AppKW.Droid.Resource.Dimension.design_tab_max_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_tab_scrollable_min_width = global::AppKW.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_tab_text_size = global::AppKW.Droid.Resource.Dimension.design_tab_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_tab_text_size_2line = global::AppKW.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.design_textinput_caption_translate_y = global::AppKW.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.disabled_alpha_material_dark = global::AppKW.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.disabled_alpha_material_light = global::AppKW.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.fastscroll_default_thickness = global::AppKW.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.fastscroll_margin = global::AppKW.Droid.Resource.Dimension.fastscroll_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.fastscroll_minimum_range = global::AppKW.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.highlight_alpha_material_colored = global::AppKW.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.highlight_alpha_material_dark = global::AppKW.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.highlight_alpha_material_light = global::AppKW.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.hint_alpha_material_dark = global::AppKW.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.hint_alpha_material_light = global::AppKW.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.hint_pressed_alpha_material_dark = global::AppKW.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.hint_pressed_alpha_material_light = global::AppKW.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::AppKW.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::AppKW.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::AppKW.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::AppKW.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::AppKW.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::AppKW.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::AppKW.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_bottomappbar_height = global::AppKW.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_corner_radius = global::AppKW.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::AppKW.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_disabled_elevation = global::AppKW.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_disabled_z = global::AppKW.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_elevation = global::AppKW.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_focused_z = global::AppKW.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_hovered_z = global::AppKW.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::AppKW.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_icon_padding = global::AppKW.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_inset = global::AppKW.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_letter_spacing = global::AppKW.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_padding_bottom = global::AppKW.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_padding_left = global::AppKW.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_padding_right = global::AppKW.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_padding_top = global::AppKW.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_pressed_z = global::AppKW.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_stroke_size = global::AppKW.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::AppKW.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::AppKW.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::AppKW.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_text_size = global::AppKW.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_btn_z = global::AppKW.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_card_elevation = global::AppKW.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_card_spacing = global::AppKW.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_chip_pressed_translation_z = global::AppKW.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_chip_text_size = global::AppKW.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_fab_elevation = global::AppKW.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::AppKW.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_fab_translation_z_pressed = global::AppKW.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_navigation_elevation = global::AppKW.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::AppKW.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_navigation_item_icon_padding = global::AppKW.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::AppKW.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_snackbar_margin = global::AppKW.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::AppKW.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.mtrl_toolbar_default_height = global::AppKW.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_action_icon_size = global::AppKW.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_action_text_size = global::AppKW.Droid.Resource.Dimension.notification_action_text_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_big_circle_margin = global::AppKW.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_content_margin_start = global::AppKW.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_large_icon_height = global::AppKW.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_large_icon_width = global::AppKW.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_main_column_padding_top = global::AppKW.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_media_narrow_margin = global::AppKW.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_right_icon_size = global::AppKW.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_right_side_padding_top = global::AppKW.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_small_icon_background_padding = global::AppKW.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_small_icon_size_as_large = global::AppKW.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_subtext_size = global::AppKW.Droid.Resource.Dimension.notification_subtext_size;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_top_pad = global::AppKW.Droid.Resource.Dimension.notification_top_pad;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.notification_top_pad_large_text = global::AppKW.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_corner_radius = global::AppKW.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_horizontal_padding = global::AppKW.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_margin = global::AppKW.Droid.Resource.Dimension.tooltip_margin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::AppKW.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_precise_anchor_threshold = global::AppKW.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_vertical_padding = global::AppKW.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_y_offset_non_touch = global::AppKW.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Dimension.tooltip_y_offset_touch = global::AppKW.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_action_bar_item_background_material = global::AppKW.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_borderless_material = global::AppKW.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_check_material = global::AppKW.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::AppKW.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::AppKW.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_colored_material = global::AppKW.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_default_mtrl_shape = global::AppKW.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_radio_material = global::AppKW.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::AppKW.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::AppKW.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::AppKW.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::AppKW.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_cab_background_internal_bg = global::AppKW.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_cab_background_top_material = global::AppKW.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_control_background_material = global::AppKW.Droid.Resource.Drawable.abc_control_background_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_dialog_material_background = global::AppKW.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_edit_text_material = global::AppKW.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_ab_back_material = global::AppKW.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::AppKW.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_clear_material = global::AppKW.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_go_search_api_material = global::AppKW.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_overflow_material = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_search_api_material = global::AppKW.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ic_voice_search_api_material = global::AppKW.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_item_background_holo_dark = global::AppKW.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_item_background_holo_light = global::AppKW.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_divider_material = global::AppKW.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_divider_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_focused_holo = global::AppKW.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_longpressed_holo = global::AppKW.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_pressed_holo_dark = global::AppKW.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_pressed_holo_light = global::AppKW.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::AppKW.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::AppKW.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::AppKW.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_disabled_holo_light = global::AppKW.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_holo_dark = global::AppKW.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_list_selector_holo_light = global::AppKW.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::AppKW.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_popup_background_mtrl_mult = global::AppKW.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ratingbar_indicator_material = global::AppKW.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ratingbar_material = global::AppKW.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_ratingbar_small_material = global::AppKW.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::AppKW.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::AppKW.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_seekbar_thumb_material = global::AppKW.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_seekbar_tick_mark_material = global::AppKW.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_seekbar_track_material = global::AppKW.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::AppKW.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_spinner_textfield_background_material = global::AppKW.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_switch_thumb_material = global::AppKW.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_switch_track_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_tab_indicator_material = global::AppKW.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::AppKW.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_textfield_search_material = global::AppKW.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_text_cursor_material = global::AppKW.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.abc_vector_test = global::AppKW.Droid.Resource.Drawable.abc_vector_test;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.avd_hide_password = global::AppKW.Droid.Resource.Drawable.avd_hide_password;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.avd_show_password = global::AppKW.Droid.Resource.Drawable.avd_show_password;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.design_fab_background = global::AppKW.Droid.Resource.Drawable.design_fab_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.design_ic_visibility = global::AppKW.Droid.Resource.Drawable.design_ic_visibility;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.design_ic_visibility_off = global::AppKW.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.design_password_eye = global::AppKW.Droid.Resource.Drawable.design_password_eye;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.design_snackbar_background = global::AppKW.Droid.Resource.Drawable.design_snackbar_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.ic_mtrl_chip_checked_black = global::AppKW.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.ic_mtrl_chip_checked_circle = global::AppKW.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.ic_mtrl_chip_close_circle = global::AppKW.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.mtrl_tabs_default_indicator = global::AppKW.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.navigation_empty_icon = global::AppKW.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_action_background = global::AppKW.Droid.Resource.Drawable.notification_action_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg = global::AppKW.Droid.Resource.Drawable.notification_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg_low = global::AppKW.Droid.Resource.Drawable.notification_bg_low;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg_low_normal = global::AppKW.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg_low_pressed = global::AppKW.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg_normal = global::AppKW.Droid.Resource.Drawable.notification_bg_normal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_bg_normal_pressed = global::AppKW.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_icon_background = global::AppKW.Droid.Resource.Drawable.notification_icon_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_template_icon_bg = global::AppKW.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_template_icon_low_bg = global::AppKW.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notification_tile_bg = global::AppKW.Droid.Resource.Drawable.notification_tile_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.notify_panel_notification_icon_bg = global::AppKW.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.tooltip_frame_dark = global::AppKW.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Drawable.tooltip_frame_light = global::AppKW.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action0 = global::AppKW.Droid.Resource.Id.action0;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.actions = global::AppKW.Droid.Resource.Id.actions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar = global::AppKW.Droid.Resource.Id.action_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_activity_content = global::AppKW.Droid.Resource.Id.action_bar_activity_content;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_container = global::AppKW.Droid.Resource.Id.action_bar_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_root = global::AppKW.Droid.Resource.Id.action_bar_root;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_spinner = global::AppKW.Droid.Resource.Id.action_bar_spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_subtitle = global::AppKW.Droid.Resource.Id.action_bar_subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_bar_title = global::AppKW.Droid.Resource.Id.action_bar_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_container = global::AppKW.Droid.Resource.Id.action_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_context_bar = global::AppKW.Droid.Resource.Id.action_context_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_divider = global::AppKW.Droid.Resource.Id.action_divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_image = global::AppKW.Droid.Resource.Id.action_image;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_menu_divider = global::AppKW.Droid.Resource.Id.action_menu_divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_menu_presenter = global::AppKW.Droid.Resource.Id.action_menu_presenter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_mode_bar = global::AppKW.Droid.Resource.Id.action_mode_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_mode_bar_stub = global::AppKW.Droid.Resource.Id.action_mode_bar_stub;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_mode_close_button = global::AppKW.Droid.Resource.Id.action_mode_close_button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.action_text = global::AppKW.Droid.Resource.Id.action_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.activity_chooser_view_content = global::AppKW.Droid.Resource.Id.activity_chooser_view_content;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.add = global::AppKW.Droid.Resource.Id.add;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.alertTitle = global::AppKW.Droid.Resource.Id.alertTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.all = global::AppKW.Droid.Resource.Id.all;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.ALT = global::AppKW.Droid.Resource.Id.ALT;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.always = global::AppKW.Droid.Resource.Id.always;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.async = global::AppKW.Droid.Resource.Id.async;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.auto = global::AppKW.Droid.Resource.Id.auto;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.beginning = global::AppKW.Droid.Resource.Id.beginning;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.blocking = global::AppKW.Droid.Resource.Id.blocking;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.bottom = global::AppKW.Droid.Resource.Id.bottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.bottomtab_navarea = global::AppKW.Droid.Resource.Id.bottomtab_navarea;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.bottomtab_tabbar = global::AppKW.Droid.Resource.Id.bottomtab_tabbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.browser_actions_header_text = global::AppKW.Droid.Resource.Id.browser_actions_header_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.browser_actions_menu_items = global::AppKW.Droid.Resource.Id.browser_actions_menu_items;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.browser_actions_menu_item_icon = global::AppKW.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.browser_actions_menu_item_text = global::AppKW.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.browser_actions_menu_view = global::AppKW.Droid.Resource.Id.browser_actions_menu_view;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.buttonPanel = global::AppKW.Droid.Resource.Id.buttonPanel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.cancel_action = global::AppKW.Droid.Resource.Id.cancel_action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.center = global::AppKW.Droid.Resource.Id.center;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.center_horizontal = global::AppKW.Droid.Resource.Id.center_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.center_vertical = global::AppKW.Droid.Resource.Id.center_vertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.checkbox = global::AppKW.Droid.Resource.Id.checkbox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.chronometer = global::AppKW.Droid.Resource.Id.chronometer;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.clip_horizontal = global::AppKW.Droid.Resource.Id.clip_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.clip_vertical = global::AppKW.Droid.Resource.Id.clip_vertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.collapseActionView = global::AppKW.Droid.Resource.Id.collapseActionView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.container = global::AppKW.Droid.Resource.Id.container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.content = global::AppKW.Droid.Resource.Id.content;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.contentPanel = global::AppKW.Droid.Resource.Id.contentPanel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.coordinator = global::AppKW.Droid.Resource.Id.coordinator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.CTRL = global::AppKW.Droid.Resource.Id.CTRL;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.custom = global::AppKW.Droid.Resource.Id.custom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.customPanel = global::AppKW.Droid.Resource.Id.customPanel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.decor_content_parent = global::AppKW.Droid.Resource.Id.decor_content_parent;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.default_activity_button = global::AppKW.Droid.Resource.Id.default_activity_button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.design_bottom_sheet = global::AppKW.Droid.Resource.Id.design_bottom_sheet;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.design_menu_item_action_area = global::AppKW.Droid.Resource.Id.design_menu_item_action_area;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.design_menu_item_action_area_stub = global::AppKW.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.design_menu_item_text = global::AppKW.Droid.Resource.Id.design_menu_item_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.design_navigation_view = global::AppKW.Droid.Resource.Id.design_navigation_view;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.disableHome = global::AppKW.Droid.Resource.Id.disableHome;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.edit_query = global::AppKW.Droid.Resource.Id.edit_query;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.end = global::AppKW.Droid.Resource.Id.end;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.end_padder = global::AppKW.Droid.Resource.Id.end_padder;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.enterAlways = global::AppKW.Droid.Resource.Id.enterAlways;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.enterAlwaysCollapsed = global::AppKW.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.exitUntilCollapsed = global::AppKW.Droid.Resource.Id.exitUntilCollapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.expanded_menu = global::AppKW.Droid.Resource.Id.expanded_menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.expand_activities_button = global::AppKW.Droid.Resource.Id.expand_activities_button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.fill = global::AppKW.Droid.Resource.Id.fill;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.filled = global::AppKW.Droid.Resource.Id.filled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.fill_horizontal = global::AppKW.Droid.Resource.Id.fill_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.fill_vertical = global::AppKW.Droid.Resource.Id.fill_vertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.@fixed = global::AppKW.Droid.Resource.Id.@fixed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.flyoutcontent_appbar = global::AppKW.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.forever = global::AppKW.Droid.Resource.Id.forever;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.FUNCTION = global::AppKW.Droid.Resource.Id.FUNCTION;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.ghost_view = global::AppKW.Droid.Resource.Id.ghost_view;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.group_divider = global::AppKW.Droid.Resource.Id.group_divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.home = global::AppKW.Droid.Resource.Id.home;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.homeAsUp = global::AppKW.Droid.Resource.Id.homeAsUp;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.icon = global::AppKW.Droid.Resource.Id.icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.icon_group = global::AppKW.Droid.Resource.Id.icon_group;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.ifRoom = global::AppKW.Droid.Resource.Id.ifRoom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.image = global::AppKW.Droid.Resource.Id.image;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.info = global::AppKW.Droid.Resource.Id.info;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.italic = global::AppKW.Droid.Resource.Id.italic;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.item_touch_helper_previous_elevation = global::AppKW.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.labeled = global::AppKW.Droid.Resource.Id.labeled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.left = global::AppKW.Droid.Resource.Id.left;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.line1 = global::AppKW.Droid.Resource.Id.line1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.line3 = global::AppKW.Droid.Resource.Id.line3;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.listMode = global::AppKW.Droid.Resource.Id.listMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.list_item = global::AppKW.Droid.Resource.Id.list_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.main_appbar = global::AppKW.Droid.Resource.Id.main_appbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.main_tablayout = global::AppKW.Droid.Resource.Id.main_tablayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.main_toolbar = global::AppKW.Droid.Resource.Id.main_toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.main_viewpager = global::AppKW.Droid.Resource.Id.main_viewpager;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.masked = global::AppKW.Droid.Resource.Id.masked;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.media_actions = global::AppKW.Droid.Resource.Id.media_actions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.message = global::AppKW.Droid.Resource.Id.message;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.META = global::AppKW.Droid.Resource.Id.META;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.middle = global::AppKW.Droid.Resource.Id.middle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.mini = global::AppKW.Droid.Resource.Id.mini;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.mtrl_child_content_container = global::AppKW.Droid.Resource.Id.mtrl_child_content_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.mtrl_internal_children_alpha_tag = global::AppKW.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.multiply = global::AppKW.Droid.Resource.Id.multiply;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.navigation_header_container = global::AppKW.Droid.Resource.Id.navigation_header_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.never = global::AppKW.Droid.Resource.Id.never;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.none = global::AppKW.Droid.Resource.Id.none;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.normal = global::AppKW.Droid.Resource.Id.normal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.notification_background = global::AppKW.Droid.Resource.Id.notification_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.notification_main_column = global::AppKW.Droid.Resource.Id.notification_main_column;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.notification_main_column_container = global::AppKW.Droid.Resource.Id.notification_main_column_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.outline = global::AppKW.Droid.Resource.Id.outline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.parallax = global::AppKW.Droid.Resource.Id.parallax;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.parentPanel = global::AppKW.Droid.Resource.Id.parentPanel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.parent_matrix = global::AppKW.Droid.Resource.Id.parent_matrix;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.pin = global::AppKW.Droid.Resource.Id.pin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.progress_circular = global::AppKW.Droid.Resource.Id.progress_circular;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.progress_horizontal = global::AppKW.Droid.Resource.Id.progress_horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.radio = global::AppKW.Droid.Resource.Id.radio;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.right = global::AppKW.Droid.Resource.Id.right;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.right_icon = global::AppKW.Droid.Resource.Id.right_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.right_side = global::AppKW.Droid.Resource.Id.right_side;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.save_non_transition_alpha = global::AppKW.Droid.Resource.Id.save_non_transition_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.screen = global::AppKW.Droid.Resource.Id.screen;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.scroll = global::AppKW.Droid.Resource.Id.scroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.scrollable = global::AppKW.Droid.Resource.Id.scrollable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.scrollIndicatorDown = global::AppKW.Droid.Resource.Id.scrollIndicatorDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.scrollIndicatorUp = global::AppKW.Droid.Resource.Id.scrollIndicatorUp;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.scrollView = global::AppKW.Droid.Resource.Id.scrollView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_badge = global::AppKW.Droid.Resource.Id.search_badge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_bar = global::AppKW.Droid.Resource.Id.search_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_button = global::AppKW.Droid.Resource.Id.search_button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_close_btn = global::AppKW.Droid.Resource.Id.search_close_btn;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_edit_frame = global::AppKW.Droid.Resource.Id.search_edit_frame;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_go_btn = global::AppKW.Droid.Resource.Id.search_go_btn;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_mag_icon = global::AppKW.Droid.Resource.Id.search_mag_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_plate = global::AppKW.Droid.Resource.Id.search_plate;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_src_text = global::AppKW.Droid.Resource.Id.search_src_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.search_voice_btn = global::AppKW.Droid.Resource.Id.search_voice_btn;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.selected = global::AppKW.Droid.Resource.Id.selected;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.select_dialog_listview = global::AppKW.Droid.Resource.Id.select_dialog_listview;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.shellcontent_appbar = global::AppKW.Droid.Resource.Id.shellcontent_appbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.shellcontent_toolbar = global::AppKW.Droid.Resource.Id.shellcontent_toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.SHIFT = global::AppKW.Droid.Resource.Id.SHIFT;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.shortcut = global::AppKW.Droid.Resource.Id.shortcut;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.showCustom = global::AppKW.Droid.Resource.Id.showCustom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.showHome = global::AppKW.Droid.Resource.Id.showHome;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.showTitle = global::AppKW.Droid.Resource.Id.showTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.snackbar_action = global::AppKW.Droid.Resource.Id.snackbar_action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.snackbar_text = global::AppKW.Droid.Resource.Id.snackbar_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.snap = global::AppKW.Droid.Resource.Id.snap;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.snapMargins = global::AppKW.Droid.Resource.Id.snapMargins;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.spacer = global::AppKW.Droid.Resource.Id.spacer;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.split_action_bar = global::AppKW.Droid.Resource.Id.split_action_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.src_atop = global::AppKW.Droid.Resource.Id.src_atop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.src_in = global::AppKW.Droid.Resource.Id.src_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.src_over = global::AppKW.Droid.Resource.Id.src_over;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.start = global::AppKW.Droid.Resource.Id.start;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.status_bar_latest_event_content = global::AppKW.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.stretch = global::AppKW.Droid.Resource.Id.stretch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.submenuarrow = global::AppKW.Droid.Resource.Id.submenuarrow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.submit_area = global::AppKW.Droid.Resource.Id.submit_area;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.SYM = global::AppKW.Droid.Resource.Id.SYM;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.tabMode = global::AppKW.Droid.Resource.Id.tabMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.tag_transition_group = global::AppKW.Droid.Resource.Id.tag_transition_group;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.tag_unhandled_key_event_manager = global::AppKW.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.tag_unhandled_key_listeners = global::AppKW.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.text = global::AppKW.Droid.Resource.Id.text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.text2 = global::AppKW.Droid.Resource.Id.text2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textinput_counter = global::AppKW.Droid.Resource.Id.textinput_counter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textinput_error = global::AppKW.Droid.Resource.Id.textinput_error;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textinput_helper_text = global::AppKW.Droid.Resource.Id.textinput_helper_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textSpacerNoButtons = global::AppKW.Droid.Resource.Id.textSpacerNoButtons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textSpacerNoTitle = global::AppKW.Droid.Resource.Id.textSpacerNoTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.textStart = global::AppKW.Droid.Resource.Id.textStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.time = global::AppKW.Droid.Resource.Id.time;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.title = global::AppKW.Droid.Resource.Id.title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.titleDividerNoCustom = global::AppKW.Droid.Resource.Id.titleDividerNoCustom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.title_template = global::AppKW.Droid.Resource.Id.title_template;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.top = global::AppKW.Droid.Resource.Id.top;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.topPanel = global::AppKW.Droid.Resource.Id.topPanel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.touch_outside = global::AppKW.Droid.Resource.Id.touch_outside;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.transition_current_scene = global::AppKW.Droid.Resource.Id.transition_current_scene;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.transition_layout_save = global::AppKW.Droid.Resource.Id.transition_layout_save;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.transition_position = global::AppKW.Droid.Resource.Id.transition_position;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.transition_scene_layoutid_cache = global::AppKW.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.transition_transform = global::AppKW.Droid.Resource.Id.transition_transform;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.uniform = global::AppKW.Droid.Resource.Id.uniform;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.unlabeled = global::AppKW.Droid.Resource.Id.unlabeled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.up = global::AppKW.Droid.Resource.Id.up;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.useLogo = global::AppKW.Droid.Resource.Id.useLogo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.view_offset_helper = global::AppKW.Droid.Resource.Id.view_offset_helper;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.visible = global::AppKW.Droid.Resource.Id.visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.withText = global::AppKW.Droid.Resource.Id.withText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Id.wrap_content = global::AppKW.Droid.Resource.Id.wrap_content;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.abc_config_activityDefaultDur = global::AppKW.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.abc_config_activityShortDur = global::AppKW.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.app_bar_elevation_anim_duration = global::AppKW.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.bottom_sheet_slide_duration = global::AppKW.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.cancel_button_image_alpha = global::AppKW.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.config_tooltipAnimTime = global::AppKW.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.design_snackbar_text_max_lines = global::AppKW.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.design_tab_indicator_anim_duration_ms = global::AppKW.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.hide_password_duration = global::AppKW.Droid.Resource.Integer.hide_password_duration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.mtrl_btn_anim_delay_ms = global::AppKW.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.mtrl_btn_anim_duration_ms = global::AppKW.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.mtrl_chip_anim_duration = global::AppKW.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::AppKW.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.show_password_duration = global::AppKW.Droid.Resource.Integer.show_password_duration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Integer.status_bar_notification_info_maxnum = global::AppKW.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Interpolator.mtrl_fast_out_linear_in = global::AppKW.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Interpolator.mtrl_fast_out_slow_in = global::AppKW.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Interpolator.mtrl_linear = global::AppKW.Droid.Resource.Interpolator.mtrl_linear;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Interpolator.mtrl_linear_out_slow_in = global::AppKW.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_bar_title_item = global::AppKW.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_bar_up_container = global::AppKW.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_menu_item_layout = global::AppKW.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_menu_layout = global::AppKW.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_mode_bar = global::AppKW.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_action_mode_close_item_material = global::AppKW.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_activity_chooser_view = global::AppKW.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_activity_chooser_view_list_item = global::AppKW.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_alert_dialog_button_bar_material = global::AppKW.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_alert_dialog_material = global::AppKW.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_alert_dialog_title_material = global::AppKW.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_cascading_menu_item_layout = global::AppKW.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_dialog_title_material = global::AppKW.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_expanded_menu_layout = global::AppKW.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_list_menu_item_checkbox = global::AppKW.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_list_menu_item_icon = global::AppKW.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_list_menu_item_layout = global::AppKW.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_list_menu_item_radio = global::AppKW.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_popup_menu_header_item_layout = global::AppKW.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_popup_menu_item_layout = global::AppKW.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_screen_content_include = global::AppKW.Droid.Resource.Layout.abc_screen_content_include;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_screen_simple = global::AppKW.Droid.Resource.Layout.abc_screen_simple;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_screen_simple_overlay_action_mode = global::AppKW.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_screen_toolbar = global::AppKW.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_search_dropdown_item_icons_2line = global::AppKW.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_search_view = global::AppKW.Droid.Resource.Layout.abc_search_view;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_select_dialog_material = global::AppKW.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.abc_tooltip = global::AppKW.Droid.Resource.Layout.abc_tooltip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.BottomTabLayout = global::AppKW.Droid.Resource.Layout.BottomTabLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.browser_actions_context_menu_page = global::AppKW.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.browser_actions_context_menu_row = global::AppKW.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_bottom_navigation_item = global::AppKW.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_bottom_sheet_dialog = global::AppKW.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_layout_snackbar = global::AppKW.Droid.Resource.Layout.design_layout_snackbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_layout_snackbar_include = global::AppKW.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_layout_tab_icon = global::AppKW.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_layout_tab_text = global::AppKW.Droid.Resource.Layout.design_layout_tab_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_menu_item_action_area = global::AppKW.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_item = global::AppKW.Droid.Resource.Layout.design_navigation_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_item_header = global::AppKW.Droid.Resource.Layout.design_navigation_item_header;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_item_separator = global::AppKW.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_item_subheader = global::AppKW.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_menu = global::AppKW.Droid.Resource.Layout.design_navigation_menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.design_navigation_menu_item = global::AppKW.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.FlyoutContent = global::AppKW.Droid.Resource.Layout.FlyoutContent;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.mtrl_layout_snackbar = global::AppKW.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.mtrl_layout_snackbar_include = global::AppKW.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_action = global::AppKW.Droid.Resource.Layout.notification_action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_action_tombstone = global::AppKW.Droid.Resource.Layout.notification_action_tombstone;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_media_action = global::AppKW.Droid.Resource.Layout.notification_media_action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_media_cancel_action = global::AppKW.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_big_media = global::AppKW.Droid.Resource.Layout.notification_template_big_media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_big_media_custom = global::AppKW.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_big_media_narrow = global::AppKW.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_big_media_narrow_custom = global::AppKW.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_custom_big = global::AppKW.Droid.Resource.Layout.notification_template_custom_big;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_icon_group = global::AppKW.Droid.Resource.Layout.notification_template_icon_group;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_lines_media = global::AppKW.Droid.Resource.Layout.notification_template_lines_media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_media = global::AppKW.Droid.Resource.Layout.notification_template_media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_media_custom = global::AppKW.Droid.Resource.Layout.notification_template_media_custom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_part_chronometer = global::AppKW.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.notification_template_part_time = global::AppKW.Droid.Resource.Layout.notification_template_part_time;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.RootLayout = global::AppKW.Droid.Resource.Layout.RootLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.select_dialog_item_material = global::AppKW.Droid.Resource.Layout.select_dialog_item_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.select_dialog_multichoice_material = global::AppKW.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.select_dialog_singlechoice_material = global::AppKW.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.ShellContent = global::AppKW.Droid.Resource.Layout.ShellContent;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Layout.support_simple_spinner_dropdown_item = global::AppKW.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_action_bar_home_description = global::AppKW.Droid.Resource.String.abc_action_bar_home_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_action_bar_up_description = global::AppKW.Droid.Resource.String.abc_action_bar_up_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_action_menu_overflow_description = global::AppKW.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_action_mode_done = global::AppKW.Droid.Resource.String.abc_action_mode_done;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_activitychooserview_choose_application = global::AppKW.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_activity_chooser_view_see_all = global::AppKW.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_capital_off = global::AppKW.Droid.Resource.String.abc_capital_off;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_capital_on = global::AppKW.Droid.Resource.String.abc_capital_on;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_alt_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_ctrl_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_delete_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_enter_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_function_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_meta_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_shift_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_space_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_menu_sym_shortcut_label = global::AppKW.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_prepend_shortcut_label = global::AppKW.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_searchview_description_clear = global::AppKW.Droid.Resource.String.abc_searchview_description_clear;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_searchview_description_query = global::AppKW.Droid.Resource.String.abc_searchview_description_query;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_searchview_description_search = global::AppKW.Droid.Resource.String.abc_searchview_description_search;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_searchview_description_submit = global::AppKW.Droid.Resource.String.abc_searchview_description_submit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_searchview_description_voice = global::AppKW.Droid.Resource.String.abc_searchview_description_voice;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_search_hint = global::AppKW.Droid.Resource.String.abc_search_hint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_shareactionprovider_share_with = global::AppKW.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_shareactionprovider_share_with_application = global::AppKW.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.abc_toolbar_collapse_description = global::AppKW.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.appbar_scrolling_view_behavior = global::AppKW.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.app_name = global::AppKW.Droid.Resource.String.app_name;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.bottom_sheet_behavior = global::AppKW.Droid.Resource.String.bottom_sheet_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.character_counter_content_description = global::AppKW.Droid.Resource.String.character_counter_content_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.character_counter_pattern = global::AppKW.Droid.Resource.String.character_counter_pattern;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.fab_transformation_scrim_behavior = global::AppKW.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.fab_transformation_sheet_behavior = global::AppKW.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.hello = global::AppKW.Droid.Resource.String.hello;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.hide_bottom_view_on_scroll_behavior = global::AppKW.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.mtrl_chip_close_icon_content_description = global::AppKW.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.password_toggle_content_description = global::AppKW.Droid.Resource.String.password_toggle_content_description;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.path_password_eye = global::AppKW.Droid.Resource.String.path_password_eye;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.path_password_eye_mask_strike_through = global::AppKW.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.path_password_eye_mask_visible = global::AppKW.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.path_password_strike_through = global::AppKW.Droid.Resource.String.path_password_strike_through;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.search_menu_title = global::AppKW.Droid.Resource.String.search_menu_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.String.status_bar_notification_info_overflow = global::AppKW.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.AlertDialog_AppCompat = global::AppKW.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.AlertDialog_AppCompat_Light = global::AppKW.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Animation_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Animation_AppCompat_DropDownUp = global::AppKW.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Animation_AppCompat_Tooltip = global::AppKW.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Animation_Design_BottomSheetDialog = global::AppKW.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_AlertDialog_AppCompat = global::AppKW.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_AlertDialog_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Animation_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::AppKW.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Animation_AppCompat_Tooltip = global::AppKW.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_CardView = global::AppKW.Droid.Resource.Style.Base_CardView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::AppKW.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_DialogWindowTitle_AppCompat = global::AppKW.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Button = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Large = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Small = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Title = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AppKW.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AppKW.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AppKW.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::AppKW.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppKW.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::AppKW.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V21_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V21_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::AppKW.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V22_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V22_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V23_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V23_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V26_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V26_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::AppKW.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V28_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V28_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Theme_AppCompat = global::AppKW.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::AppKW.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::AppKW.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::AppKW.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::AppKW.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionButton = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActionMode = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Button_Small = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_EditText = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ImageButton = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ListView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_RatingBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_SearchView = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_SeekBar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Spinner = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Toolbar = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::AppKW.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_Design_TabLayout = global::AppKW.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_MaterialComponents_Chip = global::AppKW.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::AppKW.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::AppKW.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.CardView = global::AppKW.Droid.Resource.Style.CardView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.CardView_Dark = global::AppKW.Droid.Resource.Style.CardView_Dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.CardView_Light = global::AppKW.Droid.Resource.Style.CardView_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_AppCompat = global::AppKW.Droid.Resource.Style.Platform_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_AppCompat_Light = global::AppKW.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_MaterialComponents = global::AppKW.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_MaterialComponents_Light = global::AppKW.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::AppKW.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_ThemeOverlay_AppCompat = global::AppKW.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::AppKW.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::AppKW.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_V21_AppCompat = global::AppKW.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_V21_AppCompat_Light = global::AppKW.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_V25_AppCompat = global::AppKW.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_V25_AppCompat_Light = global::AppKW.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Platform_Widget_AppCompat_Spinner = global::AppKW.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::AppKW.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::AppKW.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::AppKW.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::AppKW.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Body1 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Body2 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Button = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Caption = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Display1 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Display2 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Display3 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Display4 = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Headline = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Large = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Medium = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Menu = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Small = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Subhead = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Title = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Tooltip = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::AppKW.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Info = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Media = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Time = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Title = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::AppKW.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::AppKW.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Counter = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Counter_Overflow = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Error = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_HelperText = global::AppKW.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Hint = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Snackbar_Message = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Design_Tab = global::AppKW.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Button = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Caption = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Chip = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Overline = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::AppKW.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::AppKW.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::AppKW.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::AppKW.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_Dark = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_AppCompat_Light = global::AppKW.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppKW.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat = global::AppKW.Droid.Resource.Style.Theme_AppCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_CompactMenu = global::AppKW.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Dialog = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Dialog_Alert = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_Dialog = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_AppCompat_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design = global::AppKW.Droid.Resource.Style.Theme_Design;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design_BottomSheetDialog = global::AppKW.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design_Light = global::AppKW.Droid.Resource.Style.Theme_Design_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::AppKW.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design_Light_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_Design_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Bridge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_CompactMenu = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Dialog = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_NoActionBar = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::AppKW.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionButton = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActionMode = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ActivityChooserView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ButtonBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button_Borderless = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button_Colored = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Button_Small = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::AppKW.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::AppKW.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::AppKW.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::AppKW.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::AppKW.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_EditText = global::AppKW.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ImageButton = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionButton = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_SearchView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ListMenuView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ListPopupWindow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ListView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ListView_DropDown = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ListView_Menu = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_PopupMenu = global::AppKW.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_PopupWindow = global::AppKW.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ProgressBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::AppKW.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_RatingBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::AppKW.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_RatingBar_Small = global::AppKW.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_SearchView = global::AppKW.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_SeekBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::AppKW.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Spinner = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::AppKW.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Toolbar = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::AppKW.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Compat_NotificationActionContainer = global::AppKW.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Compat_NotificationActionText = global::AppKW.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_AppBarLayout = global::AppKW.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_BottomNavigationView = global::AppKW.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_BottomSheet_Modal = global::AppKW.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_CollapsingToolbar = global::AppKW.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_FloatingActionButton = global::AppKW.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_NavigationView = global::AppKW.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::AppKW.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_Snackbar = global::AppKW.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_TabLayout = global::AppKW.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Design_TextInputLayout = global::AppKW.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_Icon = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_CardView = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_ChipGroup = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Chip_Action = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_NavigationView = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Snackbar = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TabLayout = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_MaterialComponents_Toolbar = global::AppKW.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Style.Widget_Support_CoordinatorLayout = global::AppKW.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar = global::AppKW.Droid.Resource.Styleable.ActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBarLayout = global::AppKW.Droid.Resource.Styleable.ActionBarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::AppKW.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_background = global::AppKW.Droid.Resource.Styleable.ActionBar_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_backgroundSplit = global::AppKW.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_backgroundStacked = global::AppKW.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetEnd = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetLeft = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetRight = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetStart = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::AppKW.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_customNavigationLayout = global::AppKW.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_displayOptions = global::AppKW.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_divider = global::AppKW.Droid.Resource.Styleable.ActionBar_divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_elevation = global::AppKW.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_height = global::AppKW.Droid.Resource.Styleable.ActionBar_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_hideOnContentScroll = global::AppKW.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_homeAsUpIndicator = global::AppKW.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_homeLayout = global::AppKW.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_icon = global::AppKW.Droid.Resource.Styleable.ActionBar_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::AppKW.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_itemPadding = global::AppKW.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_logo = global::AppKW.Droid.Resource.Styleable.ActionBar_logo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_navigationMode = global::AppKW.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_popupTheme = global::AppKW.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_progressBarPadding = global::AppKW.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_progressBarStyle = global::AppKW.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_subtitle = global::AppKW.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_subtitleTextStyle = global::AppKW.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_title = global::AppKW.Droid.Resource.Styleable.ActionBar_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionBar_titleTextStyle = global::AppKW.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMenuItemView = global::AppKW.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMenuItemView_android_minWidth = global::AppKW.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMenuView = global::AppKW.Droid.Resource.Styleable.ActionMenuView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode = global::AppKW.Droid.Resource.Styleable.ActionMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_background = global::AppKW.Droid.Resource.Styleable.ActionMode_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_backgroundSplit = global::AppKW.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_closeItemLayout = global::AppKW.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_height = global::AppKW.Droid.Resource.Styleable.ActionMode_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_subtitleTextStyle = global::AppKW.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActionMode_titleTextStyle = global::AppKW.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActivityChooserView = global::AppKW.Droid.Resource.Styleable.ActivityChooserView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::AppKW.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ActivityChooserView_initialActivityCount = global::AppKW.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog = global::AppKW.Droid.Resource.Styleable.AlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_android_layout = global::AppKW.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_buttonIconDimen = global::AppKW.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::AppKW.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_listItemLayout = global::AppKW.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_listLayout = global::AppKW.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::AppKW.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_showTitle = global::AppKW.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::AppKW.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableItem = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableTransition = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::AppKW.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout = global::AppKW.Droid.Resource.Styleable.AppBarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayoutStates = global::AppKW.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::AppKW.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::AppKW.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayoutStates_state_liftable = global::AppKW.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayoutStates_state_lifted = global::AppKW.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_android_background = global::AppKW.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::AppKW.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::AppKW.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_elevation = global::AppKW.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_expanded = global::AppKW.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_Layout = global::AppKW.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::AppKW.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::AppKW.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppBarLayout_liftOnScroll = global::AppKW.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatImageView = global::AppKW.Droid.Resource.Styleable.AppCompatImageView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatImageView_android_src = global::AppKW.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatImageView_srcCompat = global::AppKW.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatImageView_tint = global::AppKW.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatImageView_tintMode = global::AppKW.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatSeekBar = global::AppKW.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatSeekBar_android_thumb = global::AppKW.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatSeekBar_tickMark = global::AppKW.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::AppKW.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::AppKW.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::AppKW.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView = global::AppKW.Droid.Resource.Styleable.AppCompatTextView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_android_textAppearance = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_fontFamily = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_lineHeight = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTextView_textAllCaps = global::AppKW.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarDivider = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarSize = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_checkboxStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorAccent = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorControlActivated = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorControlNormal = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorError = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorPrimary = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_controlBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dialogTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dividerVertical = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_editTextBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_editTextColor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_editTextStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_panelBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_searchViewStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_seekBarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_spinnerStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_switchStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_toolbarStyle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowActionBar = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.AppCompatTheme_windowNoTitle = global::AppKW.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar = global::AppKW.Droid.Resource.Styleable.BottomAppBar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_backgroundTint = global::AppKW.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::AppKW.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_fabCradleMargin = global::AppKW.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::AppKW.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::AppKW.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomAppBar_hideOnScroll = global::AppKW.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomNavigationView = global::AppKW.Droid.Resource.Styleable.BottomNavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::AppKW.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomSheetBehavior_Layout = global::AppKW.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::AppKW.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::AppKW.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::AppKW.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::AppKW.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ButtonBarLayout = global::AppKW.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ButtonBarLayout_allowStacking = global::AppKW.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView = global::AppKW.Droid.Resource.Styleable.CardView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_android_minHeight = global::AppKW.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_android_minWidth = global::AppKW.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardBackgroundColor = global::AppKW.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardCornerRadius = global::AppKW.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardElevation = global::AppKW.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardMaxElevation = global::AppKW.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardPreventCornerOverlap = global::AppKW.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_cardUseCompatPadding = global::AppKW.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_contentPadding = global::AppKW.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_contentPaddingBottom = global::AppKW.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_contentPaddingLeft = global::AppKW.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_contentPaddingRight = global::AppKW.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CardView_contentPaddingTop = global::AppKW.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip = global::AppKW.Droid.Resource.Styleable.Chip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup = global::AppKW.Droid.Resource.Styleable.ChipGroup;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_checkedChip = global::AppKW.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_chipSpacing = global::AppKW.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::AppKW.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_chipSpacingVertical = global::AppKW.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_singleLine = global::AppKW.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ChipGroup_singleSelection = global::AppKW.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_android_checkable = global::AppKW.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_android_ellipsize = global::AppKW.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_android_maxWidth = global::AppKW.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_android_text = global::AppKW.Droid.Resource.Styleable.Chip_android_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_android_textAppearance = global::AppKW.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_checkedIcon = global::AppKW.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_checkedIconEnabled = global::AppKW.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_checkedIconVisible = global::AppKW.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipBackgroundColor = global::AppKW.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipCornerRadius = global::AppKW.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipEndPadding = global::AppKW.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipIcon = global::AppKW.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipIconEnabled = global::AppKW.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipIconSize = global::AppKW.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipIconTint = global::AppKW.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipIconVisible = global::AppKW.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipMinHeight = global::AppKW.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipStartPadding = global::AppKW.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipStrokeColor = global::AppKW.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_chipStrokeWidth = global::AppKW.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIcon = global::AppKW.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconEnabled = global::AppKW.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconEndPadding = global::AppKW.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconSize = global::AppKW.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconStartPadding = global::AppKW.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconTint = global::AppKW.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_closeIconVisible = global::AppKW.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_hideMotionSpec = global::AppKW.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_iconEndPadding = global::AppKW.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_iconStartPadding = global::AppKW.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_rippleColor = global::AppKW.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_showMotionSpec = global::AppKW.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_textEndPadding = global::AppKW.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Chip_textStartPadding = global::AppKW.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_Layout = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_title = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::AppKW.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ColorStateListItem = global::AppKW.Droid.Resource.Styleable.ColorStateListItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ColorStateListItem_alpha = global::AppKW.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ColorStateListItem_android_alpha = global::AppKW.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ColorStateListItem_android_color = global::AppKW.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CompoundButton = global::AppKW.Droid.Resource.Styleable.CompoundButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CompoundButton_android_button = global::AppKW.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CompoundButton_buttonTint = global::AppKW.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CompoundButton_buttonTintMode = global::AppKW.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_keylines = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::AppKW.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_barLength = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_color = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_drawableSize = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_spinBars = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.DrawerArrowToggle_thickness = global::AppKW.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton = global::AppKW.Droid.Resource.Styleable.FloatingActionButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_backgroundTint = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_borderWidth = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_elevation = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_fabCustomSize = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_fabSize = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_maxImageSize = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_rippleColor = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_showMotionSpec = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FloatingActionButton_useCompatPadding = global::AppKW.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FlowLayout = global::AppKW.Droid.Resource.Styleable.FlowLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FlowLayout_itemSpacing = global::AppKW.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FlowLayout_lineSpacing = global::AppKW.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily = global::AppKW.Droid.Resource.Styleable.FontFamily;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont = global::AppKW.Droid.Resource.Styleable.FontFamilyFont;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_android_font = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_font = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_fontStyle = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_fontWeight = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamilyFont_ttcIndex = global::AppKW.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderAuthority = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderCerts = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderPackage = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.FontFamily_fontProviderQuery = global::AppKW.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ForegroundLinearLayout = global::AppKW.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::AppKW.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::AppKW.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::AppKW.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor = global::AppKW.Droid.Resource.Styleable.GradientColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColorItem = global::AppKW.Droid.Resource.Styleable.GradientColorItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColorItem_android_color = global::AppKW.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColorItem_android_offset = global::AppKW.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_centerColor = global::AppKW.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_centerX = global::AppKW.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_centerY = global::AppKW.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_endColor = global::AppKW.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_endX = global::AppKW.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_endY = global::AppKW.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_gradientRadius = global::AppKW.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_startColor = global::AppKW.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_startX = global::AppKW.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_startY = global::AppKW.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_tileMode = global::AppKW.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.GradientColor_android_type = global::AppKW.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_android_gravity = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_android_orientation = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_divider = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_Layout = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.LinearLayoutCompat_showDividers = global::AppKW.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ListPopupWindow = global::AppKW.Droid.Resource.Styleable.ListPopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::AppKW.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::AppKW.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton = global::AppKW.Droid.Resource.Styleable.MaterialButton;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_android_insetBottom = global::AppKW.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_android_insetLeft = global::AppKW.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_android_insetRight = global::AppKW.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_android_insetTop = global::AppKW.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_backgroundTint = global::AppKW.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_backgroundTintMode = global::AppKW.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_cornerRadius = global::AppKW.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_icon = global::AppKW.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_iconGravity = global::AppKW.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_iconPadding = global::AppKW.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_iconSize = global::AppKW.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_iconTint = global::AppKW.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_iconTintMode = global::AppKW.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_rippleColor = global::AppKW.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_strokeColor = global::AppKW.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialButton_strokeWidth = global::AppKW.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialCardView = global::AppKW.Droid.Resource.Styleable.MaterialCardView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialCardView_strokeColor = global::AppKW.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MaterialCardView_strokeWidth = global::AppKW.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup = global::AppKW.Droid.Resource.Styleable.MenuGroup;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_checkableBehavior = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_enabled = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_id = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_menuCategory = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_orderInCategory = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuGroup_android_visible = global::AppKW.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem = global::AppKW.Droid.Resource.Styleable.MenuItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_actionLayout = global::AppKW.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_actionProviderClass = global::AppKW.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_actionViewClass = global::AppKW.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_alphabeticModifiers = global::AppKW.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::AppKW.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_checkable = global::AppKW.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_checked = global::AppKW.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_enabled = global::AppKW.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_icon = global::AppKW.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_id = global::AppKW.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_menuCategory = global::AppKW.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_numericShortcut = global::AppKW.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_onClick = global::AppKW.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_orderInCategory = global::AppKW.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_title = global::AppKW.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_titleCondensed = global::AppKW.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_android_visible = global::AppKW.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_contentDescription = global::AppKW.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_iconTint = global::AppKW.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_iconTintMode = global::AppKW.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_numericModifiers = global::AppKW.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_showAsAction = global::AppKW.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuItem_tooltipText = global::AppKW.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView = global::AppKW.Droid.Resource.Styleable.MenuView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_headerBackground = global::AppKW.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_horizontalDivider = global::AppKW.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_itemBackground = global::AppKW.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::AppKW.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_itemTextAppearance = global::AppKW.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_verticalDivider = global::AppKW.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_android_windowAnimationStyle = global::AppKW.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_preserveIconSpacing = global::AppKW.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.MenuView_subMenuArrow = global::AppKW.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView = global::AppKW.Droid.Resource.Styleable.NavigationView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_android_background = global::AppKW.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::AppKW.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_android_maxWidth = global::AppKW.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_elevation = global::AppKW.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_headerLayout = global::AppKW.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemBackground = global::AppKW.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemHorizontalPadding = global::AppKW.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemIconPadding = global::AppKW.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemIconTint = global::AppKW.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemTextAppearance = global::AppKW.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_itemTextColor = global::AppKW.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.NavigationView_menu = global::AppKW.Droid.Resource.Styleable.NavigationView_menu;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindow = global::AppKW.Droid.Resource.Styleable.PopupWindow;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindowBackgroundState = global::AppKW.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::AppKW.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::AppKW.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindow_android_popupBackground = global::AppKW.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.PopupWindow_overlapAnchor = global::AppKW.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecycleListView = global::AppKW.Droid.Resource.Styleable.RecycleListView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::AppKW.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::AppKW.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView = global::AppKW.Droid.Resource.Styleable.RecyclerView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_android_descendantFocusability = global::AppKW.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_android_orientation = global::AppKW.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_fastScrollEnabled = global::AppKW.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::AppKW.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::AppKW.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::AppKW.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::AppKW.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_layoutManager = global::AppKW.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_reverseLayout = global::AppKW.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_spanCount = global::AppKW.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.RecyclerView_stackFromEnd = global::AppKW.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ScrimInsetsFrameLayout = global::AppKW.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::AppKW.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ScrollingViewBehavior_Layout = global::AppKW.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::AppKW.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView = global::AppKW.Droid.Resource.Styleable.SearchView;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_android_focusable = global::AppKW.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_android_imeOptions = global::AppKW.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_android_inputType = global::AppKW.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_android_maxWidth = global::AppKW.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_closeIcon = global::AppKW.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_commitIcon = global::AppKW.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_defaultQueryHint = global::AppKW.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_goIcon = global::AppKW.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_iconifiedByDefault = global::AppKW.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_layout = global::AppKW.Droid.Resource.Styleable.SearchView_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_queryBackground = global::AppKW.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_queryHint = global::AppKW.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_searchHintIcon = global::AppKW.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_searchIcon = global::AppKW.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_submitBackground = global::AppKW.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_suggestionRowLayout = global::AppKW.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SearchView_voiceIcon = global::AppKW.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Snackbar = global::AppKW.Droid.Resource.Styleable.Snackbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SnackbarLayout = global::AppKW.Droid.Resource.Styleable.SnackbarLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SnackbarLayout_android_maxWidth = global::AppKW.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SnackbarLayout_elevation = global::AppKW.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::AppKW.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Snackbar_snackbarButtonStyle = global::AppKW.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Snackbar_snackbarStyle = global::AppKW.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner = global::AppKW.Droid.Resource.Styleable.Spinner;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner_android_dropDownWidth = global::AppKW.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner_android_entries = global::AppKW.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner_android_popupBackground = global::AppKW.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner_android_prompt = global::AppKW.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Spinner_popupTheme = global::AppKW.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable = global::AppKW.Droid.Resource.Styleable.StateListDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawableItem = global::AppKW.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawableItem_android_drawable = global::AppKW.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_constantSize = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_dither = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_variablePadding = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.StateListDrawable_android_visible = global::AppKW.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat = global::AppKW.Droid.Resource.Styleable.SwitchCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_android_textOff = global::AppKW.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_android_textOn = global::AppKW.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_android_thumb = global::AppKW.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_showText = global::AppKW.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_splitTrack = global::AppKW.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_switchMinWidth = global::AppKW.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_switchPadding = global::AppKW.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_switchTextAppearance = global::AppKW.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_thumbTextPadding = global::AppKW.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_thumbTint = global::AppKW.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_thumbTintMode = global::AppKW.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_track = global::AppKW.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_trackTint = global::AppKW.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.SwitchCompat_trackTintMode = global::AppKW.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabItem = global::AppKW.Droid.Resource.Styleable.TabItem;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabItem_android_icon = global::AppKW.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabItem_android_layout = global::AppKW.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabItem_android_text = global::AppKW.Droid.Resource.Styleable.TabItem_android_text;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout = global::AppKW.Droid.Resource.Styleable.TabLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabBackground = global::AppKW.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabContentStart = global::AppKW.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabGravity = global::AppKW.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIconTint = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIconTintMode = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicator = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicatorColor = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicatorGravity = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabIndicatorHeight = global::AppKW.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabInlineLabel = global::AppKW.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabMaxWidth = global::AppKW.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabMinWidth = global::AppKW.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabMode = global::AppKW.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabPadding = global::AppKW.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabPaddingBottom = global::AppKW.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabPaddingEnd = global::AppKW.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabPaddingStart = global::AppKW.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabPaddingTop = global::AppKW.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabRippleColor = global::AppKW.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabSelectedTextColor = global::AppKW.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabTextAppearance = global::AppKW.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabTextColor = global::AppKW.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TabLayout_tabUnboundedRipple = global::AppKW.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance = global::AppKW.Droid.Resource.Styleable.TextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_fontFamily = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_shadowColor = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_shadowDx = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_shadowDy = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_shadowRadius = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_textColor = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_textColorHint = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_textColorLink = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_textSize = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_textStyle = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_android_typeface = global::AppKW.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_fontFamily = global::AppKW.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextAppearance_textAllCaps = global::AppKW.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout = global::AppKW.Droid.Resource.Styleable.TextInputLayout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_android_hint = global::AppKW.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_android_textColorHint = global::AppKW.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxStrokeColor = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::AppKW.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_counterEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_counterMaxLength = global::AppKW.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::AppKW.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_counterTextAppearance = global::AppKW.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_errorEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_errorTextAppearance = global::AppKW.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_helperText = global::AppKW.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_helperTextEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::AppKW.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_hintEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_hintTextAppearance = global::AppKW.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::AppKW.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::AppKW.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::AppKW.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_passwordToggleTint = global::AppKW.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::AppKW.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ThemeEnforcement = global::AppKW.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::AppKW.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::AppKW.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::AppKW.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar = global::AppKW.Droid.Resource.Styleable.Toolbar;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_android_gravity = global::AppKW.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_android_minHeight = global::AppKW.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_buttonGravity = global::AppKW.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_collapseContentDescription = global::AppKW.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_collapseIcon = global::AppKW.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetEnd = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetLeft = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetRight = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetStart = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::AppKW.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_logo = global::AppKW.Droid.Resource.Styleable.Toolbar_logo;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_logoDescription = global::AppKW.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_maxButtonHeight = global::AppKW.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_navigationContentDescription = global::AppKW.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_navigationIcon = global::AppKW.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_popupTheme = global::AppKW.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_subtitle = global::AppKW.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_subtitleTextAppearance = global::AppKW.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_subtitleTextColor = global::AppKW.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_title = global::AppKW.Droid.Resource.Styleable.Toolbar_title;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMargin = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMarginBottom = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMarginEnd = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMargins = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMarginStart = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleMarginTop = global::AppKW.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleTextAppearance = global::AppKW.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.Toolbar_titleTextColor = global::AppKW.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View = global::AppKW.Droid.Resource.Styleable.View;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewBackgroundHelper = global::AppKW.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewBackgroundHelper_android_background = global::AppKW.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::AppKW.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::AppKW.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewStubCompat = global::AppKW.Droid.Resource.Styleable.ViewStubCompat;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewStubCompat_android_id = global::AppKW.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewStubCompat_android_inflatedId = global::AppKW.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.ViewStubCompat_android_layout = global::AppKW.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View_android_focusable = global::AppKW.Droid.Resource.Styleable.View_android_focusable;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View_android_theme = global::AppKW.Droid.Resource.Styleable.View_android_theme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View_paddingEnd = global::AppKW.Droid.Resource.Styleable.View_paddingEnd;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View_paddingStart = global::AppKW.Droid.Resource.Styleable.View_paddingStart;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Styleable.View_theme = global::AppKW.Droid.Resource.Styleable.View_theme;
+			global::Forms.BackgroundVideo.AndroidCore.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppKW.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AppKW.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::AppKW.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AppKW.Droid.Resource.Attribute.fontProviderAuthority;
@@ -16535,217 +19020,244 @@ namespace AppKW.Droid
 			public const int design_snackbar_background = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int fondo_contacto = 2131165284;
-			
-			// aapt resource value: 0x7F07006C
-			public const int icon_about = 2131165292;
-			
-			// aapt resource value: 0x7F07006D
-			public const int icon_contact = 2131165293;
-			
-			// aapt resource value: 0x7F07006E
-			public const int icon_email = 2131165294;
-			
-			// aapt resource value: 0x7F07006F
-			public const int icon_email_check = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int icon_facebook = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int icon_feed = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int icon_home = 2131165298;
-			
-			// aapt resource value: 0x7F070073
-			public const int icon_location = 2131165299;
-			
-			// aapt resource value: 0x7F070074
-			public const int icon_mailbox = 2131165300;
-			
-			// aapt resource value: 0x7F070075
-			public const int icon_name = 2131165301;
-			
-			// aapt resource value: 0x7F070076
-			public const int icon_password = 2131165302;
-			
-			// aapt resource value: 0x7F070077
-			public const int icon_password_check = 2131165303;
-			
-			// aapt resource value: 0x7F070078
-			public const int icon_password_confirm = 2131165304;
-			
-			// aapt resource value: 0x7F070079
-			public const int icon_twitter = 2131165305;
-			
-			// aapt resource value: 0x7F07007A
-			public const int icon_units = 2131165306;
+			public const int facebook = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int ic_arrow_down_24dp = 2131165285;
+			public const int fondo_contacto = 2131165285;
 			
-			// aapt resource value: 0x7F070066
-			public const int ic_clock_black_24dp = 2131165286;
+			// aapt resource value: 0x7F07006D
+			public const int icon_about = 2131165293;
 			
-			// aapt resource value: 0x7F070067
-			public const int ic_keyboard_black_24dp = 2131165287;
+			// aapt resource value: 0x7F07006E
+			public const int icon_contact = 2131165294;
 			
-			// aapt resource value: 0x7F070068
-			public const int ic_mtrl_checked_circle = 2131165288;
+			// aapt resource value: 0x7F07006F
+			public const int icon_email = 2131165295;
 			
-			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_chip_checked_black = 2131165289;
+			// aapt resource value: 0x7F070070
+			public const int icon_email_check = 2131165296;
 			
-			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_checked_circle = 2131165290;
+			// aapt resource value: 0x7F070071
+			public const int icon_facebook = 2131165297;
 			
-			// aapt resource value: 0x7F07006B
-			public const int ic_mtrl_chip_close_circle = 2131165291;
+			// aapt resource value: 0x7F070072
+			public const int icon_feed = 2131165298;
+			
+			// aapt resource value: 0x7F070073
+			public const int icon_home = 2131165299;
+			
+			// aapt resource value: 0x7F070074
+			public const int icon_location = 2131165300;
+			
+			// aapt resource value: 0x7F070075
+			public const int icon_mailbox = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int icon_name = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int icon_password = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int icon_password_check = 2131165304;
+			
+			// aapt resource value: 0x7F070079
+			public const int icon_password_confirm = 2131165305;
+			
+			// aapt resource value: 0x7F07007A
+			public const int icon_twitter = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int img1 = 2131165307;
+			public const int icon_units = 2131165307;
+			
+			// aapt resource value: 0x7F070066
+			public const int ic_arrow_down_24dp = 2131165286;
+			
+			// aapt resource value: 0x7F070067
+			public const int ic_clock_black_24dp = 2131165287;
+			
+			// aapt resource value: 0x7F070068
+			public const int ic_keyboard_black_24dp = 2131165288;
+			
+			// aapt resource value: 0x7F070069
+			public const int ic_mtrl_checked_circle = 2131165289;
+			
+			// aapt resource value: 0x7F07006A
+			public const int ic_mtrl_chip_checked_black = 2131165290;
+			
+			// aapt resource value: 0x7F07006B
+			public const int ic_mtrl_chip_checked_circle = 2131165291;
+			
+			// aapt resource value: 0x7F07006C
+			public const int ic_mtrl_chip_close_circle = 2131165292;
 			
 			// aapt resource value: 0x7F07007C
-			public const int img2 = 2131165308;
+			public const int img1 = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int img3 = 2131165309;
+			public const int img2 = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int img4 = 2131165310;
+			public const int img3 = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int logo = 2131165311;
+			public const int img4 = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int logo_recontrasena = 2131165312;
+			public const int instagram = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int material_cursor_drawable = 2131165313;
+			public const int logo = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int material_ic_calendar_black_24dp = 2131165314;
+			public const int logo_recontrasena = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int material_ic_clear_black_24dp = 2131165315;
+			public const int material_cursor_drawable = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int material_ic_edit_black_24dp = 2131165316;
+			public const int material_ic_calendar_black_24dp = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165317;
+			public const int material_ic_clear_black_24dp = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165318;
+			public const int material_ic_edit_black_24dp = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165319;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165320;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165321;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165322;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int mision = 2131165323;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int mtrl_dialog_background = 2131165324;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int mtrl_dropdown_arrow = 2131165325;
+			public const int mision = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int mtrl_ic_arrow_drop_down = 2131165326;
+			public const int mtrl_dialog_background = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int mtrl_ic_arrow_drop_up = 2131165327;
+			public const int mtrl_dropdown_arrow = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int mtrl_ic_cancel = 2131165328;
+			public const int mtrl_ic_arrow_drop_down = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int mtrl_ic_error = 2131165329;
+			public const int mtrl_ic_arrow_drop_up = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int mtrl_navigation_bar_item_background = 2131165330;
+			public const int mtrl_ic_cancel = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int mtrl_popupmenu_background = 2131165331;
+			public const int mtrl_ic_error = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int mtrl_popupmenu_background_dark = 2131165332;
+			public const int mtrl_navigation_bar_item_background = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int mtrl_tabs_default_indicator = 2131165333;
+			public const int mtrl_popupmenu_background = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int navigation_empty_icon = 2131165334;
+			public const int mtrl_popupmenu_background_dark = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int notification_action_background = 2131165335;
+			public const int mtrl_tabs_default_indicator = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int notification_bg = 2131165336;
+			public const int navigation_empty_icon = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int notification_bg_low = 2131165337;
+			public const int notification_action_background = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int notification_bg_low_normal = 2131165338;
+			public const int notification_bg = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int notification_bg_low_pressed = 2131165339;
+			public const int notification_bg_low = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int notification_bg_normal = 2131165340;
+			public const int notification_bg_low_normal = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int notification_bg_normal_pressed = 2131165341;
+			public const int notification_bg_low_pressed = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int notification_icon_background = 2131165342;
+			public const int notification_bg_normal = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int notification_template_icon_bg = 2131165343;
+			public const int notification_bg_normal_pressed = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int notification_template_icon_low_bg = 2131165344;
+			public const int notification_icon_background = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int notification_tile_bg = 2131165345;
+			public const int notification_template_icon_bg = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int notify_panel_notification_icon_bg = 2131165346;
+			public const int notification_template_icon_low_bg = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int pantalla_registro = 2131165347;
+			public const int notification_tile_bg = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int preference_list_divider_material = 2131165348;
+			public const int notify_panel_notification_icon_bg = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int test_custom_background = 2131165349;
+			public const int pantalla_registro = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int tooltip_frame_dark = 2131165350;
+			public const int preference_list_divider_material = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int tooltip_frame_light = 2131165351;
+			public const int test_custom_background = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int un1 = 2131165352;
+			public const int tiktok = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int vision = 2131165353;
+			public const int tooltip_frame_dark = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int xamarin_logo = 2131165354;
+			public const int tooltip_frame_light = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int twitter = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int un1 = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int unidad_KW45_55 = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int unidad_T380 = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int unidad_T680 = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int video_fondo = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int vision = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int xamarin_logo = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int youtube = 2131165363;
 			
 			static Drawable()
 			{
@@ -18992,278 +21504,284 @@ namespace AppKW.Droid
 			// aapt resource value: 0x7F0E001A
 			public const int abc_toolbar_collapse_description = 2131623962;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int bottomsheet_action_expand_halfway = 2131623965;
-			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
+			
+			// aapt resource value: 0x7F0E001B
+			public const int app_name = 2131623963;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_content_description = 2131623966;
+			public const int bottomsheet_action_expand_halfway = 2131623966;
+			
+			// aapt resource value: 0x7F0E001D
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_overflowed_content_description = 2131623967;
+			public const int character_counter_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int character_counter_pattern = 2131623968;
+			public const int character_counter_overflowed_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int chip_text = 2131623969;
+			public const int character_counter_pattern = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int clear_text_end_icon_content_description = 2131623970;
+			public const int chip_text = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int copy = 2131623971;
+			public const int clear_text_end_icon_content_description = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int copy_toast_msg = 2131623972;
+			public const int copy = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int error_icon_content_description = 2131623973;
+			public const int copy_toast_msg = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int expand_button_title = 2131623974;
+			public const int error_icon_content_description = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int exposed_dropdown_menu_content_description = 2131623975;
+			public const int expand_button_title = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fab_transformation_scrim_behavior = 2131623976;
+			public const int exposed_dropdown_menu_content_description = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fab_transformation_sheet_behavior = 2131623977;
+			public const int fab_transformation_scrim_behavior = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int fallback_menu_item_copy_link = 2131623978;
+			public const int fab_transformation_sheet_behavior = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int fallback_menu_item_open_in_browser = 2131623979;
+			public const int fallback_menu_item_copy_link = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fallback_menu_item_share_link = 2131623980;
+			public const int fallback_menu_item_open_in_browser = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
+			public const int fallback_menu_item_share_link = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int icon_content_description = 2131623982;
+			public const int hello = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int item_view_role_description = 2131623983;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int icon_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int item_view_role_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{
