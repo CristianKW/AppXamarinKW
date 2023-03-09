@@ -47,6 +47,15 @@ namespace AppKW.Views
                 
                 if (!string.IsNullOrEmpty(token))
                 {
+                    //Validar tipo de usuario 
+                    string role = await SecureStorage.GetAsync("role");
+                    MessagingCenter.Send<LoginPage>(this,
+                        (role == "Admin") ? "Admin" : "user"
+                    );
+                    MessagingCenter.Send<LoginPage>(this,
+                        (role == "User") ? "User" : "invitado"
+                    );
+                    Console.WriteLine("role: " + role);
                     //Redireccionar al Home
                     await Shell.Current.GoToAsync($"//{nameof(Inicio)}");
                 }

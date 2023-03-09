@@ -15,8 +15,8 @@ namespace AppKW
             InitializeComponent();
             Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
             Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
-            Empleados.IsVisible = false;
-            getRole();
+            //Empleados.IsVisible = false;
+            //getRole();
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
@@ -24,7 +24,7 @@ namespace AppKW
             await Shell.Current.GoToAsync("//LoginPage");
         }
 
-        public async void getRole()
+       /* public async void getRole()
         {
             string role = await SecureStorage.GetAsync("role");
 
@@ -34,6 +34,7 @@ namespace AppKW
             }
             
             Console.WriteLine("role: " + role);
-        }
+        } */
+
     }
 }

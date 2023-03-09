@@ -2,9 +2,14 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:AppKW.Views"
+       xmlns:vm="clr-namespace:AppKW.ViewModels"
        Title="AppKW"
        x:Class="AppKW.AppShell">
 
+    <Shell.BindingContext>
+        <vm:ShellViewModel/>
+    </Shell.BindingContext>
+    
     <!--
         The overall app visual hierarchy is defined here, along with navigation.
     
@@ -102,12 +107,19 @@
         <ShellContent Route="BuzonPage" ContentTemplate="{DataTemplate local:Buzon}" />
     </FlyoutItem>
     
-    
-    
-    
+    <FlyoutItem Title="Refacciones" Icon="icon_mailbox.png">
+        <ShellContent Route="BuzonPage" ContentTemplate="{DataTemplate local:RefacionesPage}" />
+    </FlyoutItem>
 
-    <FlyoutItem Title="Empleados" Icon="icon_feed.png" x:Name="Empleados">
-        <ShellContent Route="EmployeesPage" ContentTemplate="{DataTemplate local:EmployeesPage}"/>
+
+
+
+
+    <FlyoutItem Title="Empleados" Icon="icon_feed.png" IsVisible="{Binding IsAdmin}">
+        <ShellContent Route="EmployeesPage"  ContentTemplate="{DataTemplate local:EmployeesPage}"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Logueado" Icon="icon_feed.png" IsVisible="{Binding IsUser}">
+        <ShellContent Route="EmployeesPage"  ContentTemplate="{DataTemplate local:EmployeesPage}"/>
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->

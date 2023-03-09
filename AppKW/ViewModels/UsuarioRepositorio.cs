@@ -42,12 +42,16 @@ namespace AppKW.ViewModels
             char delimitador = '@';
 
             string[] domain = userEmail.Split(delimitador);
-
             
+            if (!string.IsNullOrEmpty(domain[1]) && domain[1] == "utcv.edu.mx") // cambiar dominio
+            {
+                await SecureStorage.SetAsync("role", "Admin"); //usuario Trabajador
+            }
             if (!string.IsNullOrEmpty(domain[1]) && domain[1] == "gmail.com") // cambiar dominio
             {
-                await SecureStorage.SetAsync("role", "Employee");
+                await SecureStorage.SetAsync("role", "User"); //Usuario registrado
             }
+
 
             //Console.WriteLine(domain[1]);
 
